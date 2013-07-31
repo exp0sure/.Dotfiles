@@ -1,0 +1,2 @@
+*/20 * * * * /usr/bin/sudo pacman -Sy
+
