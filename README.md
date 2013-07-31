@@ -1,4 +1,4 @@
 awesome
 =======
 
-My personal config files for "awesome, ncmpcc, weechat", etc.
+My personal config files for "awesome, ncmcpp, weechat", etc.
