@@ -3,12 +3,6 @@
 # -- start pulse audio
 /usr/bin/start-pulseaudio-x11 &
 
-
-
-
-# -- load terminal colors and other random information
-xrdb -merge ~/.Xresources
-
 # -- slow down mouse
 xset m 1/5
 
