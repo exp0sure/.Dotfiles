@@ -1,8 +1,10 @@
 --[[                                     ]]--
 --                                         -
---    Steamburn Awesome WM 3.5.+ config    --
---        github.com/copycat-killer        --
---                                          -
+--      z1lt0id Awesome WM 3.5.+ config    --
+--           github.com/z1lt0id            --
+--    					   --
+--      Varation of  github.com/copycat    --
+--                                         -
 --[[                                     ]]--
 
 
