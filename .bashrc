@@ -2,18 +2,24 @@
 # ~/.bashrc
 #
 export PATH="${PATH}:/usr/bin"
+export XDG_DATA_HOME="/home/$USER/.local/share"
+export XDG_CONFIG_HOME="/home/$USER/.config"
+export XDG_CACHE_HOME="/home/$USER/.cache"
+export XDG_DOWNLOAD_DIR="/home/$USER/downloads"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib64:/usr/lib32"
 export EDITOR='vim'
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 export LANGUAGE="en_AU:en_GB:en"
 alias ls='ls --color=auto'
+alias home="cd ~/"
 alias upgrade='sudo pacman -Syu && yaourt -Syu --aur'
 # Color support
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-fi
+#if [ -x /usr/bin/dircolors ]; then
+#    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+#    alias ls='ls --color=auto'
+#fi
 
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
@@ -21,13 +27,13 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # Auto-completion
-if ! shopt -oq posix; then
+ if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
-fi
+ fi
 
 # Color man pages
 man() {
