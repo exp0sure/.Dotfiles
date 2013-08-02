@@ -87,8 +87,8 @@ terminal = "urxvt"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 gui_editor = "sublime_text"
-browser = "dwb"
-browser2 = "dwb"
+browser = "luakit"
+browser2 = "luakit"
 mail = terminal .. " -g 130x30 -e mutt "
 chat = terminal .. " -g 130x30 -e centerim5 "
 tasks = terminal .. " -e htop "
@@ -125,7 +125,7 @@ end
 
 tags = {
        names = { " 1 ", " 2 ", " 3 ", " 4 ", " 5 "},
-       layout = { layouts[1], layouts[3], layouts[5], layouts[5], layouts[5] }
+       layout = { layouts[1], layouts[2], layouts[5], layouts[5], layouts[5] }
        }
 for s = 1, screen.count() do
    tags[s] = awful.tag(tags.names, s, tags.layout)
@@ -140,16 +140,16 @@ myaccessories = {
    
 }
 myinternet = {
-    { "dwb", browser },
+    { "luakit", browser },
     { "centerim" , chat },
     { "mutt", mail},
     { "transmission" , terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
     { "turses", terminal .. " -g 130x30 -e turses" },
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
-    { "headphones", "dwb -n http://localhost:8181" },
-    { "sabnzbd" , "dwb -n http://localhost:9090" },
-    { "sickbeard", "dwb -n http://localhost:8081" },
-    { "couchpotato", "dwb -n http://localhost:5050"}
+    { "headphones", "luakit http://localhost:8181" },
+    { "sabnzbd" , "luakit http://localhost:9090" },
+    { "sickbeard", "luakit http://localhost:8081" },
+    { "couchpotato", "luakit http://localhost:5050"}
 }
 mymedia = {
     { "volume", "pavucontrol"},
@@ -169,7 +169,6 @@ mygames = {
 }
 mygraphics = {
     { "gimp" , "gimp" },
-    { "inkscape", "inkscape" },
     { "feh" , "feh" }
 }
 myoffice = {
@@ -625,7 +624,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,        }, "c",      function () os.execute("xsel -p -o | xsel -i -b") end),
 
     -- User programs
-    awful.key({ modkey,        }, "q",      function () awful.util.spawn( "dwb", false ) end),
+    awful.key({ modkey,        }, "q",      function () awful.util.spawn( "luakit", false ) end),
     awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
     awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -g 130x30 -e ranger", false ) end),
     awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
@@ -728,13 +727,8 @@ awful.rules.rules = {
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
 
-    { rule = { class = "dwb" },
+    { rule = { name = "PlayOnLinux" },
           properties = { tag = tags[1][1] } },
-
-    { rule = { class = "Midori" },
-          properties = { tag = tags[1][1],
-          			     maximized_vertical=true,
-          			     maximized_horizontal=true } },
 
     { rule = { instance = "urxvt", class = "URxvt" },
           properties = { tag = tags[1][2] } },
@@ -750,6 +744,9 @@ awful.rules.rules = {
 
     { rule = { instance = "urxvt", class = "URxvt", name = "ranger"},
           properties = { tag = tags[1][2] } },      
+
+    { rule = { instance = "urxvt", class = "URxvt", name = "weechat"},
+          properties = { tag = tags[1][4] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "mutt" },
           properties = { tag = tags[1][5] } },
