@@ -5,7 +5,7 @@ export PATH="${PATH}:/usr/bin"
 export XDG_DATA_HOME="/home/$USER/.local/share"
 export XDG_CONFIG_HOME="/home/$USER/.config"
 export XDG_CACHE_HOME="/home/$USER/.cache"
-export XDG_DOWNLOAD_DIR="/home/$USER/downloads"
+export XDG_DOWNLOAD_DIR="/home/$USER/Downloads"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib64:/usr/lib32"
 export EDITOR='vim'
 
