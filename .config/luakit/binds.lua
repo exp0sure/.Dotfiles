@@ -222,6 +222,16 @@ add_binds("normal", {
     key({}, "End", "Go to the top of the document.",
         function (w) w:scroll{ y = -1 } end),
 
+    -- Play Embedded Video In External Player
+    key({}, "v", function (w) 
+    local view = w.view
+    local uri = view.hovered_uri or view.uri
+    	if uri then
+        	luakit.spawn(string.format("urxvt -e cclive -f best --filename-format '%%t.%%s' "
+            	.. "--output-dir %q --exec='mplayer \"%%f\"' %q", os.getenv("HOME"), uri))
+    	end 
+    end),
+
     -- Specific scroll
     buf("^gg$", "Go to the top of the document.",
         function (w, b, m) w:scroll{ ypct = m.count } end, {count=0}),
