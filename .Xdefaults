@@ -9,7 +9,7 @@ Xft.hintstyle:                                  hintslight
 
 
 URxvt.perl-ext-common:  default,matcher,vtwheel
-URxvt.url-launcher:      /usr/bin/dwb
+URxvt.url-launcher:      /usr/bin/luakit
 URxvt.matcher.button:   1
 
 
@@ -35,15 +35,8 @@ URxvt*boldFont:                                 xft:terminusmodx:style=bold:hint
 URxvt*italicFont:                               xft:terminusmodx:style=italic:hinting=true:pixelsize=7:antialias=false
 URxvt*boldItalicFont:                           xft:terminusmodx:style=bolditalic:hinting=true:pixelsize=7:antialias=false
 URxvt.underlineURLs:                            true
-URxvt.url-select.launcher:                      /usr/bin/dwb
+URxvt.url-select.launcher:                      /usr/bin/luakit
 URxvt.url-select.underline:                     true
-
-URxvt.keysym.C-c:   perl:clipboard:copy
-URxvt.keysym.C-p:   perl:clipboard:paste
-!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-u: perl:url-select:select_next
-
 
 !------------------------------------------------------------------------------
 ! URxvt Colors
