@@ -69,8 +69,8 @@ require "cookies"
 --require "cookie_blocking"
 
 -- Block all cookies by default (unless whitelisted)
---cookies.default_allow = false
-
+cookies.default_allow = false
+cookies.session_timeout = 60*60*24*365
 -- Add uzbl-like form filling
 require "formfiller"
 
@@ -186,3 +186,22 @@ if unique then
 end
 
 -- vim: et:sw=4:ts=8:sts=4:tw=80
+
+--------------------------------
+-- Progress Indicator Overide --
+--------------------------------
+
+window.methods.update_progress = function (w, view, p)
+    if not view then view = w:get_current() end
+    if not p then p = view:get_prop("progress") end
+    local loaded = w.sbar.l.loaded
+    if not view:loading() or p == 1 then
+        loaded:hide()
+    else
+        loaded:show()
+        local pbar = {"-","-","-","-","-","-","-","-","-","-"}
+        for i=1,math.floor((p*10)) do pbar[i] ="█" end
+        local text = string.format("(%d%% %s)", p * 100, table.concat(pbar,""))
+        if loaded.text ~= text then loaded.text = text end
+    end
+end
