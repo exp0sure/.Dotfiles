@@ -103,12 +103,11 @@ altkey = "Mod1"
 layouts =
 {
     awful.layout.suit.floating,
-    --awful.layout.suit.tile,
     layouts.uselesstile,
-    layouts.termfair,
-    layouts.browse,
+    -- layouts.termfair,
+    -- layouts.browse,
     layouts.uselessfair,
-    layouts.centerwork,
+    -- layouts.centerwork,
 }
 -- }}}
 
@@ -125,7 +124,7 @@ end
 
 tags = {
        names = { " 1 ", " 2 ", " 3 ", " 4 ", " 5 "},
-       layout = { layouts[1], layouts[2], layouts[5], layouts[5], layouts[5] }
+       layout = { layouts[1], layouts[2], layouts[2], layouts[2], layouts[2] }
        }
 for s = 1, screen.count() do
    tags[s] = awful.tag(tags.names, s, tags.layout)
@@ -147,7 +146,7 @@ myinternet = {
     { "turses", terminal .. " -g 130x30 -e turses" },
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
     { "headphones", "luakit http://localhost:8181" },
-    { "sabnzbd" , "luakit http://localhost:9090" },
+    { "sabnzbd" , terminal .. " -g 130x30 -e sabcurses.py" },
     { "sickbeard", "luakit http://localhost:8081" },
     { "couchpotato", "luakit http://localhost:5050"}
 }
@@ -741,6 +740,9 @@ awful.rules.rules = {
 
     { rule = { class = "Gedit" },
           properties = { tag = tags[1][3] } },
+
+    { rule = { instance = "urxvt", class = "URxvt", name = "sabcurses.py"},
+          properties = { tag = tags[1][5] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "ranger"},
           properties = { tag = tags[1][2] } },      
