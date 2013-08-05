@@ -134,7 +134,7 @@ end
 myaccessories = {
    { "7zFM", "7zFM" },
    { "spacefm", "spacefm" },
-   { "ranger", terminal .. " -g 130x30 -e ranger"},
+   { "ranger", terminal .. " -depth 16 -g 130x30 -e ranger"},
    { "editor", gui_editor }
    
 }
@@ -625,7 +625,7 @@ globalkeys = awful.util.table.join(
     -- User programs
     awful.key({ modkey,        }, "q",      function () awful.util.spawn( "luakit", false ) end),
     awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
-    awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -g 130x30 -e ranger", false ) end),
+    awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -depth 16 -g 130x30 -e ranger", false ) end),
     awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
 
     -- Prompt
