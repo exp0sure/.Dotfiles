@@ -87,8 +87,8 @@ terminal = "urxvt"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 gui_editor = "sublime_text"
-browser = "luakit"
-browser2 = "luakit"
+browser = "dwb"
+browser2 = "dwb"
 mail = terminal .. " -g 130x30 -e mutt "
 chat = terminal .. " -g 130x30 -e centerim5 "
 tasks = terminal .. " -e htop "
@@ -104,9 +104,9 @@ layouts =
 {
     awful.layout.suit.floating,
     layouts.uselesstile,
-    -- layouts.termfair,
-    -- layouts.browse,
-    layouts.uselessfair,
+    layouts.termfair,
+    layouts.browse,
+    -- layouts.uselessfair,
     -- layouts.centerwork,
 }
 -- }}}
@@ -139,16 +139,16 @@ myaccessories = {
    
 }
 myinternet = {
-    { "luakit", browser },
+    { "dwb", browser },
     { "centerim" , chat },
     { "mutt", mail},
     { "transmission" , terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
     { "turses", terminal .. " -g 130x30 -e turses" },
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
-    { "headphones", "luakit http://localhost:8181" },
+    { "headphones", "dwb http://localhost:8181" },
     { "sabnzbd" , terminal .. " -g 130x30 -e sabcurses.py" },
-    { "sickbeard", "luakit http://localhost:8081" },
-    { "couchpotato", "luakit http://localhost:5050"}
+    { "sickbeard", "dwb http://localhost:8081" },
+    { "couchpotato", "dwb http://localhost:5050"}
 }
 mymedia = {
     { "volume", "pavucontrol"},
@@ -623,7 +623,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,        }, "c",      function () os.execute("xsel -p -o | xsel -i -b") end),
 
     -- User programs
-    awful.key({ modkey,        }, "q",      function () awful.util.spawn( "luakit", false ) end),
+    awful.key({ modkey,        }, "q",      function () awful.util.spawn( "dwb", false ) end),
     awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
     awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -depth 16 -g 130x30 -e ranger", false ) end),
     awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
@@ -773,7 +773,7 @@ awful.rules.rules = {
 
       
 	  { rule = { class = "Ghb" },
-        properties = { tag = tags[1][4] } },    
+        properties = { tag = tags[1][1] } },    
 
     { rule = { class = "Devede" },
         properties = { tag = tags[1][4] } },
