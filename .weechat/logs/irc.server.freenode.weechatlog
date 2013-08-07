@@ -15561,3 +15561,978 @@
 2013-07-30 23:46:29	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
 2013-07-30 23:46:37	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
 2013-07-31 00:10:40	⇄	You have been marked as being away
+2013-07-31 22:31:32	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-07-31 22:31:32	⇄	gnutls: peer's certificate is trusted
+2013-07-31 22:31:32	⇄	gnutls: receiving 2 certificates
+2013-07-31 22:31:32	⇄	 - certificate[1] info:
+2013-07-31 22:31:32	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-07-31 22:31:32	⇄	 - certificate[2] info:
+2013-07-31 22:31:32	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-07-31 22:31:32	⇄	irc: connected to chat.freenode.net/7000 (50.22.136.18)
+2013-07-31 22:31:33	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Looking up your hostname...
+2013-07-31 22:31:33	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Checking Ident
+2013-07-31 22:31:33	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Found your hostname
+2013-07-31 22:31:43	⇄	moorcock.freenode.net (moorcock.freenode.net): *** No Ident response
+2013-07-31 22:31:43	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-07-31 22:31:43	⇄	MSG(nickserv): identify xenogears
+2013-07-31 22:31:43	⇄	Your host is moorcock.freenode.net[50.22.136.18/7000], running version ircd-seven-1.1.3
+2013-07-31 22:31:43	⇄	This server was created Mon Dec 31 2012 at 15:37:06 CST
+2013-07-31 22:31:43	⇄	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-07-31 22:31:43	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-07-31 22:31:43	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-07-31 22:31:43	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-07-31 22:31:43	⇄	There are 211 users and 81058 invisible on 26 servers
+2013-07-31 22:31:43	⇄	36 :IRC Operators online
+2013-07-31 22:31:43	⇄	13 :unknown connection(s)
+2013-07-31 22:31:43	⇄	43663 :channels formed
+2013-07-31 22:31:43	⇄	I have 5981 clients and 1 servers
+2013-07-31 22:31:43	⇄	5981 7446 :Current local users 5981, max 7446
+2013-07-31 22:31:43	⇄	81269 92550 :Current global users 81269, max 92550
+2013-07-31 22:31:43	⇄	Highest connection count: 7447 (7446 clients) (793870 connections received)
+2013-07-31 22:31:43	⇄	- moorcock.freenode.net Message of the Day -
+2013-07-31 22:31:43	⇄	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2013-07-31 22:31:43	⇄	- Kodingen (http://kodingen.com) for sponsoring this server!
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2013-07-31 22:31:43	⇄	- author, Michael Moorcock began his writing career at the
+2013-07-31 22:31:43	⇄	- age of 16 and, via a number of pseudonyms, has become
+2013-07-31 22:31:43	⇄	- a widely published and highly praised author.
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- Welcome to freenode - supporting the free and open source
+2013-07-31 22:31:43	⇄	- software communities since 1998.
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- By connecting to freenode you indicate that you have read and
+2013-07-31 22:31:43	⇄	- agree to adhere to our policies and procedures as per the
+2013-07-31 22:31:43	⇄	- website (http://freenode.net/).
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- We would like to remind you that unauthorised public logging
+2013-07-31 22:31:43	⇄	- of channels on the network is prohibited. Public channel
+2013-07-31 22:31:43	⇄	- logging should only take place where the channel owner(s) has
+2013-07-31 22:31:43	⇄	- requested this and users of the channel are all made aware
+2013-07-31 22:31:43	⇄	- (if you are publically logging your channel, you may wish to
+2013-07-31 22:31:43	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-07-31 22:31:43	⇄	- network policy, please take a look at our policy page
+2013-07-31 22:31:43	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-07-31 22:31:43	⇄	- indicates your acceptance of this policy.
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- Please join #freenode for any network-related questions or
+2013-07-31 22:31:43	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-07-31 22:31:43	⇄	- users who would be happy to try answer any questions you might
+2013-07-31 22:31:43	⇄	- have.
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-07-31 22:31:43	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-07-31 22:31:43	⇄	- real-life collaboration or bring a picnic and come join
+2013-07-31 22:31:43	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-07-31 22:31:43	⇄	- close to you.
+2013-07-31 22:31:43	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-07-31 22:31:43	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-07-31 22:31:43	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-07-31 22:31:43	⇄	- long term support and dedication they show to the FOSS
+2013-07-31 22:31:43	⇄	- communities.
+2013-07-31 22:31:43	⇄	-
+2013-07-31 22:31:43	⇄	- ***************************************************************
+2013-07-31 22:31:43	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-07-31 22:31:43	⇄	- ***************************************************************
+2013-07-31 22:31:43	⇄	End of /MOTD command.
+2013-07-31 22:31:43	⇄	User mode [+Zi] by z1lt0id
+2013-07-31 22:31:43	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-07-31 22:31:48	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-07-31 22:38:52	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-07-31 22:38:52	⇄	gnutls: peer's certificate is trusted
+2013-07-31 22:38:52	⇄	gnutls: receiving 2 certificates
+2013-07-31 22:38:52	⇄	 - certificate[1] info:
+2013-07-31 22:38:52	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-07-31 22:38:52	⇄	 - certificate[2] info:
+2013-07-31 22:38:52	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-07-31 22:38:53	⇄	irc: connected to chat.freenode.net/7000 (89.16.176.16)
+2013-07-31 22:38:53	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Looking up your hostname...
+2013-07-31 22:38:53	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Checking Ident
+2013-07-31 22:38:53	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Found your hostname
+2013-07-31 22:39:03	⇄	wolfe.freenode.net (wolfe.freenode.net): *** No Ident response
+2013-07-31 22:39:03	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-07-31 22:39:03	⇄	MSG(nickserv): identify xenogears
+2013-07-31 22:39:03	⇄	Your host is wolfe.freenode.net[89.16.176.16/7000], running version ircd-seven-1.1.3
+2013-07-31 22:39:03	⇄	This server was created Mon Dec 31 2012 at 21:37:32 UTC
+2013-07-31 22:39:03	⇄	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-07-31 22:39:03	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-07-31 22:39:03	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-07-31 22:39:04	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-07-31 22:39:04	⇄	There are 209 users and 81294 invisible on 26 servers
+2013-07-31 22:39:04	⇄	36 :IRC Operators online
+2013-07-31 22:39:04	⇄	8 :unknown connection(s)
+2013-07-31 22:39:04	⇄	43665 :channels formed
+2013-07-31 22:39:04	⇄	I have 5706 clients and 1 servers
+2013-07-31 22:39:04	⇄	5706 5710 :Current local users 5706, max 5710
+2013-07-31 22:39:04	⇄	81503 86449 :Current global users 81503, max 86449
+2013-07-31 22:39:04	⇄	Highest connection count: 5711 (5710 clients) (151808 connections received)
+2013-07-31 22:39:04	⇄	- wolfe.freenode.net Message of the Day -
+2013-07-31 22:39:04	⇄	- Welcome to wolfe.freenode.net in Manchester, England, Uk!  Thanks to
+2013-07-31 22:39:04	⇄	- Bytemark Computer Consulting Ltd.  (www.bytemark.co.uk) for sponsoring
+2013-07-31 22:39:04	⇄	- this server!
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2013-07-31 22:39:04	⇄	- novels. His best-known work is the multi-volume novel The
+2013-07-31 22:39:04	⇄	- Book of the New Sun. He has won multiple awards including
+2013-07-31 22:39:04	⇄	- the Nebula Award, the World Fantasy Award, The Campell
+2013-07-31 22:39:04	⇄	- Memorial Award and the Locus Award. He was awarded the World
+2013-07-31 22:39:04	⇄	- Fantasy Award for lifetime achievement in 1996.
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- Welcome to freenode - supporting the free and open source
+2013-07-31 22:39:04	⇄	- software communities since 1998.
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- By connecting to freenode you indicate that you have read and
+2013-07-31 22:39:04	⇄	- agree to adhere to our policies and procedures as per the
+2013-07-31 22:39:04	⇄	- website (http://freenode.net/).
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- We would like to remind you that unauthorised public logging
+2013-07-31 22:39:04	⇄	- of channels on the network is prohibited. Public channel
+2013-07-31 22:39:04	⇄	- logging should only take place where the channel owner(s) has
+2013-07-31 22:39:04	⇄	- requested this and users of the channel are all made aware
+2013-07-31 22:39:04	⇄	- (if you are publically logging your channel, you may wish to
+2013-07-31 22:39:04	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-07-31 22:39:04	⇄	- network policy, please take a look at our policy page
+2013-07-31 22:39:04	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-07-31 22:39:04	⇄	- indicates your acceptance of this policy.
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- Please join #freenode for any network-related questions or
+2013-07-31 22:39:04	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-07-31 22:39:04	⇄	- users who would be happy to try answer any questions you might
+2013-07-31 22:39:04	⇄	- have.
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-07-31 22:39:04	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-07-31 22:39:04	⇄	- real-life collaboration or bring a picnic and come join
+2013-07-31 22:39:04	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-07-31 22:39:04	⇄	- close to you.
+2013-07-31 22:39:04	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-07-31 22:39:04	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-07-31 22:39:04	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-07-31 22:39:04	⇄	- long term support and dedication they show to the FOSS
+2013-07-31 22:39:04	⇄	- communities.
+2013-07-31 22:39:04	⇄	-
+2013-07-31 22:39:04	⇄	- ***************************************************************
+2013-07-31 22:39:04	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-07-31 22:39:04	⇄	- ***************************************************************
+2013-07-31 22:39:04	⇄	End of /MOTD command.
+2013-07-31 22:39:04	⇄	User mode [+Zi] by z1lt0id
+2013-07-31 22:39:04	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-07-31 22:39:09	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-07-31 23:04:50	⇄	You have been marked as being away
+2013-08-01 07:54:46	⇄	You are no longer marked as being away
+2013-08-01 22:21:20	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-01 22:21:20	⇄	gnutls: peer's certificate is trusted
+2013-08-01 22:21:20	⇄	gnutls: receiving 2 certificates
+2013-08-01 22:21:20	⇄	 - certificate[1] info:
+2013-08-01 22:21:20	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-01 22:21:20	⇄	 - certificate[2] info:
+2013-08-01 22:21:20	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-01 22:21:21	⇄	irc: connected to chat.freenode.net/7000 (62.231.75.133)
+2013-08-01 22:21:21	⇄	hobana.freenode.net (hobana.freenode.net): *** Looking up your hostname...
+2013-08-01 22:21:21	⇄	hobana.freenode.net (hobana.freenode.net): *** Checking Ident
+2013-08-01 22:21:21	⇄	hobana.freenode.net (hobana.freenode.net): *** Found your hostname
+2013-08-01 22:21:26	⇄	hobana.freenode.net (hobana.freenode.net): *** No Ident response
+2013-08-01 22:21:26	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-01 22:21:26	⇄	MSG(nickserv): identify xenogears
+2013-08-01 22:21:26	⇄	Your host is hobana.freenode.net[62.231.75.133/7000], running version ircd-seven-1.1.3
+2013-08-01 22:21:26	⇄	This server was created Tue Jul 23 2013 at 10:16:18 UTC
+2013-08-01 22:21:26	⇄	hobana.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-01 22:21:26	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-01 22:21:26	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-01 22:21:26	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-01 22:21:26	⇄	There are 205 users and 80577 invisible on 26 servers
+2013-08-01 22:21:26	⇄	38 :IRC Operators online
+2013-08-01 22:21:26	⇄	12 :unknown connection(s)
+2013-08-01 22:21:26	⇄	43737 :channels formed
+2013-08-01 22:21:26	⇄	I have 4410 clients and 1 servers
+2013-08-01 22:21:26	⇄	4410 4768 :Current local users 4410, max 4768
+2013-08-01 22:21:26	⇄	80782 86448 :Current global users 80782, max 86448
+2013-08-01 22:21:26	⇄	Highest connection count: 4769 (4768 clients) (68482 connections received)
+2013-08-01 22:21:26	⇄	- hobana.freenode.net Message of the Day -
+2013-08-01 22:21:26	⇄	- Welcome to hobana.freenode.net in Pitesti, Romania! Thank
+2013-08-01 22:21:26	⇄	- you to RCS-RDS for sponsoring this server!
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+2013-08-01 22:21:26	⇄	- literary critic and ufologist. Ion Hobana is a literary
+2013-08-01 22:21:26	⇄	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-01 22:21:26	⇄	- software communities since 1998.
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-01 22:21:26	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-01 22:21:26	⇄	- website (http://freenode.net/).
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- We would like to remind you that unauthorised public logging
+2013-08-01 22:21:26	⇄	- of channels on the network is prohibited. Public channel
+2013-08-01 22:21:26	⇄	- logging should only take place where the channel owner(s) has
+2013-08-01 22:21:26	⇄	- requested this and users of the channel are all made aware
+2013-08-01 22:21:26	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-01 22:21:26	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-01 22:21:26	⇄	- network policy, please take a look at our policy page
+2013-08-01 22:21:26	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-01 22:21:26	⇄	- indicates your acceptance of this policy.
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- Please join #freenode for any network-related questions or
+2013-08-01 22:21:26	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-01 22:21:26	⇄	- users who would be happy to try answer any questions you might
+2013-08-01 22:21:26	⇄	- have.
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-01 22:21:26	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-01 22:21:26	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-01 22:21:26	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-01 22:21:26	⇄	- close to you.
+2013-08-01 22:21:26	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-01 22:21:26	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-01 22:21:26	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-01 22:21:26	⇄	- long term support and dedication they show to the FOSS
+2013-08-01 22:21:26	⇄	- communities.
+2013-08-01 22:21:26	⇄	-
+2013-08-01 22:21:26	⇄	- ***************************************************************
+2013-08-01 22:21:26	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-01 22:21:26	⇄	- ***************************************************************
+2013-08-01 22:21:26	⇄	End of /MOTD command.
+2013-08-01 22:21:26	⇄	User mode [+Zi] by z1lt0id
+2013-08-01 22:21:26	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-01 22:21:33	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-01 22:53:37	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-01 22:53:37	⇄	gnutls: peer's certificate is trusted
+2013-08-01 22:53:37	⇄	gnutls: receiving 2 certificates
+2013-08-01 22:53:37	⇄	 - certificate[1] info:
+2013-08-01 22:53:37	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-01 22:53:37	⇄	 - certificate[2] info:
+2013-08-01 22:53:37	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-01 22:53:38	⇄	irc: connected to chat.freenode.net/7000 (78.40.125.4)
+2013-08-01 22:53:38	⇄	barjavel.freenode.net (barjavel.freenode.net): *** Looking up your hostname...
+2013-08-01 22:53:38	⇄	barjavel.freenode.net (barjavel.freenode.net): *** Checking Ident
+2013-08-01 22:53:38	⇄	barjavel.freenode.net (barjavel.freenode.net): *** Found your hostname
+2013-08-01 22:53:43	⇄	barjavel.freenode.net (barjavel.freenode.net): *** No Ident response
+2013-08-01 22:53:43	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-01 22:53:43	⇄	MSG(nickserv): identify xenogears
+2013-08-01 22:53:43	⇄	Your host is barjavel.freenode.net[78.40.125.4/7000], running version ircd-seven-1.1.3
+2013-08-01 22:53:43	⇄	This server was created Mon Dec 31 2012 at 22:37:42 CET
+2013-08-01 22:53:43	⇄	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-01 22:53:43	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-01 22:53:43	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-01 22:53:43	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-01 22:53:43	⇄	There are 205 users and 81409 invisible on 26 servers
+2013-08-01 22:53:43	⇄	38 :IRC Operators online
+2013-08-01 22:53:43	⇄	12 :unknown connection(s)
+2013-08-01 22:53:43	⇄	43839 :channels formed
+2013-08-01 22:53:43	⇄	I have 5635 clients and 1 servers
+2013-08-01 22:53:43	⇄	5635 8314 :Current local users 5635, max 8314
+2013-08-01 22:53:43	⇄	81614 88258 :Current global users 81614, max 88258
+2013-08-01 22:53:43	⇄	Highest connection count: 8315 (8314 clients) (399121 connections received)
+2013-08-01 22:53:43	⇄	- barjavel.freenode.net Message of the Day -
+2013-08-01 22:53:43	⇄	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2013-08-01 22:53:43	⇄	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2013-08-01 22:53:43	⇄	- this server!
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2013-08-01 22:53:43	⇄	- science-fiction author, a journalist and a critic. He is
+2013-08-01 22:53:43	⇄	- credited with having written the first novel to introduce
+2013-08-01 22:53:43	⇄	- the Grandfather Paradox in time travel, in his 1943 work
+2013-08-01 22:53:43	⇄	- 'Le Voyageur imprudent'.
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-01 22:53:43	⇄	- software communities since 1998.
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-01 22:53:43	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-01 22:53:43	⇄	- website (http://freenode.net/).
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- We would like to remind you that unauthorised public logging
+2013-08-01 22:53:43	⇄	- of channels on the network is prohibited. Public channel
+2013-08-01 22:53:43	⇄	- logging should only take place where the channel owner(s) has
+2013-08-01 22:53:43	⇄	- requested this and users of the channel are all made aware
+2013-08-01 22:53:43	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-01 22:53:43	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-01 22:53:43	⇄	- network policy, please take a look at our policy page
+2013-08-01 22:53:43	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-01 22:53:43	⇄	- indicates your acceptance of this policy.
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- Please join #freenode for any network-related questions or
+2013-08-01 22:53:43	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-01 22:53:43	⇄	- users who would be happy to try answer any questions you might
+2013-08-01 22:53:43	⇄	- have.
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-01 22:53:43	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-01 22:53:43	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-01 22:53:43	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-01 22:53:43	⇄	- close to you.
+2013-08-01 22:53:43	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-01 22:53:43	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-01 22:53:43	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-01 22:53:43	⇄	- long term support and dedication they show to the FOSS
+2013-08-01 22:53:43	⇄	- communities.
+2013-08-01 22:53:43	⇄	-
+2013-08-01 22:53:43	⇄	- ***************************************************************
+2013-08-01 22:53:43	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-01 22:53:43	⇄	- ***************************************************************
+2013-08-01 22:53:43	⇄	End of /MOTD command.
+2013-08-01 22:53:44	⇄	User mode [+Zi] by z1lt0id
+2013-08-01 22:53:44	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-01 22:53:50	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-01 23:26:00	⇄	You have been marked as being away
+2013-08-02 21:20:54	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 21:20:54	⇄	gnutls: peer's certificate is trusted
+2013-08-02 21:20:54	⇄	gnutls: receiving 2 certificates
+2013-08-02 21:20:54	⇄	 - certificate[1] info:
+2013-08-02 21:20:54	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-02 21:20:54	⇄	 - certificate[2] info:
+2013-08-02 21:20:54	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-02 21:20:55	⇄	irc: connected to chat.freenode.net/7000 (93.152.160.101)
+2013-08-02 21:20:55	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Looking up your hostname...
+2013-08-02 21:20:55	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Checking Ident
+2013-08-02 21:20:55	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Found your hostname
+2013-08-02 21:21:04	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** No Ident response
+2013-08-02 21:21:04	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-02 21:21:04	⇄	MSG(nickserv): identify xenogears
+2013-08-02 21:21:04	⇄	Your host is hitchcock.freenode.net[93.152.160.101/7000], running version ircd-seven-1.1.3
+2013-08-02 21:21:04	⇄	This server was created Mon Nov 28 2011 at 01:18:55 EET
+2013-08-02 21:21:04	⇄	hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-02 21:21:04	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-02 21:21:04	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-02 21:21:04	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-02 21:21:04	⇄	There are 199 users and 78409 invisible on 26 servers
+2013-08-02 21:21:04	⇄	38 :IRC Operators online
+2013-08-02 21:21:04	⇄	10 :unknown connection(s)
+2013-08-02 21:21:04	⇄	43733 :channels formed
+2013-08-02 21:21:04	⇄	I have 5735 clients and 1 servers
+2013-08-02 21:21:04	⇄	5735 10526 :Current local users 5735, max 10526
+2013-08-02 21:21:04	⇄	78608 92550 :Current global users 78608, max 92550
+2013-08-02 21:21:04	⇄	Highest connection count: 10527 (10526 clients) (3250871 connections received)
+2013-08-02 21:21:04	⇄	- hitchcock.freenode.net Message of the Day -
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2013-08-02 21:21:04	⇄	- OnlineDirect (http://onlinedirect.bg).
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2013-08-02 21:21:04	⇄	- England, Sir Alfred Hitchcock was a noted film director
+2013-08-02 21:21:04	⇄	- and producer. Over a long career he pioneered many modern
+2013-08-02 21:21:04	⇄	- techniques in film-making, made more than 50 feature films,
+2013-08-02 21:21:04	⇄	- and influenced many present-day directors and producers.
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-02 21:21:04	⇄	- software communities since 1998.
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-02 21:21:04	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-02 21:21:04	⇄	- website (http://freenode.net/).
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- We would like to remind you that unauthorised public logging
+2013-08-02 21:21:04	⇄	- of channels on the network is prohibited. Public channel
+2013-08-02 21:21:04	⇄	- logging should only take place where the channel owner(s) has
+2013-08-02 21:21:04	⇄	- requested this and users of the channel are all made aware
+2013-08-02 21:21:04	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-02 21:21:04	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-02 21:21:04	⇄	- network policy, please take a look at our policy page
+2013-08-02 21:21:04	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-02 21:21:04	⇄	- indicates your acceptance of this policy.
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- Please join #freenode for any network-related questions or
+2013-08-02 21:21:04	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-02 21:21:04	⇄	- users who would be happy to try answer any questions you might
+2013-08-02 21:21:04	⇄	- have.
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-02 21:21:04	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-02 21:21:04	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-02 21:21:04	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-02 21:21:04	⇄	- close to you.
+2013-08-02 21:21:04	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-02 21:21:04	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-02 21:21:04	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-02 21:21:04	⇄	- long term support and dedication they show to the FOSS
+2013-08-02 21:21:04	⇄	- communities.
+2013-08-02 21:21:04	⇄	-
+2013-08-02 21:21:04	⇄	- ***************************************************************
+2013-08-02 21:21:04	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-02 21:21:04	⇄	- ***************************************************************
+2013-08-02 21:21:04	⇄	End of /MOTD command.
+2013-08-02 21:21:04	⇄	User mode [+Zi] by z1lt0id
+2013-08-02 21:21:05	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-02 21:21:10	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-02 21:41:00	⇄	You have been marked as being away
+2013-08-02 22:04:42	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 22:04:42	⇄	gnutls: peer's certificate is trusted
+2013-08-02 22:04:42	⇄	gnutls: receiving 2 certificates
+2013-08-02 22:04:42	⇄	 - certificate[1] info:
+2013-08-02 22:04:42	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-02 22:04:42	⇄	 - certificate[2] info:
+2013-08-02 22:04:42	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-02 22:04:42	⇄	irc: connected to chat.freenode.net/7000 (94.125.182.252)
+2013-08-02 22:04:43	⇄	adams.freenode.net (adams.freenode.net): *** Looking up your hostname...
+2013-08-02 22:04:43	⇄	adams.freenode.net (adams.freenode.net): *** Checking Ident
+2013-08-02 22:04:43	⇄	adams.freenode.net (adams.freenode.net): *** Found your hostname
+2013-08-02 22:04:49	⇄	adams.freenode.net (adams.freenode.net): *** No Ident response
+2013-08-02 22:04:49	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-02 22:04:49	⇄	MSG(nickserv): identify xenogears
+2013-08-02 22:04:49	⇄	Your host is adams.freenode.net[94.125.182.252/7000], running version ircd-seven-1.1.3
+2013-08-02 22:04:49	⇄	This server was created Sat Mar 10 2012 at 14:55:48 CET
+2013-08-02 22:04:49	⇄	adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-02 22:04:49	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-02 22:04:49	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-02 22:04:49	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-02 22:04:49	⇄	There are 203 users and 79102 invisible on 26 servers
+2013-08-02 22:04:49	⇄	38 :IRC Operators online
+2013-08-02 22:04:49	⇄	11 :unknown connection(s)
+2013-08-02 22:04:49	⇄	43853 :channels formed
+2013-08-02 22:04:49	⇄	I have 4529 clients and 1 servers
+2013-08-02 22:04:49	⇄	4529 10111 :Current local users 4529, max 10111
+2013-08-02 22:04:49	⇄	79305 92550 :Current global users 79305, max 92550
+2013-08-02 22:04:49	⇄	Highest connection count: 10112 (10111 clients) (6718031 connections received)
+2013-08-02 22:04:49	⇄	- adams.freenode.net Message of the Day -
+2013-08-02 22:04:49	⇄	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2013-08-02 22:04:49	⇄	- (http://www.atw.hu) for sponsoring this server!
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2013-08-02 22:04:49	⇄	- to the Galaxy and many other witty and humourous books,
+2013-08-02 22:04:49	⇄	- portrayed in his uniquely British irony. He is sorely missed
+2013-08-02 22:04:49	⇄	- by many millions of devoted fans. "So long and thanks for all
+2013-08-02 22:04:49	⇄	- the books!"
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-02 22:04:49	⇄	- software communities since 1998.
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-02 22:04:49	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-02 22:04:49	⇄	- website (http://freenode.net/).
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- We would like to remind you that unauthorised public logging
+2013-08-02 22:04:49	⇄	- of channels on the network is prohibited. Public channel
+2013-08-02 22:04:49	⇄	- logging should only take place where the channel owner(s) has
+2013-08-02 22:04:49	⇄	- requested this and users of the channel are all made aware
+2013-08-02 22:04:49	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-02 22:04:49	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-02 22:04:49	⇄	- network policy, please take a look at our policy page
+2013-08-02 22:04:49	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-02 22:04:49	⇄	- indicates your acceptance of this policy.
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- Please join #freenode for any network-related questions or
+2013-08-02 22:04:49	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-02 22:04:49	⇄	- users who would be happy to try answer any questions you might
+2013-08-02 22:04:49	⇄	- have.
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-02 22:04:49	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-02 22:04:49	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-02 22:04:49	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-02 22:04:49	⇄	- close to you.
+2013-08-02 22:04:49	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-02 22:04:49	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-02 22:04:49	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-02 22:04:49	⇄	- long term support and dedication they show to the FOSS
+2013-08-02 22:04:49	⇄	- communities.
+2013-08-02 22:04:49	⇄	-
+2013-08-02 22:04:49	⇄	- ***************************************************************
+2013-08-02 22:04:49	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-02 22:04:49	⇄	- ***************************************************************
+2013-08-02 22:04:49	⇄	End of /MOTD command.
+2013-08-02 22:04:49	⇄	User mode [+Zi] by z1lt0id
+2013-08-02 22:04:49	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-02 22:04:57	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-02 22:24:50	⇄	You have been marked as being away
+2013-08-02 22:57:37	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 22:57:37	⇄	gnutls: peer's certificate is trusted
+2013-08-02 22:57:37	⇄	gnutls: receiving 2 certificates
+2013-08-02 22:57:37	⇄	 - certificate[1] info:
+2013-08-02 22:57:37	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-02 22:57:37	⇄	 - certificate[2] info:
+2013-08-02 22:57:37	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-02 22:57:38	⇄	irc: connected to chat.freenode.net/7000 (93.152.160.101)
+2013-08-02 22:57:38	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Looking up your hostname...
+2013-08-02 22:57:38	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Checking Ident
+2013-08-02 22:57:38	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** Found your hostname
+2013-08-02 22:57:44	⇄	hitchcock.freenode.net (hitchcock.freenode.net): *** No Ident response
+2013-08-02 22:57:44	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-02 22:57:44	⇄	MSG(nickserv): identify xenogears
+2013-08-02 22:57:44	⇄	Your host is hitchcock.freenode.net[93.152.160.101/7000], running version ircd-seven-1.1.3
+2013-08-02 22:57:44	⇄	This server was created Mon Nov 28 2011 at 01:18:55 EET
+2013-08-02 22:57:44	⇄	hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-02 22:57:44	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-02 22:57:44	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-02 22:57:45	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-02 22:57:45	⇄	There are 204 users and 80246 invisible on 26 servers
+2013-08-02 22:57:45	⇄	38 :IRC Operators online
+2013-08-02 22:57:45	⇄	25 :unknown connection(s)
+2013-08-02 22:57:45	⇄	43973 :channels formed
+2013-08-02 22:57:45	⇄	I have 5948 clients and 1 servers
+2013-08-02 22:57:45	⇄	5948 10526 :Current local users 5948, max 10526
+2013-08-02 22:57:45	⇄	80450 92550 :Current global users 80450, max 92550
+2013-08-02 22:57:45	⇄	Highest connection count: 10527 (10526 clients) (3252268 connections received)
+2013-08-02 22:57:45	⇄	- hitchcock.freenode.net Message of the Day -
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+2013-08-02 22:57:45	⇄	- OnlineDirect (http://onlinedirect.bg).
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- HITCHCOCK, SIR ALFRED [1899 - 1980] Born in Essex,
+2013-08-02 22:57:45	⇄	- England, Sir Alfred Hitchcock was a noted film director
+2013-08-02 22:57:45	⇄	- and producer. Over a long career he pioneered many modern
+2013-08-02 22:57:45	⇄	- techniques in film-making, made more than 50 feature films,
+2013-08-02 22:57:45	⇄	- and influenced many present-day directors and producers.
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-02 22:57:45	⇄	- software communities since 1998.
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-02 22:57:45	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-02 22:57:45	⇄	- website (http://freenode.net/).
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- We would like to remind you that unauthorised public logging
+2013-08-02 22:57:45	⇄	- of channels on the network is prohibited. Public channel
+2013-08-02 22:57:45	⇄	- logging should only take place where the channel owner(s) has
+2013-08-02 22:57:45	⇄	- requested this and users of the channel are all made aware
+2013-08-02 22:57:45	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-02 22:57:45	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-02 22:57:45	⇄	- network policy, please take a look at our policy page
+2013-08-02 22:57:45	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-02 22:57:45	⇄	- indicates your acceptance of this policy.
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- Please join #freenode for any network-related questions or
+2013-08-02 22:57:45	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-02 22:57:45	⇄	- users who would be happy to try answer any questions you might
+2013-08-02 22:57:45	⇄	- have.
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-02 22:57:45	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-02 22:57:45	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-02 22:57:45	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-02 22:57:45	⇄	- close to you.
+2013-08-02 22:57:45	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-02 22:57:45	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-02 22:57:45	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-02 22:57:45	⇄	- long term support and dedication they show to the FOSS
+2013-08-02 22:57:45	⇄	- communities.
+2013-08-02 22:57:45	⇄	-
+2013-08-02 22:57:45	⇄	- ***************************************************************
+2013-08-02 22:57:45	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-02 22:57:45	⇄	- ***************************************************************
+2013-08-02 22:57:45	⇄	End of /MOTD command.
+2013-08-02 22:57:45	⇄	User mode [+Zi] by z1lt0id
+2013-08-02 22:57:45	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-02 22:57:52	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-02 23:35:40	⇄	You have been marked as being away
+2013-08-02 23:40:26	⇄	You are no longer marked as being away
+2013-08-04 10:39:32	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-04 10:39:32	⇄	gnutls: peer's certificate is trusted
+2013-08-04 10:39:32	⇄	gnutls: receiving 2 certificates
+2013-08-04 10:39:32	⇄	 - certificate[1] info:
+2013-08-04 10:39:32	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-04 10:39:32	⇄	 - certificate[2] info:
+2013-08-04 10:39:32	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-04 10:39:32	⇄	irc: connected to chat.freenode.net/7000 (50.22.136.18)
+2013-08-04 10:39:32	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Looking up your hostname...
+2013-08-04 10:39:32	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Checking Ident
+2013-08-04 10:39:32	⇄	moorcock.freenode.net (moorcock.freenode.net): *** Found your hostname
+2013-08-04 10:39:41	⇄	moorcock.freenode.net (moorcock.freenode.net): *** No Ident response
+2013-08-04 10:39:41	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-04 10:39:41	⇄	MSG(nickserv): identify xenogears
+2013-08-04 10:39:41	⇄	Your host is moorcock.freenode.net[50.22.136.18/7000], running version ircd-seven-1.1.3
+2013-08-04 10:39:41	⇄	This server was created Mon Dec 31 2012 at 15:37:06 CST
+2013-08-04 10:39:41	⇄	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-04 10:39:41	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-04 10:39:41	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-04 10:39:41	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-04 10:39:41	⇄	There are 191 users and 71916 invisible on 26 servers
+2013-08-04 10:39:41	⇄	35 :IRC Operators online
+2013-08-04 10:39:41	⇄	11 :unknown connection(s)
+2013-08-04 10:39:41	⇄	43294 :channels formed
+2013-08-04 10:39:41	⇄	I have 5073 clients and 1 servers
+2013-08-04 10:39:41	⇄	5073 7446 :Current local users 5073, max 7446
+2013-08-04 10:39:41	⇄	72107 92550 :Current global users 72107, max 92550
+2013-08-04 10:39:41	⇄	Highest connection count: 7447 (7446 clients) (843448 connections received)
+2013-08-04 10:39:41	⇄	- moorcock.freenode.net Message of the Day -
+2013-08-04 10:39:41	⇄	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2013-08-04 10:39:41	⇄	- Kodingen (http://kodingen.com) for sponsoring this server!
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2013-08-04 10:39:41	⇄	- author, Michael Moorcock began his writing career at the
+2013-08-04 10:39:41	⇄	- age of 16 and, via a number of pseudonyms, has become
+2013-08-04 10:39:41	⇄	- a widely published and highly praised author.
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-04 10:39:41	⇄	- software communities since 1998.
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-04 10:39:41	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-04 10:39:41	⇄	- website (http://freenode.net/).
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- We would like to remind you that unauthorised public logging
+2013-08-04 10:39:41	⇄	- of channels on the network is prohibited. Public channel
+2013-08-04 10:39:41	⇄	- logging should only take place where the channel owner(s) has
+2013-08-04 10:39:41	⇄	- requested this and users of the channel are all made aware
+2013-08-04 10:39:41	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-04 10:39:41	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-04 10:39:41	⇄	- network policy, please take a look at our policy page
+2013-08-04 10:39:41	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-04 10:39:41	⇄	- indicates your acceptance of this policy.
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- Please join #freenode for any network-related questions or
+2013-08-04 10:39:41	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-04 10:39:41	⇄	- users who would be happy to try answer any questions you might
+2013-08-04 10:39:41	⇄	- have.
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-04 10:39:41	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-04 10:39:41	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-04 10:39:41	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-04 10:39:41	⇄	- close to you.
+2013-08-04 10:39:41	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-04 10:39:41	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-04 10:39:41	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-04 10:39:41	⇄	- long term support and dedication they show to the FOSS
+2013-08-04 10:39:41	⇄	- communities.
+2013-08-04 10:39:41	⇄	-
+2013-08-04 10:39:41	⇄	- ***************************************************************
+2013-08-04 10:39:41	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-04 10:39:41	⇄	- ***************************************************************
+2013-08-04 10:39:41	⇄	End of /MOTD command.
+2013-08-04 10:39:41	⇄	User mode [+Zi] by z1lt0id
+2013-08-04 10:39:41	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-04 10:39:47	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-05 21:42:51	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-05 21:42:51	⇄	gnutls: peer's certificate is trusted
+2013-08-05 21:42:51	⇄	gnutls: receiving 2 certificates
+2013-08-05 21:42:51	⇄	 - certificate[1] info:
+2013-08-05 21:42:51	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-05 21:42:51	⇄	 - certificate[2] info:
+2013-08-05 21:42:51	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-05 21:42:52	⇄	irc: connected to chat.freenode.net/7000 (213.92.8.4)
+2013-08-05 21:42:52	⇄	calvino.freenode.net (calvino.freenode.net): *** Looking up your hostname...
+2013-08-05 21:42:52	⇄	calvino.freenode.net (calvino.freenode.net): *** Checking Ident
+2013-08-05 21:42:52	⇄	calvino.freenode.net (calvino.freenode.net): *** Found your hostname
+2013-08-05 21:42:58	⇄	calvino.freenode.net (calvino.freenode.net): *** No Ident response
+2013-08-05 21:42:58	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-05 21:42:58	⇄	MSG(nickserv): identify xenogears
+2013-08-05 21:42:58	⇄	Your host is calvino.freenode.net[213.92.8.4/7000], running version ircd-seven-1.1.3
+2013-08-05 21:42:58	⇄	This server was created Mon Dec 31 2012 at 22:38:09 CET
+2013-08-05 21:42:58	⇄	calvino.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-05 21:42:58	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-05 21:42:58	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-05 21:42:58	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-05 21:42:58	⇄	There are 211 users and 78096 invisible on 26 servers
+2013-08-05 21:42:58	⇄	35 :IRC Operators online
+2013-08-05 21:42:58	⇄	15 :unknown connection(s)
+2013-08-05 21:42:58	⇄	44141 :channels formed
+2013-08-05 21:42:58	⇄	I have 5727 clients and 1 servers
+2013-08-05 21:42:58	⇄	5727 7821 :Current local users 5727, max 7821
+2013-08-05 21:42:58	⇄	78307 92550 :Current global users 78307, max 92550
+2013-08-05 21:42:58	⇄	Highest connection count: 7822 (7821 clients) (1033428 connections received)
+2013-08-05 21:42:58	⇄	- calvino.freenode.net Message of the Day -
+2013-08-05 21:42:58	⇄	- Welcome to calvino.freenode.net in Milan, Italy! Thanks to
+2013-08-05 21:42:58	⇄	- I.Net S.p.A. (www.inet.it) for sponsoring this server!
+2013-08-05 21:42:58	⇄	-
+2013-08-05 21:42:58	⇄	- CALVINO, ITALO [1923-1985].  Born in Cuba, Italo Calvino grew
+2013-08-05 21:42:58	⇄	- up in San Remo, Italy.  During World War II, he joined the
+2013-08-05 21:42:58	⇄	- partisans during the German occupation and, after writing a
+2013-08-05 21:42:58	⇄	- series of stories which drew on his experiences, he became a
+2013-08-05 21:42:59	⇄	- journalist. His work included Mr. Palomar, Under the
+2013-08-05 21:42:59	⇄	- Jaguar Sun, Cosmicomics and t zero.  Calvino made
+2013-08-05 21:42:59	⇄	- important contributions to Italian literature in the middle
+2013-08-05 21:42:59	⇄	- of the last century.
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-05 21:42:59	⇄	- software communities since 1998.
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-05 21:42:59	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-05 21:42:59	⇄	- website (http://freenode.net/).
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- We would like to remind you that unauthorised public logging
+2013-08-05 21:42:59	⇄	- of channels on the network is prohibited. Public channel
+2013-08-05 21:42:59	⇄	- logging should only take place where the channel owner(s) has
+2013-08-05 21:42:59	⇄	- requested this and users of the channel are all made aware
+2013-08-05 21:42:59	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-05 21:42:59	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-05 21:42:59	⇄	- network policy, please take a look at our policy page
+2013-08-05 21:42:59	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-05 21:42:59	⇄	- indicates your acceptance of this policy.
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- Please join #freenode for any network-related questions or
+2013-08-05 21:42:59	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-05 21:42:59	⇄	- users who would be happy to try answer any questions you might
+2013-08-05 21:42:59	⇄	- have.
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-05 21:42:59	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-05 21:42:59	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-05 21:42:59	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-05 21:42:59	⇄	- close to you.
+2013-08-05 21:42:59	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-05 21:42:59	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-05 21:42:59	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-05 21:42:59	⇄	- long term support and dedication they show to the FOSS
+2013-08-05 21:42:59	⇄	- communities.
+2013-08-05 21:42:59	⇄	-
+2013-08-05 21:42:59	⇄	- ***************************************************************
+2013-08-05 21:42:59	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-05 21:42:59	⇄	- ***************************************************************
+2013-08-05 21:42:59	⇄	End of /MOTD command.
+2013-08-05 21:42:59	⇄	User mode [+Zi] by z1lt0id
+2013-08-05 21:42:59	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-05 21:43:07	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-05 23:42:49	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-05 23:42:49	⇄	gnutls: peer's certificate is trusted
+2013-08-05 23:42:49	⇄	gnutls: receiving 2 certificates
+2013-08-05 23:42:49	⇄	 - certificate[1] info:
+2013-08-05 23:42:49	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-05 23:42:49	⇄	 - certificate[2] info:
+2013-08-05 23:42:49	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-05 23:42:50	⇄	irc: connected to chat.freenode.net/7000 (89.16.176.16)
+2013-08-05 23:42:50	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Looking up your hostname...
+2013-08-05 23:42:50	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Checking Ident
+2013-08-05 23:42:50	⇄	wolfe.freenode.net (wolfe.freenode.net): *** Found your hostname
+2013-08-05 23:42:56	⇄	wolfe.freenode.net (wolfe.freenode.net): *** No Ident response
+2013-08-05 23:42:56	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-05 23:42:56	⇄	MSG(nickserv): identify xenogears
+2013-08-05 23:42:56	⇄	Your host is wolfe.freenode.net[89.16.176.16/7000], running version ircd-seven-1.1.3
+2013-08-05 23:42:56	⇄	This server was created Mon Dec 31 2012 at 21:37:32 UTC
+2013-08-05 23:42:56	⇄	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-05 23:42:56	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-05 23:42:56	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-05 23:42:56	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-05 23:42:56	⇄	There are 215 users and 81904 invisible on 26 servers
+2013-08-05 23:42:56	⇄	35 :IRC Operators online
+2013-08-05 23:42:56	⇄	7 :unknown connection(s)
+2013-08-05 23:42:56	⇄	44461 :channels formed
+2013-08-05 23:42:56	⇄	I have 5385 clients and 1 servers
+2013-08-05 23:42:56	⇄	5385 6492 :Current local users 5385, max 6492
+2013-08-05 23:42:56	⇄	82119 86449 :Current global users 82119, max 86449
+2013-08-05 23:42:56	⇄	Highest connection count: 6493 (6492 clients) (202902 connections received)
+2013-08-05 23:42:56	⇄	- wolfe.freenode.net Message of the Day -
+2013-08-05 23:42:56	⇄	- Welcome to wolfe.freenode.net in Manchester, England, Uk!  Thanks to
+2013-08-05 23:42:56	⇄	- Bytemark Computer Consulting Ltd.  (www.bytemark.co.uk) for sponsoring
+2013-08-05 23:42:56	⇄	- this server!
+2013-08-05 23:42:56	⇄	-
+2013-08-05 23:42:56	⇄	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2013-08-05 23:42:57	⇄	- novels. His best-known work is the multi-volume novel The
+2013-08-05 23:42:57	⇄	- Book of the New Sun. He has won multiple awards including
+2013-08-05 23:42:57	⇄	- the Nebula Award, the World Fantasy Award, The Campell
+2013-08-05 23:42:57	⇄	- Memorial Award and the Locus Award. He was awarded the World
+2013-08-05 23:42:57	⇄	- Fantasy Award for lifetime achievement in 1996.
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-05 23:42:57	⇄	- software communities since 1998.
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-05 23:42:57	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-05 23:42:57	⇄	- website (http://freenode.net/).
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- We would like to remind you that unauthorised public logging
+2013-08-05 23:42:57	⇄	- of channels on the network is prohibited. Public channel
+2013-08-05 23:42:57	⇄	- logging should only take place where the channel owner(s) has
+2013-08-05 23:42:57	⇄	- requested this and users of the channel are all made aware
+2013-08-05 23:42:57	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-05 23:42:57	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-05 23:42:57	⇄	- network policy, please take a look at our policy page
+2013-08-05 23:42:57	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-05 23:42:57	⇄	- indicates your acceptance of this policy.
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- Please join #freenode for any network-related questions or
+2013-08-05 23:42:57	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-05 23:42:57	⇄	- users who would be happy to try answer any questions you might
+2013-08-05 23:42:57	⇄	- have.
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-05 23:42:57	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-05 23:42:57	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-05 23:42:57	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-05 23:42:57	⇄	- close to you.
+2013-08-05 23:42:57	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-05 23:42:57	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-05 23:42:57	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-05 23:42:57	⇄	- long term support and dedication they show to the FOSS
+2013-08-05 23:42:57	⇄	- communities.
+2013-08-05 23:42:57	⇄	-
+2013-08-05 23:42:57	⇄	- ***************************************************************
+2013-08-05 23:42:57	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-05 23:42:57	⇄	- ***************************************************************
+2013-08-05 23:42:57	⇄	End of /MOTD command.
+2013-08-05 23:42:57	⇄	User mode [+Zi] by z1lt0id
+2013-08-05 23:42:57	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-05 23:43:04	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-06 21:32:12	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-06 21:32:12	⇄	gnutls: peer's certificate is trusted
+2013-08-06 21:32:12	⇄	gnutls: receiving 2 certificates
+2013-08-06 21:32:12	⇄	 - certificate[1] info:
+2013-08-06 21:32:12	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-06 21:32:12	⇄	 - certificate[2] info:
+2013-08-06 21:32:12	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-06 21:32:13	⇄	irc: connected to chat.freenode.net/7000 (213.92.8.4)
+2013-08-06 21:32:13	⇄	calvino.freenode.net (calvino.freenode.net): *** Looking up your hostname...
+2013-08-06 21:32:13	⇄	calvino.freenode.net (calvino.freenode.net): *** Checking Ident
+2013-08-06 21:32:13	⇄	calvino.freenode.net (calvino.freenode.net): *** Found your hostname
+2013-08-06 21:32:20	⇄	calvino.freenode.net (calvino.freenode.net): *** No Ident response
+2013-08-06 21:32:20	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-06 21:32:20	⇄	MSG(nickserv): identify xenogears
+2013-08-06 21:32:20	⇄	Your host is calvino.freenode.net[213.92.8.4/7000], running version ircd-seven-1.1.3
+2013-08-06 21:32:20	⇄	This server was created Mon Dec 31 2012 at 22:38:09 CET
+2013-08-06 21:32:20	⇄	calvino.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-06 21:32:20	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-06 21:32:20	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-06 21:32:20	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-06 21:32:20	⇄	There are 202 users and 79621 invisible on 26 servers
+2013-08-06 21:32:20	⇄	36 :IRC Operators online
+2013-08-06 21:32:20	⇄	4 :unknown connection(s)
+2013-08-06 21:32:20	⇄	44300 :channels formed
+2013-08-06 21:32:20	⇄	I have 5918 clients and 1 servers
+2013-08-06 21:32:20	⇄	5918 7821 :Current local users 5918, max 7821
+2013-08-06 21:32:20	⇄	79823 92550 :Current global users 79823, max 92550
+2013-08-06 21:32:20	⇄	Highest connection count: 7822 (7821 clients) (1050970 connections received)
+2013-08-06 21:32:20	⇄	- calvino.freenode.net Message of the Day -
+2013-08-06 21:32:20	⇄	- Welcome to calvino.freenode.net in Milan, Italy! Thanks to
+2013-08-06 21:32:20	⇄	- I.Net S.p.A. (www.inet.it) for sponsoring this server!
+2013-08-06 21:32:20	⇄	-
+2013-08-06 21:32:20	⇄	- CALVINO, ITALO [1923-1985].  Born in Cuba, Italo Calvino grew
+2013-08-06 21:32:20	⇄	- up in San Remo, Italy.  During World War II, he joined the
+2013-08-06 21:32:20	⇄	- partisans during the German occupation and, after writing a
+2013-08-06 21:32:20	⇄	- series of stories which drew on his experiences, he became a
+2013-08-06 21:32:21	⇄	- journalist. His work included Mr. Palomar, Under the
+2013-08-06 21:32:21	⇄	- Jaguar Sun, Cosmicomics and t zero.  Calvino made
+2013-08-06 21:32:21	⇄	- important contributions to Italian literature in the middle
+2013-08-06 21:32:21	⇄	- of the last century.
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-06 21:32:21	⇄	- software communities since 1998.
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-06 21:32:21	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-06 21:32:21	⇄	- website (http://freenode.net/).
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- We would like to remind you that unauthorised public logging
+2013-08-06 21:32:21	⇄	- of channels on the network is prohibited. Public channel
+2013-08-06 21:32:21	⇄	- logging should only take place where the channel owner(s) has
+2013-08-06 21:32:21	⇄	- requested this and users of the channel are all made aware
+2013-08-06 21:32:21	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-06 21:32:21	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-06 21:32:21	⇄	- network policy, please take a look at our policy page
+2013-08-06 21:32:21	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-06 21:32:21	⇄	- indicates your acceptance of this policy.
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- Please join #freenode for any network-related questions or
+2013-08-06 21:32:21	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-06 21:32:21	⇄	- users who would be happy to try answer any questions you might
+2013-08-06 21:32:21	⇄	- have.
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-06 21:32:21	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-06 21:32:21	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-06 21:32:21	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-06 21:32:21	⇄	- close to you.
+2013-08-06 21:32:21	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-06 21:32:21	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-06 21:32:21	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-06 21:32:21	⇄	- long term support and dedication they show to the FOSS
+2013-08-06 21:32:21	⇄	- communities.
+2013-08-06 21:32:21	⇄	-
+2013-08-06 21:32:21	⇄	- ***************************************************************
+2013-08-06 21:32:21	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-06 21:32:21	⇄	- ***************************************************************
+2013-08-06 21:32:21	⇄	End of /MOTD command.
+2013-08-06 21:32:21	⇄	User mode [+Zi] by z1lt0id
+2013-08-06 21:32:21	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-06 21:32:27	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.
+2013-08-06 21:47:57	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-06 21:47:57	⇄	gnutls: peer's certificate is trusted
+2013-08-06 21:47:57	⇄	gnutls: receiving 2 certificates
+2013-08-06 21:47:57	⇄	 - certificate[1] info:
+2013-08-06 21:47:57	⇄	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-14 00:00:00 UTC', expires `2014-01-14 23:59:59 UTC', SHA-1 fingerprint `3602112ebe61d26fe4d9a6bd35e881526cafbc77'
+2013-08-06 21:47:57	⇄	 - certificate[2] info:
+2013-08-06 21:47:57	⇄	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2013-08-06 21:47:57	⇄	irc: connected to chat.freenode.net/7000 (213.232.93.3)
+2013-08-06 21:47:58	⇄	holmes.freenode.net (holmes.freenode.net): *** Looking up your hostname...
+2013-08-06 21:47:58	⇄	holmes.freenode.net (holmes.freenode.net): *** Checking Ident
+2013-08-06 21:47:58	⇄	holmes.freenode.net (holmes.freenode.net): *** Found your hostname
+2013-08-06 21:48:06	⇄	holmes.freenode.net (holmes.freenode.net): *** No Ident response
+2013-08-06 21:48:06	⇄	Welcome to the freenode Internet Relay Chat Network z1lt0id
+2013-08-06 21:48:06	⇄	MSG(nickserv): identify xenogears
+2013-08-06 21:48:06	⇄	Your host is holmes.freenode.net[213.232.93.3/7000], running version ircd-seven-1.1.3
+2013-08-06 21:48:06	⇄	This server was created Mon Dec 31 2012 at 21:37:39 GMT
+2013-08-06 21:48:06	⇄	holmes.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-06 21:48:06	⇄	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-06 21:48:06	⇄	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-06 21:48:06	⇄	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-06 21:48:06	⇄	There are 203 users and 79832 invisible on 26 servers
+2013-08-06 21:48:06	⇄	36 :IRC Operators online
+2013-08-06 21:48:06	⇄	13 :unknown connection(s)
+2013-08-06 21:48:06	⇄	44329 :channels formed
+2013-08-06 21:48:06	⇄	I have 6008 clients and 1 servers
+2013-08-06 21:48:06	⇄	6008 7808 :Current local users 6008, max 7808
+2013-08-06 21:48:06	⇄	80035 90219 :Current global users 80035, max 90219
+2013-08-06 21:48:06	⇄	Highest connection count: 7809 (7808 clients) (711073 connections received)
+2013-08-06 21:48:06	⇄	- holmes.freenode.net Message of the Day -
+2013-08-06 21:48:06	⇄	- Welcome to holmes.freenode.net in London, UK! Massive thanks to
+2013-08-06 21:48:06	⇄	- UK2 (http://www.uk2.net) for sponsoring this server.
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- HOLMES, ROBERT (1928-1986). An English television scriptwriter,
+2013-08-06 21:48:06	⇄	- most notably remembered for his work on the sci-fi series;
+2013-08-06 21:48:06	⇄	- Doctor Who.
+2013-08-06 21:48:06	⇄	- Welcome to freenode - supporting the free and open source
+2013-08-06 21:48:06	⇄	- software communities since 1998.
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- By connecting to freenode you indicate that you have read and
+2013-08-06 21:48:06	⇄	- agree to adhere to our policies and procedures as per the
+2013-08-06 21:48:06	⇄	- website (http://freenode.net/).
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- We would like to remind you that unauthorised public logging
+2013-08-06 21:48:06	⇄	- of channels on the network is prohibited. Public channel
+2013-08-06 21:48:06	⇄	- logging should only take place where the channel owner(s) has
+2013-08-06 21:48:06	⇄	- requested this and users of the channel are all made aware
+2013-08-06 21:48:06	⇄	- (if you are publically logging your channel, you may wish to
+2013-08-06 21:48:06	⇄	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- freenode runs an open proxy scanner. For details on freenode
+2013-08-06 21:48:06	⇄	- network policy, please take a look at our policy page
+2013-08-06 21:48:06	⇄	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-06 21:48:06	⇄	- indicates your acceptance of this policy.
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- Please join #freenode for any network-related questions or
+2013-08-06 21:48:06	⇄	- queries, there are numerous freenode volunteers and helpful
+2013-08-06 21:48:06	⇄	- users who would be happy to try answer any questions you might
+2013-08-06 21:48:06	⇄	- have.
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- Check out www.fossevents.org to find out what is happening in
+2013-08-06 21:48:06	⇄	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-06 21:48:06	⇄	- real-life collaboration or bring a picnic and come join
+2013-08-06 21:48:06	⇄	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-06 21:48:06	⇄	- close to you.
+2013-08-06 21:48:06	⇄	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-06 21:48:06	⇄	- (http://osuosl.org/) and Private Internet Access
+2013-08-06 21:48:06	⇄	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-06 21:48:06	⇄	- long term support and dedication they show to the FOSS
+2013-08-06 21:48:06	⇄	- communities.
+2013-08-06 21:48:06	⇄	-
+2013-08-06 21:48:06	⇄	- ***************************************************************
+2013-08-06 21:48:06	⇄	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-06 21:48:06	⇄	- ***************************************************************
+2013-08-06 21:48:06	⇄	End of /MOTD command.
+2013-08-06 21:48:06	⇄	User mode [+Zi] by z1lt0id
+2013-08-06 21:48:06	⇄	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-06 21:48:13	⇄	NickServ (NickServ@services.): You are now identified for z1lt0id.

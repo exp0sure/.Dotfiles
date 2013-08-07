@@ -1367,3 +1367,1516 @@
 2013-07-30 23:46:31	⇄	You have been invited to #echo.pre by REM0TE
 2013-07-31 00:10:40	⇄	You have been marked as being away
 2013-07-31 03:09:26	⇄	You have been invited to #echo.pre by REM0TE
+2013-07-31 22:31:33	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-07-31 22:31:33	⇄	gnutls: peer's certificate is trusted
+2013-07-31 22:31:33	⇄	gnutls: receiving 4 certificates
+2013-07-31 22:31:33	⇄	 - certificate[1] info:
+2013-07-31 22:31:33	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-07-31 22:31:33	⇄	 - certificate[2] info:
+2013-07-31 22:31:33	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-07-31 22:31:33	⇄	 - certificate[3] info:
+2013-07-31 22:31:33	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-07-31 22:31:33	⇄	 - certificate[4] info:
+2013-07-31 22:31:33	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-07-31 22:31:33	⇄	irc: connected to irc.p2p-network.net/7000 (72.20.32.8)
+2013-07-31 22:31:33	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Looking up your hostname...
+2013-07-31 22:31:33	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Checking ident...
+2013-07-31 22:31:34	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Found your hostname
+2013-07-31 22:31:36	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-07-31 22:31:37	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-07-31 22:31:37	⇄	MSG(nickserv): identify xenogears
+2013-07-31 22:31:37	⇄	Your host is citadel.us.p2p-network.net, running version Unreal3.2.10.1
+2013-07-31 22:31:37	⇄	This server was created Fri Apr 19 2013 at 22:54:19 PDT
+2013-07-31 22:31:37	⇄	citadel.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-07-31 22:31:37	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-07-31 22:31:37	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-07-31 22:31:37	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-07-31 22:31:37	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** You are connected to citadel.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-07-31 22:31:37	⇄	There are 150 users and 2789 invisible on 14 servers
+2013-07-31 22:31:37	⇄	14 :operator(s) online
+2013-07-31 22:31:37	⇄	1040 :channels formed
+2013-07-31 22:31:37	⇄	I have 346 clients and 1 servers
+2013-07-31 22:31:37	⇄	346 575 :Current local users 346, max 575
+2013-07-31 22:31:37	⇄	2939 8742 :Current global users 2939, max 8742
+2013-07-31 22:31:37	⇄	- citadel.us.p2p-network.net Message of the Day -
+2013-07-31 22:31:37	⇄	- 19/4/2013 22:49
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	- //        ____ ___   ____        _   ______________   //
+2013-07-31 22:31:37	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-07-31 22:31:37	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-07-31 22:31:37	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-07-31 22:31:37	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-07-31 22:31:37	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-07-31 22:31:37	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-07-31 22:31:37	⇄	- // enabled clients.                                   //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // This server also listens with SSL on port 443 and  //
+2013-07-31 22:31:37	⇄	- // port 80 with non-ssl, these ports should allow you //
+2013-07-31 22:31:37	⇄	- // to bypass most firewalls.                          //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // This server is hosted at and protected by:         //
+2013-07-31 22:31:37	⇄	- // Staminus Communications --- check them out :)      //
+2013-07-31 22:31:37	⇄	- // http://www.staminus.net/                           //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Website:                                        //
+2013-07-31 22:31:37	⇄	- //  - http://www.p2p-network.net/                     //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Official Channels:                              //
+2013-07-31 22:31:37	⇄	- //  - #p2p-net:     Network social channel            //
+2013-07-31 22:31:37	⇄	- //  - #help:        Network assistance                //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Disclaimer:                                     //
+2013-07-31 22:31:37	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-07-31 22:31:37	⇄	- //    network staff reserves the right to ban you at  //
+2013-07-31 22:31:37	⇄	- //    any time.                                       //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Rules:                                          //
+2013-07-31 22:31:37	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-07-31 22:31:37	⇄	- //  - No clones or virtual clones allowed.            //
+2013-07-31 22:31:37	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-07-31 22:31:37	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-07-31 22:31:37	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-07-31 22:31:37	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Open Proxy Scanner:                             //
+2013-07-31 22:31:37	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-07-31 22:31:37	⇄	- //    server. If you wish not to be scanned, please   //
+2013-07-31 22:31:37	⇄	- //    discontinue use of this server. These are not   //
+2013-07-31 22:31:37	⇄	- //    hacking attempts and are completely harmless.   //
+2013-07-31 22:31:37	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Network Services:                               //
+2013-07-31 22:31:37	⇄	- //  - We have the following services available:       //
+2013-07-31 22:31:37	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-07-31 22:31:37	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Finding staff:                                  //
+2013-07-31 22:31:37	⇄	- //  - All general help inquiries related to IRC and   //
+2013-07-31 22:31:37	⇄	- //    services can be found in the #help channel.     //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Staff Members:                                  //
+2013-07-31 22:31:37	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-07-31 22:31:37	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-07-31 22:31:37	⇄	- //  - Server Admins = infowolfe                       //
+2013-07-31 22:31:37	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-07-31 22:31:37	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- // @@ Donations:                                      //
+2013-07-31 22:31:37	⇄	- //  - If you would like to send us a donation,        //
+2013-07-31 22:31:37	⇄	- //    please click the donate button at our website   //
+2013-07-31 22:31:37	⇄	- //    or send directly via PayPal to                  //
+2013-07-31 22:31:37	⇄	- //    donate@p2p-network.net                          //
+2013-07-31 22:31:37	⇄	- //  - We require approximately $300 USD every month.  //
+2013-07-31 22:31:37	⇄	- //                                                    //
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	- //      ______                                        //
+2013-07-31 22:31:37	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-07-31 22:31:37	⇄	- //      ------                                        //
+2013-07-31 22:31:37	⇄	- //            \   ^__^                                //
+2013-07-31 22:31:37	⇄	- //             \  (oo)\_______                        //
+2013-07-31 22:31:37	⇄	- //                (__)\       )\/\                    //
+2013-07-31 22:31:37	⇄	- //                    ||----w |                       //
+2013-07-31 22:31:37	⇄	- //                    ||     ||                       //
+2013-07-31 22:31:37	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:31:37	⇄	End of /MOTD command.
+2013-07-31 22:31:37	⇄	User mode [+iwxz] by z1lt0id
+2013-07-31 22:31:37	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-07-31 22:31:37	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-07-31 22:31:37	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-07-31 22:31:37	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-07-31 22:31:37	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-07-31 22:31:37	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-07-31 22:31:37	⇄	User mode [+r] by services.p2p-network.net
+2013-07-31 22:31:37	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-07-31 22:31:40	⇄	You have been invited to #echo.pre by REM0TE
+2013-07-31 22:38:51	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-07-31 22:38:51	⇄	gnutls: peer's certificate is trusted
+2013-07-31 22:38:51	⇄	gnutls: receiving 4 certificates
+2013-07-31 22:38:51	⇄	 - certificate[1] info:
+2013-07-31 22:38:51	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-07-31 22:38:51	⇄	 - certificate[2] info:
+2013-07-31 22:38:51	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-07-31 22:38:51	⇄	 - certificate[3] info:
+2013-07-31 22:38:51	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-07-31 22:38:51	⇄	 - certificate[4] info:
+2013-07-31 22:38:51	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-07-31 22:38:52	⇄	irc: connected to irc.p2p-network.net/7000 (72.20.32.8)
+2013-07-31 22:38:52	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Looking up your hostname...
+2013-07-31 22:38:52	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Found your hostname (cached)
+2013-07-31 22:38:52	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Checking ident...
+2013-07-31 22:38:55	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-07-31 22:38:56	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-07-31 22:38:56	⇄	MSG(nickserv): identify xenogears
+2013-07-31 22:38:56	⇄	Your host is citadel.us.p2p-network.net, running version Unreal3.2.10.1
+2013-07-31 22:38:56	⇄	This server was created Fri Apr 19 2013 at 22:54:19 PDT
+2013-07-31 22:38:56	⇄	citadel.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-07-31 22:38:56	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-07-31 22:38:56	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-07-31 22:38:56	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-07-31 22:38:56	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** You are connected to citadel.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-07-31 22:38:56	⇄	There are 150 users and 2791 invisible on 14 servers
+2013-07-31 22:38:56	⇄	14 :operator(s) online
+2013-07-31 22:38:56	⇄	1053 :channels formed
+2013-07-31 22:38:56	⇄	I have 348 clients and 1 servers
+2013-07-31 22:38:56	⇄	348 575 :Current local users 348, max 575
+2013-07-31 22:38:56	⇄	2941 8742 :Current global users 2941, max 8742
+2013-07-31 22:38:56	⇄	- citadel.us.p2p-network.net Message of the Day -
+2013-07-31 22:38:56	⇄	- 19/4/2013 22:49
+2013-07-31 22:38:56	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:56	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-07-31 22:38:56	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:56	⇄	- //        ____ ___   ____        _   ______________   //
+2013-07-31 22:38:56	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-07-31 22:38:56	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-07-31 22:38:56	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-07-31 22:38:56	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-07-31 22:38:56	⇄	- //                                                    //
+2013-07-31 22:38:56	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:56	⇄	- //                                                    //
+2013-07-31 22:38:56	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-07-31 22:38:56	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-07-31 22:38:56	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-07-31 22:38:56	⇄	- // enabled clients.                                   //
+2013-07-31 22:38:56	⇄	- //                                                    //
+2013-07-31 22:38:56	⇄	- // This server also listens with SSL on port 443 and  //
+2013-07-31 22:38:56	⇄	- // port 80 with non-ssl, these ports should allow you //
+2013-07-31 22:38:56	⇄	- // to bypass most firewalls.                          //
+2013-07-31 22:38:56	⇄	- //                                                    //
+2013-07-31 22:38:56	⇄	- // This server is hosted at and protected by:         //
+2013-07-31 22:38:56	⇄	- // Staminus Communications --- check them out :)      //
+2013-07-31 22:38:56	⇄	- // http://www.staminus.net/                           //
+2013-07-31 22:38:56	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Website:                                        //
+2013-07-31 22:38:57	⇄	- //  - http://www.p2p-network.net/                     //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Official Channels:                              //
+2013-07-31 22:38:57	⇄	- //  - #p2p-net:     Network social channel            //
+2013-07-31 22:38:57	⇄	- //  - #help:        Network assistance                //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Disclaimer:                                     //
+2013-07-31 22:38:57	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-07-31 22:38:57	⇄	- //    network staff reserves the right to ban you at  //
+2013-07-31 22:38:57	⇄	- //    any time.                                       //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Rules:                                          //
+2013-07-31 22:38:57	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-07-31 22:38:57	⇄	- //  - No clones or virtual clones allowed.            //
+2013-07-31 22:38:57	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-07-31 22:38:57	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-07-31 22:38:57	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-07-31 22:38:57	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Open Proxy Scanner:                             //
+2013-07-31 22:38:57	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-07-31 22:38:57	⇄	- //    server. If you wish not to be scanned, please   //
+2013-07-31 22:38:57	⇄	- //    discontinue use of this server. These are not   //
+2013-07-31 22:38:57	⇄	- //    hacking attempts and are completely harmless.   //
+2013-07-31 22:38:57	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Network Services:                               //
+2013-07-31 22:38:57	⇄	- //  - We have the following services available:       //
+2013-07-31 22:38:57	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-07-31 22:38:57	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Finding staff:                                  //
+2013-07-31 22:38:57	⇄	- //  - All general help inquiries related to IRC and   //
+2013-07-31 22:38:57	⇄	- //    services can be found in the #help channel.     //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Staff Members:                                  //
+2013-07-31 22:38:57	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-07-31 22:38:57	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-07-31 22:38:57	⇄	- //  - Server Admins = infowolfe                       //
+2013-07-31 22:38:57	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-07-31 22:38:57	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- // @@ Donations:                                      //
+2013-07-31 22:38:57	⇄	- //  - If you would like to send us a donation,        //
+2013-07-31 22:38:57	⇄	- //    please click the donate button at our website   //
+2013-07-31 22:38:57	⇄	- //    or send directly via PayPal to                  //
+2013-07-31 22:38:57	⇄	- //    donate@p2p-network.net                          //
+2013-07-31 22:38:57	⇄	- //  - We require approximately $300 USD every month.  //
+2013-07-31 22:38:57	⇄	- //                                                    //
+2013-07-31 22:38:57	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:57	⇄	- //      ______                                        //
+2013-07-31 22:38:57	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-07-31 22:38:57	⇄	- //      ------                                        //
+2013-07-31 22:38:57	⇄	- //            \   ^__^                                //
+2013-07-31 22:38:57	⇄	- //             \  (oo)\_______                        //
+2013-07-31 22:38:57	⇄	- //                (__)\       )\/\                    //
+2013-07-31 22:38:57	⇄	- //                    ||----w |                       //
+2013-07-31 22:38:57	⇄	- //                    ||     ||                       //
+2013-07-31 22:38:57	⇄	- ////////////////////////////////////////////////////////
+2013-07-31 22:38:57	⇄	End of /MOTD command.
+2013-07-31 22:38:57	⇄	User mode [+iwxz] by z1lt0id
+2013-07-31 22:38:57	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-07-31 22:38:57	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-07-31 22:38:57	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-07-31 22:38:57	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-07-31 22:38:57	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-07-31 22:38:57	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-07-31 22:38:57	⇄	User mode [+r] by services.p2p-network.net
+2013-07-31 22:38:57	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-07-31 22:38:59	⇄	You have been invited to #echo.pre by REM0TE
+2013-07-31 23:04:50	⇄	You have been marked as being away
+2013-08-01 07:54:47	⇄	You are no longer marked as being away
+2013-08-01 22:21:21	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-01 22:21:21	⇄	gnutls: peer's certificate is trusted
+2013-08-01 22:21:21	⇄	gnutls: receiving 4 certificates
+2013-08-01 22:21:21	⇄	 - certificate[1] info:
+2013-08-01 22:21:21	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-01 22:21:21	⇄	 - certificate[2] info:
+2013-08-01 22:21:21	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-01 22:21:21	⇄	 - certificate[3] info:
+2013-08-01 22:21:21	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-01 22:21:21	⇄	 - certificate[4] info:
+2013-08-01 22:21:21	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-01 22:21:21	⇄	irc: connected to irc.p2p-network.net/7000 (67.43.228.226)
+2013-08-01 22:21:22	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Looking up your hostname...
+2013-08-01 22:21:22	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Checking ident...
+2013-08-01 22:21:22	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Found your hostname
+2013-08-01 22:21:26	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-01 22:21:27	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-01 22:21:27	⇄	MSG(nickserv): identify xenogears
+2013-08-01 22:21:27	⇄	Your host is eh.ca.p2p-network.net, running version Unreal3.2.10.1
+2013-08-01 22:21:27	⇄	This server was created Thu Apr 18 2013 at 00:07:42 EDT
+2013-08-01 22:21:27	⇄	eh.ca.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-01 22:21:27	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-01 22:21:27	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-01 22:21:27	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-01 22:21:27	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** You are connected to eh.ca.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-01 22:21:27	⇄	There are 150 users and 2792 invisible on 14 servers
+2013-08-01 22:21:27	⇄	13 :operator(s) online
+2013-08-01 22:21:27	⇄	1040 :channels formed
+2013-08-01 22:21:27	⇄	I have 353 clients and 1 servers
+2013-08-01 22:21:27	⇄	353 581 :Current local users 353, max 581
+2013-08-01 22:21:27	⇄	2942 8742 :Current global users 2942, max 8742
+2013-08-01 22:21:27	⇄	- eh.ca.p2p-network.net Message of the Day -
+2013-08-01 22:21:27	⇄	- 18/4/2013 0:02
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-01 22:21:27	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-01 22:21:27	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-01 22:21:27	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-01 22:21:27	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-01 22:21:27	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-01 22:21:27	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-01 22:21:27	⇄	- // enabled clients.                                   //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Website:                                        //
+2013-08-01 22:21:27	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Official Channels:                              //
+2013-08-01 22:21:27	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-01 22:21:27	⇄	- //  - #help:        Network assistance                //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Disclaimer:                                     //
+2013-08-01 22:21:27	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-01 22:21:27	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-01 22:21:27	⇄	- //    any time.                                       //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Rules:                                          //
+2013-08-01 22:21:27	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-01 22:21:27	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-01 22:21:27	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-01 22:21:27	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-01 22:21:27	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-01 22:21:27	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-01 22:21:27	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-01 22:21:27	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-01 22:21:27	⇄	- //    discontinue use of this server. These are not   //
+2013-08-01 22:21:27	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-01 22:21:27	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Network Services:                               //
+2013-08-01 22:21:27	⇄	- //  - We have the following services available:       //
+2013-08-01 22:21:27	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-01 22:21:27	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Finding staff:                                  //
+2013-08-01 22:21:27	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-01 22:21:27	⇄	- //    services can be found in the #help channel.     //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Staff Members:                                  //
+2013-08-01 22:21:27	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-01 22:21:27	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-01 22:21:27	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-01 22:21:27	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-01 22:21:27	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- // @@ Donations:                                      //
+2013-08-01 22:21:27	⇄	- //  - If you would like to send us a donation,        //
+2013-08-01 22:21:27	⇄	- //    please click the donate button at our website   //
+2013-08-01 22:21:27	⇄	- //    or send directly via PayPal to                  //
+2013-08-01 22:21:27	⇄	- //    donate@p2p-network.net                          //
+2013-08-01 22:21:27	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-01 22:21:27	⇄	- //                                                    //
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	- //      ______                                        //
+2013-08-01 22:21:27	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-01 22:21:27	⇄	- //      ------                                        //
+2013-08-01 22:21:27	⇄	- //            \   ^__^                                //
+2013-08-01 22:21:27	⇄	- //             \  (oo)\_______                        //
+2013-08-01 22:21:27	⇄	- //                (__)\       )\/\                    //
+2013-08-01 22:21:27	⇄	- //                    ||----w |                       //
+2013-08-01 22:21:27	⇄	- //                    ||     ||                       //
+2013-08-01 22:21:27	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:21:27	⇄	End of /MOTD command.
+2013-08-01 22:21:27	⇄	User mode [+iwxz] by z1lt0id
+2013-08-01 22:21:28	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-01 22:21:28	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-01 22:21:28	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-01 22:21:28	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-01 22:21:28	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-01 22:21:28	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-01 22:21:28	⇄	User mode [+r] by services.p2p-network.net
+2013-08-01 22:21:28	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-01 22:21:31	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-01 22:53:37	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-01 22:53:37	⇄	gnutls: peer's certificate is trusted
+2013-08-01 22:53:37	⇄	gnutls: receiving 4 certificates
+2013-08-01 22:53:37	⇄	 - certificate[1] info:
+2013-08-01 22:53:37	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-01 22:53:37	⇄	 - certificate[2] info:
+2013-08-01 22:53:37	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-01 22:53:37	⇄	 - certificate[3] info:
+2013-08-01 22:53:37	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-01 22:53:37	⇄	 - certificate[4] info:
+2013-08-01 22:53:37	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-01 22:53:38	⇄	irc: connected to irc.p2p-network.net/7000 (199.91.173.253)
+2013-08-01 22:53:38	⇄	moo.us.p2p-network.net (moo.us.p2p-network.net): *** Looking up your hostname...
+2013-08-01 22:53:38	⇄	moo.us.p2p-network.net (moo.us.p2p-network.net): *** Checking ident...
+2013-08-01 22:53:38	⇄	moo.us.p2p-network.net (moo.us.p2p-network.net): *** Found your hostname
+2013-08-01 22:53:41	⇄	moo.us.p2p-network.net (moo.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-01 22:53:41	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-01 22:53:41	⇄	MSG(nickserv): identify xenogears
+2013-08-01 22:53:41	⇄	Your host is moo.us.p2p-network.net, running version Unreal3.2.10.1
+2013-08-01 22:53:41	⇄	This server was created Sat Apr 13 2013 at 02:39:57 UTC
+2013-08-01 22:53:41	⇄	moo.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-01 22:53:41	⇄	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-08-01 22:53:41	⇄	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-08-01 22:53:41	⇄	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-08-01 22:53:41	⇄	moo.us.p2p-network.net (moo.us.p2p-network.net): *** You are connected to moo.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-01 22:53:41	⇄	There are 150 users and 2803 invisible on 14 servers
+2013-08-01 22:53:41	⇄	13 :operator(s) online
+2013-08-01 22:53:41	⇄	1043 :channels formed
+2013-08-01 22:53:41	⇄	I have 313 clients and 1 servers
+2013-08-01 22:53:41	⇄	313 558 :Current local users 313, max 558
+2013-08-01 22:53:41	⇄	2953 8742 :Current global users 2953, max 8742
+2013-08-01 22:53:41	⇄	- moo.us.p2p-network.net Message of the Day -
+2013-08-01 22:53:41	⇄	- 13/4/2013 2:14
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-01 22:53:41	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-01 22:53:41	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-01 22:53:41	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-01 22:53:41	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-01 22:53:41	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-01 22:53:41	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-01 22:53:41	⇄	- // enabled clients.                                   //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Website:                                        //
+2013-08-01 22:53:41	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Official Channels:                              //
+2013-08-01 22:53:41	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-01 22:53:41	⇄	- //  - #help:        Network assistance                //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Disclaimer:                                     //
+2013-08-01 22:53:41	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-01 22:53:41	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-01 22:53:41	⇄	- //    any time.                                       //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Rules:                                          //
+2013-08-01 22:53:41	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-01 22:53:41	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-01 22:53:41	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-01 22:53:41	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-01 22:53:41	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-01 22:53:41	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-01 22:53:41	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-01 22:53:41	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-01 22:53:41	⇄	- //    discontinue use of this server. These are not   //
+2013-08-01 22:53:41	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-01 22:53:41	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Network Services:                               //
+2013-08-01 22:53:41	⇄	- //  - We have the following services available:       //
+2013-08-01 22:53:41	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-01 22:53:41	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Finding staff:                                  //
+2013-08-01 22:53:41	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-01 22:53:41	⇄	- //    services can be found in the #help channel.     //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Staff Members:                                  //
+2013-08-01 22:53:41	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-01 22:53:41	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-01 22:53:41	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-01 22:53:41	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-01 22:53:41	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- // @@ Donations:                                      //
+2013-08-01 22:53:41	⇄	- //  - If you would like to send us a donation,        //
+2013-08-01 22:53:41	⇄	- //    please click the donate button at our website   //
+2013-08-01 22:53:41	⇄	- //    or send directly via PayPal to                  //
+2013-08-01 22:53:41	⇄	- //    donate@p2p-network.net                          //
+2013-08-01 22:53:41	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-01 22:53:41	⇄	- //                                                    //
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	- //      ______                                        //
+2013-08-01 22:53:41	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-01 22:53:41	⇄	- //      ------                                        //
+2013-08-01 22:53:41	⇄	- //            \   ^__^                                //
+2013-08-01 22:53:41	⇄	- //             \  (oo)\_______                        //
+2013-08-01 22:53:41	⇄	- //                (__)\       )\/\                    //
+2013-08-01 22:53:41	⇄	- //                    ||----w |                       //
+2013-08-01 22:53:41	⇄	- //                    ||     ||                       //
+2013-08-01 22:53:41	⇄	- ////////////////////////////////////////////////////////
+2013-08-01 22:53:41	⇄	End of /MOTD command.
+2013-08-01 22:53:41	⇄	User mode [+iwxz] by z1lt0id
+2013-08-01 22:53:41	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-01 22:53:41	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-01 22:53:41	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-01 22:53:41	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-01 22:53:41	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-01 22:53:41	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-01 22:53:42	⇄	User mode [+r] by services.p2p-network.net
+2013-08-01 22:53:42	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-01 22:53:44	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-01 23:26:00	⇄	You have been marked as being away
+2013-08-02 21:20:54	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 21:20:54	⇄	gnutls: peer's certificate is trusted
+2013-08-02 21:20:54	⇄	gnutls: receiving 4 certificates
+2013-08-02 21:20:54	⇄	 - certificate[1] info:
+2013-08-02 21:20:54	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-02 21:20:54	⇄	 - certificate[2] info:
+2013-08-02 21:20:54	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-02 21:20:54	⇄	 - certificate[3] info:
+2013-08-02 21:20:54	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-02 21:20:54	⇄	 - certificate[4] info:
+2013-08-02 21:20:54	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-02 21:20:54	⇄	irc: connected to irc.p2p-network.net/7000 (178.79.157.76)
+2013-08-02 21:20:55	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Looking up your hostname...
+2013-08-02 21:20:55	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Checking ident...
+2013-08-02 21:20:55	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Found your hostname
+2013-08-02 21:20:57	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-02 21:20:59	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-02 21:20:59	⇄	MSG(nickserv): identify xenogears
+2013-08-02 21:20:59	⇄	Your host is bigben.uk.p2p-network.net, running version Unreal3.2.10.1
+2013-08-02 21:20:59	⇄	This server was created Sat Apr 13 2013 at 02:17:31 UTC
+2013-08-02 21:20:59	⇄	bigben.uk.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-02 21:20:59	⇄	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-08-02 21:20:59	⇄	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-08-02 21:20:59	⇄	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-08-02 21:20:59	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** You are connected to bigben.uk.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-02 21:20:59	⇄	There are 150 users and 2773 invisible on 14 servers
+2013-08-02 21:20:59	⇄	13 :operator(s) online
+2013-08-02 21:20:59	⇄	1051 :channels formed
+2013-08-02 21:20:59	⇄	I have 348 clients and 1 servers
+2013-08-02 21:20:59	⇄	348 477 :Current local users 348, max 477
+2013-08-02 21:20:59	⇄	2923 8742 :Current global users 2923, max 8742
+2013-08-02 21:20:59	⇄	- bigben.uk.p2p-network.net Message of the Day -
+2013-08-02 21:20:59	⇄	- 13/4/2013 2:13
+2013-08-02 21:20:59	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:20:59	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-02 21:20:59	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:20:59	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-02 21:20:59	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-02 21:20:59	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-02 21:20:59	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-02 21:20:59	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:20:59	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:20:59	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-02 21:20:59	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-02 21:20:59	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-02 21:20:59	⇄	- // enabled clients.                                   //
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:20:59	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:20:59	⇄	- // @@ Website:                                        //
+2013-08-02 21:20:59	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:20:59	⇄	- // @@ Official Channels:                              //
+2013-08-02 21:20:59	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-02 21:20:59	⇄	- //  - #help:        Network assistance                //
+2013-08-02 21:20:59	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Disclaimer:                                     //
+2013-08-02 21:21:00	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-02 21:21:00	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-02 21:21:00	⇄	- //    any time.                                       //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Rules:                                          //
+2013-08-02 21:21:00	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-02 21:21:00	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-02 21:21:00	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-02 21:21:00	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-02 21:21:00	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-02 21:21:00	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-02 21:21:00	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-02 21:21:00	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-02 21:21:00	⇄	- //    discontinue use of this server. These are not   //
+2013-08-02 21:21:00	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-02 21:21:00	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Network Services:                               //
+2013-08-02 21:21:00	⇄	- //  - We have the following services available:       //
+2013-08-02 21:21:00	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-02 21:21:00	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Finding staff:                                  //
+2013-08-02 21:21:00	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-02 21:21:00	⇄	- //    services can be found in the #help channel.     //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Staff Members:                                  //
+2013-08-02 21:21:00	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-02 21:21:00	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-02 21:21:00	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-02 21:21:00	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-02 21:21:00	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- // @@ Donations:                                      //
+2013-08-02 21:21:00	⇄	- //  - If you would like to send us a donation,        //
+2013-08-02 21:21:00	⇄	- //    please click the donate button at our website   //
+2013-08-02 21:21:00	⇄	- //    or send directly via PayPal to                  //
+2013-08-02 21:21:00	⇄	- //    donate@p2p-network.net                          //
+2013-08-02 21:21:00	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-02 21:21:00	⇄	- //                                                    //
+2013-08-02 21:21:00	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:21:00	⇄	- //      ______                                        //
+2013-08-02 21:21:00	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-02 21:21:00	⇄	- //      ------                                        //
+2013-08-02 21:21:00	⇄	- //            \   ^__^                                //
+2013-08-02 21:21:00	⇄	- //             \  (oo)\_______                        //
+2013-08-02 21:21:00	⇄	- //                (__)\       )\/\                    //
+2013-08-02 21:21:00	⇄	- //                    ||----w |                       //
+2013-08-02 21:21:00	⇄	- //                    ||     ||                       //
+2013-08-02 21:21:00	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 21:21:00	⇄	End of /MOTD command.
+2013-08-02 21:21:00	⇄	User mode [+iwxz] by z1lt0id
+2013-08-02 21:21:00	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-02 21:21:00	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-02 21:21:00	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-02 21:21:00	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-02 21:21:00	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-02 21:21:00	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-02 21:21:00	⇄	User mode [+r] by services.p2p-network.net
+2013-08-02 21:21:00	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-02 21:21:02	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-02 21:41:00	⇄	You have been marked as being away
+2013-08-02 22:04:42	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 22:04:42	⇄	gnutls: peer's certificate is trusted
+2013-08-02 22:04:42	⇄	gnutls: receiving 4 certificates
+2013-08-02 22:04:42	⇄	 - certificate[1] info:
+2013-08-02 22:04:42	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-02 22:04:42	⇄	 - certificate[2] info:
+2013-08-02 22:04:42	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-02 22:04:42	⇄	 - certificate[3] info:
+2013-08-02 22:04:42	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-02 22:04:42	⇄	 - certificate[4] info:
+2013-08-02 22:04:42	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-02 22:04:42	⇄	irc: connected to irc.p2p-network.net/7000 (72.20.32.8)
+2013-08-02 22:04:43	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Looking up your hostname...
+2013-08-02 22:04:43	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Checking ident...
+2013-08-02 22:04:43	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Found your hostname
+2013-08-02 22:04:45	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-02 22:04:46	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-02 22:04:46	⇄	MSG(nickserv): identify xenogears
+2013-08-02 22:04:46	⇄	Your host is citadel.us.p2p-network.net, running version Unreal3.2.10.1
+2013-08-02 22:04:46	⇄	This server was created Fri Apr 19 2013 at 22:54:19 PDT
+2013-08-02 22:04:46	⇄	citadel.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-02 22:04:46	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-02 22:04:46	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-02 22:04:46	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-02 22:04:46	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** You are connected to citadel.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-02 22:04:46	⇄	There are 150 users and 2777 invisible on 14 servers
+2013-08-02 22:04:46	⇄	13 :operator(s) online
+2013-08-02 22:04:46	⇄	1053 :channels formed
+2013-08-02 22:04:46	⇄	I have 367 clients and 1 servers
+2013-08-02 22:04:46	⇄	367 575 :Current local users 367, max 575
+2013-08-02 22:04:46	⇄	2927 8742 :Current global users 2927, max 8742
+2013-08-02 22:04:46	⇄	- citadel.us.p2p-network.net Message of the Day -
+2013-08-02 22:04:46	⇄	- 19/4/2013 22:49
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-02 22:04:46	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-02 22:04:46	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-02 22:04:46	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-02 22:04:46	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-02 22:04:46	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-02 22:04:46	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-02 22:04:46	⇄	- // enabled clients.                                   //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // This server also listens with SSL on port 443 and  //
+2013-08-02 22:04:46	⇄	- // port 80 with non-ssl, these ports should allow you //
+2013-08-02 22:04:46	⇄	- // to bypass most firewalls.                          //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // This server is hosted at and protected by:         //
+2013-08-02 22:04:46	⇄	- // Staminus Communications --- check them out :)      //
+2013-08-02 22:04:46	⇄	- // http://www.staminus.net/                           //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Website:                                        //
+2013-08-02 22:04:46	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Official Channels:                              //
+2013-08-02 22:04:46	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-02 22:04:46	⇄	- //  - #help:        Network assistance                //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Disclaimer:                                     //
+2013-08-02 22:04:46	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-02 22:04:46	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-02 22:04:46	⇄	- //    any time.                                       //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Rules:                                          //
+2013-08-02 22:04:46	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-02 22:04:46	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-02 22:04:46	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-02 22:04:46	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-02 22:04:46	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-02 22:04:46	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-02 22:04:46	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-02 22:04:46	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-02 22:04:46	⇄	- //    discontinue use of this server. These are not   //
+2013-08-02 22:04:46	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-02 22:04:46	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Network Services:                               //
+2013-08-02 22:04:46	⇄	- //  - We have the following services available:       //
+2013-08-02 22:04:46	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-02 22:04:46	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Finding staff:                                  //
+2013-08-02 22:04:46	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-02 22:04:46	⇄	- //    services can be found in the #help channel.     //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Staff Members:                                  //
+2013-08-02 22:04:46	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-02 22:04:46	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-02 22:04:46	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-02 22:04:46	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-02 22:04:46	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- // @@ Donations:                                      //
+2013-08-02 22:04:46	⇄	- //  - If you would like to send us a donation,        //
+2013-08-02 22:04:46	⇄	- //    please click the donate button at our website   //
+2013-08-02 22:04:46	⇄	- //    or send directly via PayPal to                  //
+2013-08-02 22:04:46	⇄	- //    donate@p2p-network.net                          //
+2013-08-02 22:04:46	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-02 22:04:46	⇄	- //                                                    //
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	- //      ______                                        //
+2013-08-02 22:04:46	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-02 22:04:46	⇄	- //      ------                                        //
+2013-08-02 22:04:46	⇄	- //            \   ^__^                                //
+2013-08-02 22:04:46	⇄	- //             \  (oo)\_______                        //
+2013-08-02 22:04:46	⇄	- //                (__)\       )\/\                    //
+2013-08-02 22:04:46	⇄	- //                    ||----w |                       //
+2013-08-02 22:04:46	⇄	- //                    ||     ||                       //
+2013-08-02 22:04:46	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:04:46	⇄	End of /MOTD command.
+2013-08-02 22:04:46	⇄	User mode [+iwxz] by z1lt0id
+2013-08-02 22:04:46	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-02 22:04:46	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-02 22:04:46	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-02 22:04:46	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-02 22:04:46	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-02 22:04:46	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-02 22:04:46	⇄	User mode [+r] by services.p2p-network.net
+2013-08-02 22:04:46	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-02 22:04:49	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-02 22:24:50	⇄	You have been marked as being away
+2013-08-02 22:57:37	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-02 22:57:37	⇄	gnutls: peer's certificate is trusted
+2013-08-02 22:57:37	⇄	gnutls: receiving 4 certificates
+2013-08-02 22:57:37	⇄	 - certificate[1] info:
+2013-08-02 22:57:37	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-02 22:57:37	⇄	 - certificate[2] info:
+2013-08-02 22:57:37	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-02 22:57:37	⇄	 - certificate[3] info:
+2013-08-02 22:57:37	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-02 22:57:37	⇄	 - certificate[4] info:
+2013-08-02 22:57:37	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-02 22:57:37	⇄	irc: connected to irc.p2p-network.net/7000 (67.43.228.226)
+2013-08-02 22:57:38	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Looking up your hostname...
+2013-08-02 22:57:38	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Checking ident...
+2013-08-02 22:57:38	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** Found your hostname
+2013-08-02 22:57:42	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-02 22:57:42	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-02 22:57:42	⇄	MSG(nickserv): identify xenogears
+2013-08-02 22:57:42	⇄	Your host is eh.ca.p2p-network.net, running version Unreal3.2.10.1
+2013-08-02 22:57:42	⇄	This server was created Thu Apr 18 2013 at 00:07:42 EDT
+2013-08-02 22:57:42	⇄	eh.ca.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-02 22:57:42	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-02 22:57:42	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-02 22:57:42	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-02 22:57:42	⇄	eh.ca.p2p-network.net (eh.ca.p2p-network.net): *** You are connected to eh.ca.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-02 22:57:42	⇄	There are 150 users and 2785 invisible on 14 servers
+2013-08-02 22:57:42	⇄	13 :operator(s) online
+2013-08-02 22:57:42	⇄	1052 :channels formed
+2013-08-02 22:57:42	⇄	I have 343 clients and 1 servers
+2013-08-02 22:57:42	⇄	343 581 :Current local users 343, max 581
+2013-08-02 22:57:42	⇄	2935 8742 :Current global users 2935, max 8742
+2013-08-02 22:57:42	⇄	- eh.ca.p2p-network.net Message of the Day -
+2013-08-02 22:57:42	⇄	- 18/4/2013 0:02
+2013-08-02 22:57:42	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:42	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-02 22:57:42	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:42	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-02 22:57:42	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-02 22:57:42	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-02 22:57:42	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-02 22:57:42	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-02 22:57:42	⇄	- //                                                    //
+2013-08-02 22:57:42	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:42	⇄	- //                                                    //
+2013-08-02 22:57:42	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-02 22:57:42	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-02 22:57:42	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-02 22:57:42	⇄	- // enabled clients.                                   //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Website:                                        //
+2013-08-02 22:57:43	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Official Channels:                              //
+2013-08-02 22:57:43	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-02 22:57:43	⇄	- //  - #help:        Network assistance                //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Disclaimer:                                     //
+2013-08-02 22:57:43	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-02 22:57:43	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-02 22:57:43	⇄	- //    any time.                                       //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Rules:                                          //
+2013-08-02 22:57:43	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-02 22:57:43	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-02 22:57:43	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-02 22:57:43	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-02 22:57:43	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-02 22:57:43	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-02 22:57:43	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-02 22:57:43	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-02 22:57:43	⇄	- //    discontinue use of this server. These are not   //
+2013-08-02 22:57:43	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-02 22:57:43	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Network Services:                               //
+2013-08-02 22:57:43	⇄	- //  - We have the following services available:       //
+2013-08-02 22:57:43	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-02 22:57:43	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Finding staff:                                  //
+2013-08-02 22:57:43	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-02 22:57:43	⇄	- //    services can be found in the #help channel.     //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Staff Members:                                  //
+2013-08-02 22:57:43	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-02 22:57:43	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-02 22:57:43	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-02 22:57:43	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-02 22:57:43	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- // @@ Donations:                                      //
+2013-08-02 22:57:43	⇄	- //  - If you would like to send us a donation,        //
+2013-08-02 22:57:43	⇄	- //    please click the donate button at our website   //
+2013-08-02 22:57:43	⇄	- //    or send directly via PayPal to                  //
+2013-08-02 22:57:43	⇄	- //    donate@p2p-network.net                          //
+2013-08-02 22:57:43	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-02 22:57:43	⇄	- //                                                    //
+2013-08-02 22:57:43	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:43	⇄	- //      ______                                        //
+2013-08-02 22:57:43	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-02 22:57:43	⇄	- //      ------                                        //
+2013-08-02 22:57:43	⇄	- //            \   ^__^                                //
+2013-08-02 22:57:43	⇄	- //             \  (oo)\_______                        //
+2013-08-02 22:57:43	⇄	- //                (__)\       )\/\                    //
+2013-08-02 22:57:43	⇄	- //                    ||----w |                       //
+2013-08-02 22:57:43	⇄	- //                    ||     ||                       //
+2013-08-02 22:57:43	⇄	- ////////////////////////////////////////////////////////
+2013-08-02 22:57:43	⇄	End of /MOTD command.
+2013-08-02 22:57:43	⇄	User mode [+iwxz] by z1lt0id
+2013-08-02 22:57:43	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-02 22:57:43	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-02 22:57:43	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-02 22:57:43	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-02 22:57:43	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-02 22:57:43	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-02 22:57:43	⇄	User mode [+r] by services.p2p-network.net
+2013-08-02 22:57:43	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-02 22:57:45	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-02 23:35:40	⇄	You have been marked as being away
+2013-08-02 23:40:26	⇄	You are no longer marked as being away
+2013-08-04 10:39:32	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-04 10:39:32	⇄	gnutls: peer's certificate is trusted
+2013-08-04 10:39:32	⇄	gnutls: receiving 4 certificates
+2013-08-04 10:39:32	⇄	 - certificate[1] info:
+2013-08-04 10:39:32	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-04 10:39:32	⇄	 - certificate[2] info:
+2013-08-04 10:39:32	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-04 10:39:32	⇄	 - certificate[3] info:
+2013-08-04 10:39:32	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-04 10:39:32	⇄	 - certificate[4] info:
+2013-08-04 10:39:32	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-04 10:39:32	⇄	irc: connected to irc.p2p-network.net/7000 (216.86.158.123)
+2013-08-04 10:39:33	⇄	area52.us.p2p-network.net (area52.us.p2p-network.net): *** Looking up your hostname...
+2013-08-04 10:39:33	⇄	area52.us.p2p-network.net (area52.us.p2p-network.net): *** Checking ident...
+2013-08-04 10:39:34	⇄	area52.us.p2p-network.net (area52.us.p2p-network.net): *** Found your hostname
+2013-08-04 10:39:37	⇄	area52.us.p2p-network.net (area52.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-04 10:39:38	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-04 10:39:38	⇄	MSG(nickserv): identify xenogears
+2013-08-04 10:39:38	⇄	Your host is area52.us.p2p-network.net, running version Unreal3.2.10.1
+2013-08-04 10:39:38	⇄	This server was created Sun May 26 2013 at 12:39:59 CDT
+2013-08-04 10:39:38	⇄	area52.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-04 10:39:38	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-04 10:39:38	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-04 10:39:38	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-04 10:39:38	⇄	area52.us.p2p-network.net (area52.us.p2p-network.net): *** You are connected to area52.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-04 10:39:38	⇄	There are 150 users and 2764 invisible on 14 servers
+2013-08-04 10:39:38	⇄	14 :operator(s) online
+2013-08-04 10:39:38	⇄	1 :unknown connection(s)
+2013-08-04 10:39:38	⇄	1026 :channels formed
+2013-08-04 10:39:38	⇄	I have 326 clients and 1 servers
+2013-08-04 10:39:38	⇄	326 472 :Current local users 326, max 472
+2013-08-04 10:39:38	⇄	2914 8742 :Current global users 2914, max 8742
+2013-08-04 10:39:38	⇄	- area52.us.p2p-network.net Message of the Day -
+2013-08-04 10:39:38	⇄	- 26/5/2013 12:36
+2013-08-04 10:39:38	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:38	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-04 10:39:38	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:38	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-04 10:39:38	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-04 10:39:38	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-04 10:39:38	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-04 10:39:38	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-04 10:39:38	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-04 10:39:38	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-04 10:39:38	⇄	- // enabled clients.                                   //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Website:                                        //
+2013-08-04 10:39:38	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Official Channels:                              //
+2013-08-04 10:39:38	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-04 10:39:38	⇄	- //  - #help:        Network assistance                //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Disclaimer:                                     //
+2013-08-04 10:39:38	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-04 10:39:38	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-04 10:39:38	⇄	- //    any time.                                       //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Rules:                                          //
+2013-08-04 10:39:38	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-04 10:39:38	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-04 10:39:38	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-04 10:39:38	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-04 10:39:38	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-04 10:39:38	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-04 10:39:38	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-04 10:39:38	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-04 10:39:38	⇄	- //    discontinue use of this server. These are not   //
+2013-08-04 10:39:38	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-04 10:39:38	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Network Services:                               //
+2013-08-04 10:39:38	⇄	- //  - We have the following services available:       //
+2013-08-04 10:39:38	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-04 10:39:38	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Finding staff:                                  //
+2013-08-04 10:39:38	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-04 10:39:38	⇄	- //    services can be found in the #help channel.     //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Staff Members:                                  //
+2013-08-04 10:39:38	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-04 10:39:38	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-04 10:39:38	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-04 10:39:38	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-04 10:39:38	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-04 10:39:38	⇄	- //                                                    //
+2013-08-04 10:39:38	⇄	- // @@ Donations:                                      //
+2013-08-04 10:39:38	⇄	- //  - If you would like to send us a donation,        //
+2013-08-04 10:39:38	⇄	- //    please click the donate button at our website   //
+2013-08-04 10:39:38	⇄	- //    or send directly via PayPal to                  //
+2013-08-04 10:39:38	⇄	- //    donate@p2p-network.net                          //
+2013-08-04 10:39:38	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-04 10:39:39	⇄	- //                                                    //
+2013-08-04 10:39:39	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:39	⇄	- //      ______                                        //
+2013-08-04 10:39:39	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-04 10:39:39	⇄	- //      ------                                        //
+2013-08-04 10:39:39	⇄	- //            \   ^__^                                //
+2013-08-04 10:39:39	⇄	- //             \  (oo)\_______                        //
+2013-08-04 10:39:39	⇄	- //                (__)\       )\/\                    //
+2013-08-04 10:39:39	⇄	- //                    ||----w |                       //
+2013-08-04 10:39:39	⇄	- //                    ||     ||                       //
+2013-08-04 10:39:39	⇄	- ////////////////////////////////////////////////////////
+2013-08-04 10:39:39	⇄	End of /MOTD command.
+2013-08-04 10:39:39	⇄	User mode [+iwxz] by z1lt0id
+2013-08-04 10:39:39	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-04 10:39:39	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-04 10:39:39	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-04 10:39:39	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-04 10:39:39	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-04 10:39:39	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-04 10:39:39	⇄	User mode [+r] by services.p2p-network.net
+2013-08-04 10:39:39	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-04 10:39:41	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-05 21:42:51	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-05 21:42:51	⇄	gnutls: peer's certificate is trusted
+2013-08-05 21:42:51	⇄	gnutls: receiving 4 certificates
+2013-08-05 21:42:51	⇄	 - certificate[1] info:
+2013-08-05 21:42:51	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-05 21:42:51	⇄	 - certificate[2] info:
+2013-08-05 21:42:51	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-05 21:42:51	⇄	 - certificate[3] info:
+2013-08-05 21:42:51	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-05 21:42:51	⇄	 - certificate[4] info:
+2013-08-05 21:42:51	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-05 21:42:52	⇄	irc: connected to irc.p2p-network.net/7000 (204.16.200.180)
+2013-08-05 21:42:52	⇄	mars.ca.p2p-network.net (mars.ca.p2p-network.net): *** Looking up your hostname...
+2013-08-05 21:42:52	⇄	mars.ca.p2p-network.net (mars.ca.p2p-network.net): *** Checking ident...
+2013-08-05 21:42:53	⇄	mars.ca.p2p-network.net (mars.ca.p2p-network.net): *** Found your hostname
+2013-08-05 21:42:56	⇄	mars.ca.p2p-network.net (mars.ca.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-05 21:42:57	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-05 21:42:57	⇄	MSG(nickserv): identify xenogears
+2013-08-05 21:42:57	⇄	Your host is mars.ca.p2p-network.net, running version Unreal3.2.10.1
+2013-08-05 21:42:57	⇄	This server was created Thu Aug 1 2013 at 21:56:37 EDT
+2013-08-05 21:42:57	⇄	mars.ca.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-05 21:42:57	⇄	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-08-05 21:42:57	⇄	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-08-05 21:42:57	⇄	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-08-05 21:42:57	⇄	mars.ca.p2p-network.net (mars.ca.p2p-network.net): *** You are connected to mars.ca.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-05 21:42:57	⇄	There are 150 users and 2759 invisible on 14 servers
+2013-08-05 21:42:57	⇄	13 :operator(s) online
+2013-08-05 21:42:57	⇄	2 :unknown connection(s)
+2013-08-05 21:42:57	⇄	1047 :channels formed
+2013-08-05 21:42:57	⇄	I have 321 clients and 1 servers
+2013-08-05 21:42:57	⇄	321 349 :Current local users 321, max 349
+2013-08-05 21:42:57	⇄	2909 8742 :Current global users 2909, max 8742
+2013-08-05 21:42:57	⇄	- mars.ca.p2p-network.net Message of the Day -
+2013-08-05 21:42:57	⇄	- 1/8/2013 21:39
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-05 21:42:57	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-05 21:42:57	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-05 21:42:57	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-05 21:42:57	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-05 21:42:57	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-05 21:42:57	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-05 21:42:57	⇄	- // enabled clients.                                   //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Website:                                        //
+2013-08-05 21:42:57	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Official Channels:                              //
+2013-08-05 21:42:57	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-05 21:42:57	⇄	- //  - #help:        Network assistance                //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Disclaimer:                                     //
+2013-08-05 21:42:57	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-05 21:42:57	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-05 21:42:57	⇄	- //    any time.                                       //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Rules:                                          //
+2013-08-05 21:42:57	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-05 21:42:57	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-05 21:42:57	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-05 21:42:57	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-05 21:42:57	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-05 21:42:57	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-05 21:42:57	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-05 21:42:57	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-05 21:42:57	⇄	- //    discontinue use of this server. These are not   //
+2013-08-05 21:42:57	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-05 21:42:57	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Network Services:                               //
+2013-08-05 21:42:57	⇄	- //  - We have the following services available:       //
+2013-08-05 21:42:57	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-05 21:42:57	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Finding staff:                                  //
+2013-08-05 21:42:57	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-05 21:42:57	⇄	- //    services can be found in the #help channel.     //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Staff Members:                                  //
+2013-08-05 21:42:57	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-05 21:42:57	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-05 21:42:57	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-05 21:42:57	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-05 21:42:57	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- // @@ Donations:                                      //
+2013-08-05 21:42:57	⇄	- //  - If you would like to send us a donation,        //
+2013-08-05 21:42:57	⇄	- //    please click the donate button at our website   //
+2013-08-05 21:42:57	⇄	- //    or send directly via PayPal to                  //
+2013-08-05 21:42:57	⇄	- //    donate@p2p-network.net                          //
+2013-08-05 21:42:57	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-05 21:42:57	⇄	- //                                                    //
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	- //      ______                                        //
+2013-08-05 21:42:57	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-05 21:42:57	⇄	- //      ------                                        //
+2013-08-05 21:42:57	⇄	- //            \   ^__^                                //
+2013-08-05 21:42:57	⇄	- //             \  (oo)\_______                        //
+2013-08-05 21:42:57	⇄	- //                (__)\       )\/\                    //
+2013-08-05 21:42:57	⇄	- //                    ||----w |                       //
+2013-08-05 21:42:57	⇄	- //                    ||     ||                       //
+2013-08-05 21:42:57	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 21:42:57	⇄	End of /MOTD command.
+2013-08-05 21:42:57	⇄	User mode [+iwxz] by z1lt0id
+2013-08-05 21:42:57	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-05 21:42:57	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-05 21:42:57	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-05 21:42:57	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-05 21:42:57	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-05 21:42:57	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-05 21:42:58	⇄	User mode [+r] by services.p2p-network.net
+2013-08-05 21:42:58	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-05 21:43:00	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-05 23:42:50	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-05 23:42:50	⇄	gnutls: peer's certificate is trusted
+2013-08-05 23:42:50	⇄	gnutls: receiving 4 certificates
+2013-08-05 23:42:50	⇄	 - certificate[1] info:
+2013-08-05 23:42:50	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-05 23:42:50	⇄	 - certificate[2] info:
+2013-08-05 23:42:50	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-05 23:42:50	⇄	 - certificate[3] info:
+2013-08-05 23:42:50	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-05 23:42:50	⇄	 - certificate[4] info:
+2013-08-05 23:42:50	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-05 23:42:50	⇄	irc: connected to irc.p2p-network.net/7000 (72.20.32.8)
+2013-08-05 23:42:50	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Looking up your hostname...
+2013-08-05 23:42:50	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Checking ident...
+2013-08-05 23:42:51	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Found your hostname
+2013-08-05 23:42:53	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-05 23:42:54	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-05 23:42:54	⇄	MSG(nickserv): identify xenogears
+2013-08-05 23:42:54	⇄	Your host is citadel.us.p2p-network.net, running version Unreal3.2.10.1
+2013-08-05 23:42:54	⇄	This server was created Fri Apr 19 2013 at 22:54:19 PDT
+2013-08-05 23:42:54	⇄	citadel.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-05 23:42:54	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-05 23:42:54	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-05 23:42:55	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-05 23:42:55	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** You are connected to citadel.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-05 23:42:55	⇄	There are 150 users and 2783 invisible on 14 servers
+2013-08-05 23:42:55	⇄	13 :operator(s) online
+2013-08-05 23:42:55	⇄	1052 :channels formed
+2013-08-05 23:42:55	⇄	I have 297 clients and 1 servers
+2013-08-05 23:42:55	⇄	297 575 :Current local users 297, max 575
+2013-08-05 23:42:55	⇄	2933 8742 :Current global users 2933, max 8742
+2013-08-05 23:42:55	⇄	- citadel.us.p2p-network.net Message of the Day -
+2013-08-05 23:42:55	⇄	- 19/4/2013 22:49
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-05 23:42:55	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-05 23:42:55	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-05 23:42:55	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-05 23:42:55	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-05 23:42:55	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-05 23:42:55	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-05 23:42:55	⇄	- // enabled clients.                                   //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // This server also listens with SSL on port 443 and  //
+2013-08-05 23:42:55	⇄	- // port 80 with non-ssl, these ports should allow you //
+2013-08-05 23:42:55	⇄	- // to bypass most firewalls.                          //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // This server is hosted at and protected by:         //
+2013-08-05 23:42:55	⇄	- // Staminus Communications --- check them out :)      //
+2013-08-05 23:42:55	⇄	- // http://www.staminus.net/                           //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Website:                                        //
+2013-08-05 23:42:55	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Official Channels:                              //
+2013-08-05 23:42:55	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-05 23:42:55	⇄	- //  - #help:        Network assistance                //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Disclaimer:                                     //
+2013-08-05 23:42:55	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-05 23:42:55	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-05 23:42:55	⇄	- //    any time.                                       //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Rules:                                          //
+2013-08-05 23:42:55	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-05 23:42:55	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-05 23:42:55	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-05 23:42:55	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-05 23:42:55	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-05 23:42:55	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-05 23:42:55	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-05 23:42:55	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-05 23:42:55	⇄	- //    discontinue use of this server. These are not   //
+2013-08-05 23:42:55	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-05 23:42:55	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Network Services:                               //
+2013-08-05 23:42:55	⇄	- //  - We have the following services available:       //
+2013-08-05 23:42:55	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-05 23:42:55	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Finding staff:                                  //
+2013-08-05 23:42:55	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-05 23:42:55	⇄	- //    services can be found in the #help channel.     //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Staff Members:                                  //
+2013-08-05 23:42:55	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-05 23:42:55	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-05 23:42:55	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-05 23:42:55	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-05 23:42:55	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- // @@ Donations:                                      //
+2013-08-05 23:42:55	⇄	- //  - If you would like to send us a donation,        //
+2013-08-05 23:42:55	⇄	- //    please click the donate button at our website   //
+2013-08-05 23:42:55	⇄	- //    or send directly via PayPal to                  //
+2013-08-05 23:42:55	⇄	- //    donate@p2p-network.net                          //
+2013-08-05 23:42:55	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-05 23:42:55	⇄	- //                                                    //
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	- //      ______                                        //
+2013-08-05 23:42:55	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-05 23:42:55	⇄	- //      ------                                        //
+2013-08-05 23:42:55	⇄	- //            \   ^__^                                //
+2013-08-05 23:42:55	⇄	- //             \  (oo)\_______                        //
+2013-08-05 23:42:55	⇄	- //                (__)\       )\/\                    //
+2013-08-05 23:42:55	⇄	- //                    ||----w |                       //
+2013-08-05 23:42:55	⇄	- //                    ||     ||                       //
+2013-08-05 23:42:55	⇄	- ////////////////////////////////////////////////////////
+2013-08-05 23:42:55	⇄	End of /MOTD command.
+2013-08-05 23:42:55	⇄	User mode [+iwxz] by z1lt0id
+2013-08-05 23:42:55	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-05 23:42:55	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-05 23:42:55	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-05 23:42:55	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-05 23:42:55	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-05 23:42:55	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-05 23:42:55	⇄	User mode [+r] by services.p2p-network.net
+2013-08-05 23:42:55	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-05 23:42:57	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-06 21:32:13	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-06 21:32:13	⇄	gnutls: peer's certificate is trusted
+2013-08-06 21:32:13	⇄	gnutls: receiving 4 certificates
+2013-08-06 21:32:13	⇄	 - certificate[1] info:
+2013-08-06 21:32:13	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-06 21:32:13	⇄	 - certificate[2] info:
+2013-08-06 21:32:13	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-06 21:32:13	⇄	 - certificate[3] info:
+2013-08-06 21:32:13	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-06 21:32:13	⇄	 - certificate[4] info:
+2013-08-06 21:32:13	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-06 21:32:13	⇄	irc: connected to irc.p2p-network.net/7000 (178.79.157.76)
+2013-08-06 21:32:14	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Looking up your hostname...
+2013-08-06 21:32:14	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Checking ident...
+2013-08-06 21:32:14	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** Found your hostname
+2013-08-06 21:32:16	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-06 21:32:17	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-06 21:32:17	⇄	MSG(nickserv): identify xenogears
+2013-08-06 21:32:17	⇄	Your host is bigben.uk.p2p-network.net, running version Unreal3.2.10.1
+2013-08-06 21:32:17	⇄	This server was created Sat Apr 13 2013 at 02:17:31 UTC
+2013-08-06 21:32:17	⇄	bigben.uk.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-06 21:32:17	⇄	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-08-06 21:32:17	⇄	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-08-06 21:32:17	⇄	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-08-06 21:32:17	⇄	bigben.uk.p2p-network.net (bigben.uk.p2p-network.net): *** You are connected to bigben.uk.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-06 21:32:17	⇄	There are 150 users and 2733 invisible on 14 servers
+2013-08-06 21:32:17	⇄	13 :operator(s) online
+2013-08-06 21:32:17	⇄	1020 :channels formed
+2013-08-06 21:32:17	⇄	I have 299 clients and 1 servers
+2013-08-06 21:32:17	⇄	299 477 :Current local users 299, max 477
+2013-08-06 21:32:17	⇄	2883 8742 :Current global users 2883, max 8742
+2013-08-06 21:32:17	⇄	- bigben.uk.p2p-network.net Message of the Day -
+2013-08-06 21:32:17	⇄	- 13/4/2013 2:13
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-06 21:32:17	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-06 21:32:17	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-06 21:32:17	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-06 21:32:17	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-06 21:32:17	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-06 21:32:17	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-06 21:32:17	⇄	- // enabled clients.                                   //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Website:                                        //
+2013-08-06 21:32:17	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Official Channels:                              //
+2013-08-06 21:32:17	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-06 21:32:17	⇄	- //  - #help:        Network assistance                //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Disclaimer:                                     //
+2013-08-06 21:32:17	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-06 21:32:17	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-06 21:32:17	⇄	- //    any time.                                       //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Rules:                                          //
+2013-08-06 21:32:17	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-06 21:32:17	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-06 21:32:17	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-06 21:32:17	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-06 21:32:17	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-06 21:32:17	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-06 21:32:17	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-06 21:32:17	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-06 21:32:17	⇄	- //    discontinue use of this server. These are not   //
+2013-08-06 21:32:17	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-06 21:32:17	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Network Services:                               //
+2013-08-06 21:32:17	⇄	- //  - We have the following services available:       //
+2013-08-06 21:32:17	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-06 21:32:17	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Finding staff:                                  //
+2013-08-06 21:32:17	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-06 21:32:17	⇄	- //    services can be found in the #help channel.     //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Staff Members:                                  //
+2013-08-06 21:32:17	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-06 21:32:17	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-06 21:32:17	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-06 21:32:17	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-06 21:32:17	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- // @@ Donations:                                      //
+2013-08-06 21:32:17	⇄	- //  - If you would like to send us a donation,        //
+2013-08-06 21:32:17	⇄	- //    please click the donate button at our website   //
+2013-08-06 21:32:17	⇄	- //    or send directly via PayPal to                  //
+2013-08-06 21:32:17	⇄	- //    donate@p2p-network.net                          //
+2013-08-06 21:32:17	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-06 21:32:17	⇄	- //                                                    //
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	- //      ______                                        //
+2013-08-06 21:32:17	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-06 21:32:17	⇄	- //      ------                                        //
+2013-08-06 21:32:17	⇄	- //            \   ^__^                                //
+2013-08-06 21:32:17	⇄	- //             \  (oo)\_______                        //
+2013-08-06 21:32:17	⇄	- //                (__)\       )\/\                    //
+2013-08-06 21:32:17	⇄	- //                    ||----w |                       //
+2013-08-06 21:32:17	⇄	- //                    ||     ||                       //
+2013-08-06 21:32:17	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:32:17	⇄	End of /MOTD command.
+2013-08-06 21:32:17	⇄	User mode [+iwxz] by z1lt0id
+2013-08-06 21:32:17	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-06 21:32:17	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-06 21:32:17	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-06 21:32:17	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-06 21:32:17	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-06 21:32:17	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-06 21:32:18	⇄	User mode [+r] by services.p2p-network.net
+2013-08-06 21:32:18	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-06 21:32:21	⇄	You have been invited to #echo.pre by REM0TE
+2013-08-06 21:47:57	⇄	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2013-08-06 21:47:57	⇄	gnutls: peer's certificate is trusted
+2013-08-06 21:47:57	⇄	gnutls: receiving 4 certificates
+2013-08-06 21:47:57	⇄	 - certificate[1] info:
+2013-08-06 21:47:57	⇄	   - subject `OU=Domain Control Validated,CN=irc.p2p-network.net', issuer `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-03-15 16:48:01 UTC', expires `2016-03-15 16:48:01 UTC', SHA-1 fingerprint `b9b938bf7ddac7a3516c98db78953eb77fec78bc'
+2013-08-06 21:47:57	⇄	 - certificate[2] info:
+2013-08-06 21:47:57	⇄	   - subject `C=US,ST=Arizona,L=Scottsdale,O=GoDaddy.com\, Inc.,OU=http://certificates.godaddy.com/repository,CN=Go Daddy Secure Certification Authority,serialNumber=07969287', issuer `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2006-11-16 01:54:37 UTC', expires `2026-11-16 01:54:37 UTC', SHA-1 fingerprint `7c4656c3061f7f4c0d67b319a855f60ebc11fc44'
+2013-08-06 21:47:57	⇄	 - certificate[3] info:
+2013-08-06 21:47:57	⇄	   - subject `C=US,O=The Go Daddy Group\, Inc.,OU=Go Daddy Class 2 Certification Authority', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 2048 bits, signed using RSA-SHA1, activated `2004-06-29 17:06:20 UTC', expires `2024-06-29 17:06:20 UTC', SHA-1 fingerprint `de70f4e2116f7fdce75f9d13012b7e687a3b2c62'
+2013-08-06 21:47:57	⇄	 - certificate[4] info:
+2013-08-06 21:47:57	⇄	   - subject `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', issuer `L=ValiCert Validation Network,O=ValiCert\, Inc.,OU=ValiCert Class 2 Policy Validation Authority,CN=http://www.valicert.com/,EMAIL=info@valicert.com', RSA key 1024 bits, signed using RSA-SHA1, activated `1999-06-26 00:19:54 UTC', expires `2019-06-26 00:19:54 UTC', SHA-1 fingerprint `317a2ad07f2b335ef5a1c34e4b57e8b7d8f1fca6'
+2013-08-06 21:47:57	⇄	irc: connected to irc.p2p-network.net/7000 (72.20.32.8)
+2013-08-06 21:47:58	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Looking up your hostname...
+2013-08-06 21:47:58	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Checking ident...
+2013-08-06 21:47:58	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** Found your hostname
+2013-08-06 21:48:00	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** No ident response; username prefixed with ~
+2013-08-06 21:48:01	⇄	Welcome to the P2P-NET IRC Network z1lt0id!~z1lt0id@ppp59-167-184-183.static.internode.on.net
+2013-08-06 21:48:01	⇄	MSG(nickserv): identify xenogears
+2013-08-06 21:48:01	⇄	Your host is citadel.us.p2p-network.net, running version Unreal3.2.10.1
+2013-08-06 21:48:01	⇄	This server was created Fri Apr 19 2013 at 22:54:19 PDT
+2013-08-06 21:48:01	⇄	citadel.us.p2p-network.net Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-08-06 21:48:01	⇄	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=40 CHANLIMIT=#:40 MAXLIST=b:120,e:120,I:120 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2013-08-06 21:48:01	⇄	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=P2P-NET CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2013-08-06 21:48:01	⇄	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2013-08-06 21:48:01	⇄	citadel.us.p2p-network.net (citadel.us.p2p-network.net): *** You are connected to citadel.us.p2p-network.net with TLSv1-AES128-SHA-128bits
+2013-08-06 21:48:01	⇄	There are 150 users and 2737 invisible on 14 servers
+2013-08-06 21:48:01	⇄	13 :operator(s) online
+2013-08-06 21:48:01	⇄	1021 :channels formed
+2013-08-06 21:48:01	⇄	I have 296 clients and 1 servers
+2013-08-06 21:48:01	⇄	296 575 :Current local users 296, max 575
+2013-08-06 21:48:01	⇄	2887 8742 :Current global users 2887, max 8742
+2013-08-06 21:48:01	⇄	- citadel.us.p2p-network.net Message of the Day -
+2013-08-06 21:48:01	⇄	- 19/4/2013 22:49
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	- //    irc.p2p-network.net ---- Welcome to P2P-NET!    //
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	- //        ____ ___   ____        _   ______________   //
+2013-08-06 21:48:01	⇄	- //       / __ \__ \ / __ \      / | / / ____/_  __/   //
+2013-08-06 21:48:01	⇄	- //      / /_/ /_/ // /_/ /_____/  |/ / __/   / /      //
+2013-08-06 21:48:01	⇄	- //     / ____/ __// ____/_____/ /|  / /___  / /       //
+2013-08-06 21:48:01	⇄	- //    /_/   /____/_/         /_/ |_/_____/ /_/        //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // Our servers can be reached at irc.p2p-network.net  //
+2013-08-06 21:48:01	⇄	- // via IPv4 and IPv6. We listen on ports 6666-6669    //
+2013-08-06 21:48:01	⇄	- // for standard clients and 6697 & 7000 for SSL       //
+2013-08-06 21:48:01	⇄	- // enabled clients.                                   //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // This server also listens with SSL on port 443 and  //
+2013-08-06 21:48:01	⇄	- // port 80 with non-ssl, these ports should allow you //
+2013-08-06 21:48:01	⇄	- // to bypass most firewalls.                          //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // This server is hosted at and protected by:         //
+2013-08-06 21:48:01	⇄	- // Staminus Communications --- check them out :)      //
+2013-08-06 21:48:01	⇄	- // http://www.staminus.net/                           //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Website:                                        //
+2013-08-06 21:48:01	⇄	- //  - http://www.p2p-network.net/                     //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Official Channels:                              //
+2013-08-06 21:48:01	⇄	- //  - #p2p-net:     Network social channel            //
+2013-08-06 21:48:01	⇄	- //  - #help:        Network assistance                //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Disclaimer:                                     //
+2013-08-06 21:48:01	⇄	- //  - IRC is a privilege, not a right. Our friendly   //
+2013-08-06 21:48:01	⇄	- //    network staff reserves the right to ban you at  //
+2013-08-06 21:48:01	⇄	- //    any time.                                       //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Rules:                                          //
+2013-08-06 21:48:01	⇄	- //  - No spamming, flooding or linklooking.           //
+2013-08-06 21:48:01	⇄	- //  - No clones or virtual clones allowed.            //
+2013-08-06 21:48:01	⇄	- //  - No abusive bots/scripts/bncs or open proxies.   //
+2013-08-06 21:48:01	⇄	- //  - No XDCC bots, this is not a warez network.      //
+2013-08-06 21:48:01	⇄	- //  - No racism or bigotry, offenders will be banned. //
+2013-08-06 21:48:01	⇄	- //  - Channel ban evasion will not be tolerated.      //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Open Proxy Scanner:                             //
+2013-08-06 21:48:01	⇄	- //  - Proxy scans are issued upon connect to this     //
+2013-08-06 21:48:01	⇄	- //    server. If you wish not to be scanned, please   //
+2013-08-06 21:48:01	⇄	- //    discontinue use of this server. These are not   //
+2013-08-06 21:48:01	⇄	- //    hacking attempts and are completely harmless.   //
+2013-08-06 21:48:01	⇄	- //    These scans will originate from 72.20.40.51     //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Network Services:                               //
+2013-08-06 21:48:01	⇄	- //  - We have the following services available:       //
+2013-08-06 21:48:01	⇄	- //    NickServ, ChanServ, BotServ, and MemoServ       //
+2013-08-06 21:48:01	⇄	- //  - Type /msg <servicename> help for more info.     //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Finding staff:                                  //
+2013-08-06 21:48:01	⇄	- //  - All general help inquiries related to IRC and   //
+2013-08-06 21:48:01	⇄	- //    services can be found in the #help channel.     //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Staff Members:                                  //
+2013-08-06 21:48:01	⇄	- //  - Network Admins = djGrrr, Spike                  //
+2013-08-06 21:48:01	⇄	- //  - Services Admins = _5618_, DaPrivateer, Loki     //
+2013-08-06 21:48:01	⇄	- //  - Server Admins = infowolfe                       //
+2013-08-06 21:48:01	⇄	- //  - IRCOps = ambrosia, Azure, corNIC, DaPrivateer,  //
+2013-08-06 21:48:01	⇄	- //    Firon, jetuser, NoOneButMe, seethe42            //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- // @@ Donations:                                      //
+2013-08-06 21:48:01	⇄	- //  - If you would like to send us a donation,        //
+2013-08-06 21:48:01	⇄	- //    please click the donate button at our website   //
+2013-08-06 21:48:01	⇄	- //    or send directly via PayPal to                  //
+2013-08-06 21:48:01	⇄	- //    donate@p2p-network.net                          //
+2013-08-06 21:48:01	⇄	- //  - We require approximately $300 USD every month.  //
+2013-08-06 21:48:01	⇄	- //                                                    //
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	- //      ______                                        //
+2013-08-06 21:48:01	⇄	- //     < MOO! >            "Now with 50% less fat!"   //
+2013-08-06 21:48:01	⇄	- //      ------                                        //
+2013-08-06 21:48:01	⇄	- //            \   ^__^                                //
+2013-08-06 21:48:01	⇄	- //             \  (oo)\_______                        //
+2013-08-06 21:48:01	⇄	- //                (__)\       )\/\                    //
+2013-08-06 21:48:01	⇄	- //                    ||----w |                       //
+2013-08-06 21:48:01	⇄	- //                    ||     ||                       //
+2013-08-06 21:48:01	⇄	- ////////////////////////////////////////////////////////
+2013-08-06 21:48:01	⇄	End of /MOTD command.
+2013-08-06 21:48:01	⇄	User mode [+iwxz] by z1lt0id
+2013-08-06 21:48:01	⇄	Global (services@p2p-network.net): [Logon News - Dec 20 2009] We now have to pay approximately $300 a month to maintain our servers. Any donation would be welcome and can be done at http://www.p2p-network.net/ or directly to donate@p2p-network.net via PayPal. Thanks
+2013-08-06 21:48:01	⇄	Global (services@p2p-network.net): [Random News - Dec 30 2006] For users who do NOT want to see network messages/announcements please set mode -w ( in mirc: //mode $me -w )
+2013-08-06 21:48:01	⇄	NickServ (services@p2p-network.net): This nickname is registered and protected.  If it is your
+2013-08-06 21:48:01	⇄	NickServ (services@p2p-network.net): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-08-06 21:48:01	⇄	NickServ (services@p2p-network.net): please choose a different nick.
+2013-08-06 21:48:01	⇄	NickServ (services@p2p-network.net): If you do not change within one minute, I will change your nick.
+2013-08-06 21:48:01	⇄	User mode [+r] by services.p2p-network.net
+2013-08-06 21:48:01	⇄	NickServ (services@p2p-network.net): Password accepted - you are now recognized.
+2013-08-06 21:48:04	⇄	You have been invited to #echo.pre by REM0TE
