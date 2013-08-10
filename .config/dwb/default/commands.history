@@ -1,7 +1,0 @@
-set adblocker-filterlist /home/dean/.config/dwb/adblock_lists
-set load-on-focus false
-set load-on-focus true
-save
-show_settings
-bookmark
-adblock_subscribe
