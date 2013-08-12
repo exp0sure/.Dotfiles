@@ -1,0 +1,149 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp196415lds;
+        Wed, 7 Aug 2013 04:12:42 -0700 (PDT)
+X-Received: by 10.180.99.233 with SMTP id et9mr1854766wib.16.1375873962149;
+        Wed, 07 Aug 2013 04:12:42 -0700 (PDT)
+Return-Path: <noreply-3470ef02@plus.google.com>
+Received: from mail-wi0-x247.google.com (mail-wi0-x247.google.com [2a00:1450:400c:c05::247])
+        by mx.google.com with ESMTPS id y19si3314292wia.75.2013.08.07.04.12.42
+        for <deanthomson50@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 07 Aug 2013 04:12:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply-3470ef02@plus.google.com designates 2a00:1450:400c:c05::247 as permitted sender) client-ip=2a00:1450:400c:c05::247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-3470ef02@plus.google.com designates 2a00:1450:400c:c05::247 as permitted sender) smtp.mail=noreply-3470ef02@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) d=plus.google.com
+Received: by mail-wi0-f199.google.com with SMTP id en1so1304697wid.6
+        for <deanthomson50@gmail.com>; Wed, 07 Aug 2013 04:12:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=f1TBIgldHT0YfwO3/mW/17Lkrr9ruTpR/66uMYF8zsM=;
+        b=uTkfEFAvYbTQ1Fy3aArbA47guauIjZCI+kRu7ZwB9Fg3Hs2bfQKJFVKEuNDfMMgWiR
+         9/IF0uOEh+JHFWlYpD9CSBSE2BVM5EEhQrzSxLiG+AKh0C5Yt6jHpT+s5dx8q1O+zwly
+         UwlDtZwGYKvcpGQTkI7BeKToNQlfUpxN9Q6w4JEWu34DSUbTzC/cpCbXyb4ohUe2e9AM
+         3ng0Y8abT6HUyJyPDh+Fr/Wgn8GNNOvLlDouBGU4+fvo67qyycswiVlEwUmde4CPJc1h
+         iKmCn4D3jGlBZgOTNuRbdbsaG9ZmWTmvvmvTW34Qjorlu7AutDHDexu4uxf1Gwe0IpxL
+         g+6g==
+MIME-Version: 1.0
+X-Received: by 10.14.7.8 with SMTP id 8mr2308589eeo.4.1375873961946; Wed, 07
+ Aug 2013 04:12:41 -0700 (PDT)
+X-Notifications: XEAAAAF4pHayi5JEc80btTzqgni0
+X-Notification-ID: z13qwvqjbwebg5mt122fyliqdrzcyr3ze04
+X-Entity-Ref-ID: z13wch2gzyrehzxbu04cdju5utazx3uwjxc0k
+X-Sender-ID: 110034132666195796311
+X-Notification-Category: SQUARE
+X-Notification-Type: SQUARE_SUBSCRIPTION
+Reply-To: "Patrick Spek (Google+)" <noreply-3470ef02@plus.google.com>
+X-UB: 63
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CPDGgvaZ67gCFYGX3god3moAAA&path=%2F110034132666195796311%2Fop%2Fmute&dt=1375873961943&ub=63>
+Precedence: bulk
+Date: Wed, 07 Aug 2013 04:12:41 -0700 (PDT)
+Message-ID: <z13qwvqjbwebg5mt122fyliqdrzcyr3ze04@plus.google.com>
+Subject: [Arch Linux] Installed Arch for the first time after ...
+From: "Patrick Spek (Google+)" <noreply-3470ef02@plus.google.com>
+To: deanthomson50@gmail.com
+Content-Type: multipart/alternative; boundary=089e01635344c1f14704e3599e0c
+
+--089e01635344c1f14704e3599e0c
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Patrick Spek shared a post with Arch Linux.
+
+View:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CPDGgvaZ67gCFYGX3god3moAAA&path=%2F110034132666195796311%2Fposts%2FiyANWeKh7LK&dt=1375873961943&ub=63
+
+You're receiving this email because you are subscribed to Arch Linux on  
+Google+.
+
+Arch Linux
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CPDGgvaZ67gCFYGX3god3moAAA&path=%2Fcommunities%2F113935870359973712582&dt=1375873961943&ub=63
+
+------------------------
+
+Change what notifications you receive from this community:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CPDGgvaZ67gCFYGX3god3moAAA&path=%2Fcommunities%2F113935870359973712582%3Fpromo%3Dnotifications&dt=1375873961943&ub=63
+
+To stop receiving notifications from any user, go to their profile and  
+click Mute.
+
+This notification was sent to deanthomson50@gmail.com. Update your address:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CPDGgvaZ67gCFYGX3god3moAAA&path=%2Fsettings%2Fplus&dt=1375873961943&ub=63
+
+Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA
+
+
+--089e01635344c1f14704e3599e0c
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><!-- X-Notifications: 1:0be84f5f00000000 --><div style=3D"borde=
+r-radius:5px;border:solid 1px #dfdfdf;font-family:Arial;word-wrap:break-wor=
+d;width:670px"><table cellpadding=3D0 cellspacing=3D0 style=3D"background-c=
+olor:#ededed; border-radius:5px 5px 0 0;width:670px"><tr><td><div style=3D"=
+padding:30px 30px 0;font-size:20px">Patrick Spek shared a <a href=3D"https:=
+//plus.google.com/_/notifications/emlink?emr=3D06393808741735798537&amp;emi=
+d=3DCPDGgvaZ67gCFYGX3god3moAAA&amp;path=3D%2F110034132666195796311%2Fposts%=
+2FiyANWeKh7LK&amp;dt=3D1375873961943&amp;ub=3D63" style=3D"color:#3366CC;te=
+xt-decoration:none">post</a> with <a href=3D"https://plus.google.com/_/noti=
+fications/emlink?emr=3D06393808741735798537&emid=3DCPDGgvaZ67gCFYGX3god3moA=
+AA&path=3D%2Fcommunities%2F113935870359973712582&dt=3D1375873961943&ub=3D63=
+" style=3D"color:#3366CC;text-decoration:none">Arch Linux</a><div style=3D"=
+margin-top:20px;width:0;height:0; border-bottom:10px solid #fff; border-lef=
+t:10px solid transparent; border-right:10px solid transparent"></div></div>=
+</td><td style=3D"vertical-align:middle;text-align:right;padding-right:30px=
+"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/googl=
+e-plus-large-cf5dcc377e02e193e091345b0b54d030.png" /></td></tr></table><div=
+ style=3D"font-size:14px;line-height:18px;background-color:#fff;"><div styl=
+e=3D"padding:30px 40px 40px"><table cellpadding=3D0 cellspacing=3D0><tr><td=
+ style=3D"padding-right:15px;vertical-align:top"><a href=3D"https://plus.go=
+ogle.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCPDGgvaZ6=
+7gCFYGX3god3moAAA&path=3D%2F110034132666195796311&dt=3D1375873961943&ub=3D6=
+3"><img style=3D"border:solid 1px #cccccc;" width=3D"75" height=3D"75" src=
+=3D"https://lh6.googleusercontent.com/-8wNKulPVqsM/AAAAAAAAAAI/AAAAAAAAAA0/=
+0C0t3YWG8tM/s75-c-k-a/photo.jpg" /></a></td><td style=3D"width:578px;color:=
+#333;font:13px Arial;vertical-align:top"><div style=3D"padding-bottom:10px;=
+"><strong>Patrick Spek</strong>:</div><div style=3D"padding-bottom:10px">In=
+stalled Arch for the first time after reading up on it and realizing that i=
+t might be the perfect distro for me. Installing and setting up everything =
+like I used to have it took me a little over 3 hours (lots of settings coul=
+d be copied from my old Debian installation).<br />Also the first time I us=
+e e17 instead of OpenBox.</div><div style=3D"max-height:400px;overflow:hidd=
+en;margin-top:14px;background:#eee"><a href=3D"https://plus.google.com/_/no=
+tifications/emlink?emr=3D06393808741735798537&amp;emid=3DCPDGgvaZ67gCFYGX3g=
+od3moAAA&amp;path=3D%2F110034132666195796311%2Fposts%2FiyANWeKh7LK&amp;dt=
+=3D1375873961943&amp;ub=3D63"><img src=3D"https://lh3.googleusercontent.com=
+/-gZBxzs4wVBc/UgIrK4RzyJI/AAAAAAAAA6A/v3UNrnMdEQY/w506-h750/shot-2013-08-07=
+_13-09-00.png" style=3D"max-width:100%;margin-left:auto;margin-right:auto;d=
+isplay:block;border:0" width=3D"506"></a></div><br/><a href=3D"https://plus=
+.google.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCPDGgv=
+aZ67gCFYGX3god3moAAA&path=3D%2F110034132666195796311%2Fposts%2FiyANWeKh7LK&=
+dt=3D1375873961943&ub=3D63" style=3D"background-color:#d44b38;border:solid =
+1px #dfdfdf;border-radius:3px;color:#fff;display:inline-block;font-family: =
+Arial;font-size:13px;height:30px;line-height:30px;min-width:54px;padding:1p=
+x 20px;text-align:center;text-decoration:none;white-space:nowrap;">View pos=
+t</a></td></tr></table></div></div><div style=3D"border-top:solid 1px #dfdf=
+df;background-color:#fff; padding:30px;font-size:14px;line-height:18px;bord=
+er-radius:0 0 5px 5px">You're receiving this email because you are subscrib=
+ed to <a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D06393=
+808741735798537&emid=3DCPDGgvaZ67gCFYGX3god3moAAA&path=3D%2Fcommunities%2F1=
+13935870359973712582&dt=3D1375873961943&ub=3D63" style=3D"color:#3366CC;tex=
+t-decoration:none">Arch Linux</a> on Google+.</div></div><div style=3D"padd=
+ing-top:10px;color:#999;font:11px Arial;width:670px"><a href=3D"https://plu=
+s.google.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCPDGg=
+vaZ67gCFYGX3god3moAAA&path=3D%2F110034132666195796311%2Fop%2Fmute&dt=3D1375=
+873961943&ub=3D63" style=3D"color:#3366CC;text-decoration:none">Mute Patric=
+k Spek</a> to stop receiving notifications from him.  <a href=3D"https://pl=
+us.google.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCPDG=
+gvaZ67gCFYGX3god3moAAA&path=3D%2Fcommunities%2F113935870359973712582%3Fprom=
+o%3Dnotifications&dt=3D1375873961943&ub=3D63" style=3D"color:#3366CC;text-d=
+ecoration:none">Change</a> what notifications you receive from this communi=
+ty. This notification was sent to <u>deanthomson50@gmail.com</u> (<a href=
+=3D"https://plus.google.com/_/notifications/emlink?emr=3D063938087417357985=
+37&emid=3DCPDGgvaZ67gCFYGX3god3moAAA&path=3D%2Fsettings%2Fplus&dt=3D1375873=
+961943&ub=3D63" style=3D"color:#3366CC;text-decoration:none">update your ad=
+dress</a>).<br /><br/>Google Inc., 1600 Amphitheatre Pkwy, Mountain View, C=
+A 94043 USA</div></body></html>
+--089e01635344c1f14704e3599e0c--

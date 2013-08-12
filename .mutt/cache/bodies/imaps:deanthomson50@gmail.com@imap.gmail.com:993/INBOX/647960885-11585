@@ -1,0 +1,150 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp168474lds;
+        Tue, 6 Aug 2013 15:47:31 -0700 (PDT)
+X-Received: by 10.205.12.195 with SMTP id pj3mr21203bkb.166.1375829250781;
+        Tue, 06 Aug 2013 15:47:30 -0700 (PDT)
+Return-Path: <replyto-56a8f0be@plus.google.com>
+Received: from mail-bk0-x248.google.com (mail-bk0-x248.google.com [2a00:1450:4008:c01::248])
+        by mx.google.com with ESMTPS id ue6si734596bkb.292.2013.08.06.15.47.30
+        for <deanthomson50@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 06 Aug 2013 15:47:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of replyto-56a8f0be@plus.google.com designates 2a00:1450:4008:c01::248 as permitted sender) client-ip=2a00:1450:4008:c01::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of replyto-56a8f0be@plus.google.com designates 2a00:1450:4008:c01::248 as permitted sender) smtp.mail=replyto-56a8f0be@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) d=plus.google.com
+Received: by mail-bk0-x248.google.com with SMTP id mx10so53266bkb.7
+        for <deanthomson50@gmail.com>; Tue, 06 Aug 2013 15:47:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:references:reply-to:list-unsubscribe:precedence:date
+         :message-id:subject:from:to:content-type;
+        bh=Jy2qYeXoR1Rb02mZ2ktnbf/Cy1XisgjmatXl2qQK9dU=;
+        b=SD8EJbhI87DVCxSFDcnAJJMue/7UEd2SfadT9PtMZDnq8HYm9X+N31YPDSYiZTQb3+
+         shys2TW8opt3QkzqXR4cign3ozv9iQQEYEJ6JGg8+Y4kiFHsCG/AguBFB20PGvajcqCJ
+         auPCFO7byi1jIrzuXfQCYHBwZk6ZYmequLNzdRyxWEO7DTHg/L5DyTAQUPLs/g2zcvbH
+         yTfiddEURRRSe1kSO1xD7Dq9O+fPqB56/XaFYaASila5wP5/FB0xEwC2ssYzg7aWsrvP
+         cH3YCgO1EFDVoPqS13lYuVicCYO8afT80Vk0k7A4dPydBz9ufJnRmvvJme9pmKj7xmXi
+         qxNQ==
+MIME-Version: 1.0
+X-Received: by 10.112.188.135 with SMTP id ga7mr312577lbc.9.1375829250511;
+ Tue, 06 Aug 2013 15:47:30 -0700 (PDT)
+X-Notifications: XEAAAACKm6lTD2q3OraKQsg42zo0
+X-Notification-ID: z12ffryppymeyt2nn23yvrnjmrmou5uqa04
+X-Entity-Ref-ID: z13btrghsnayevojx04cjviyhyeyencress0k
+X-Sender-ID: 106573592053982141192
+X-Notification-Category: STREAM
+X-Notification-Type: STREAM_COMMENT_FOLLOWUP
+References: <z13btrghsnayevojx04cjviyhyeyencress0k@plus.google.com>
+X-All-Senders-In-Circles: 1
+Reply-To: "Colin Azzam (Google+)" <replyto+CiN6MTJmZnJ5cHB5bWV5dDJubjIzeXZybmptcm1vdTV1cWEwNBDehJHCigc+AI3v7_UAAAAAUgVxgk0Gjb69utWotd_z6ivf73-7ZoCl@plus.google.com>
+X-UB: 7
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2F106573592053982141192%2Fop%2Fmute&dt=1375829250508&ub=7>
+Precedence: bulk
+Date: Tue, 06 Aug 2013 15:47:30 -0700 (PDT)
+Message-ID: <z12ffryppymeyt2nn23yvrnjmrmou5uqa04@plus.google.com>
+Subject: Re: Does anyone have an NVIDIA GeForce 750M ...
+From: "Colin Azzam (Google+)" <replyto-56a8f0be@plus.google.com>
+To: deanthomson50@gmail.com
+Content-Type: multipart/alternative; boundary=001a11c367aebf92c104e34f3588
+
+--001a11c367aebf92c104e34f3588
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Colin Azzam commented on Colin Azzam's post.
+
+"+Brandon Phillips the newest NVIDIA driver has solved the issue for me. It
+was released by NVIDIA yesterday and hit the repos today. Maybe it will
+work with bumblebee to get your cards working right! "
+
+View the full post to comment:  
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2F106573592053982141192%2Fposts%2FjRaowNXBMTC&dt=1375829250508&ub=7
+
+------------------------
+Click here to mute this post:  
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2Fnotifications%2Fall%2Fz12ffryppymeyt2nn23yvrnjmrmou5uqa04%3Fmute%3Dz13btrghsnayevojx04cjviyhyeyencress0k&dt=1375829250508&ub=7
+
+Mute Colin Azzam to stop receiving notifications from him.  
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2F106573592053982141192%2Fop%2Fmute&dt=1375829250508&ub=7
+
+Or follow this link to update your Google+ notifications settings:  
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2Fsettings%2Fplus&dt=1375829250508&ub=7
+
+Reply to this email to comment, or view post.  
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CNji_a3z6bgCFQ7IcgodGWUAAA&path=%2F106573592053982141192%2Fposts%2FjRaowNXBMTC&dt=1375829250508&ub=7
+
+Privacy tip: protect your info. Remove your email signature before you  
+reply.
+
+Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA
+
+
+
+--001a11c367aebf92c104e34f3588
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><!-- X-Notifications: 1:30b7d79f48000000 --><div style=3D"borde=
+r:solid 1px #dfdfdf;color:#686868;font:13px Arial"><div style=3D"background=
+-color:#fff;padding:20px;"><table cellpadding=3D0 cellspacing=3D0><tr><td s=
+tyle=3D"padding-right:15px;vertical-align:top"><a href=3D"https://plus.goog=
+le.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCNji_a3z6bg=
+CFQ7IcgodGWUAAA&path=3D%2F106573592053982141192&dt=3D1375829250508&ub=3D7">=
+<img style=3D"border:solid 1px #cccccc;" width=3D"75" height=3D"75" src=3D"=
+https://lh4.googleusercontent.com/-2KcRncpy2_A/AAAAAAAAAAI/AAAAAAAACHE/zlIW=
+GL_XzbU/s75-c-k-a/photo.jpg" /></a></td><td style=3D"width:578px;color:#333=
+;font:13px Arial;vertical-align:top"><div style=3D"padding-bottom:10px"><sp=
+an class=3D"proflinkWrapper"><span class=3D"proflinkPrefix">+</span><a href=
+=3D"https://plus.google.com/116308031449852817211" class=3D"proflink" oid=
+=3D"116308031449852817211">Brandon Phillips</a></span>=A0the newest NVIDIA =
+driver has solved the issue for me. It was released by NVIDIA yesterday and=
+ hit the repos today. Maybe it will work with bumblebee to get your cards w=
+orking right!=A0</div><div>Only members of the <a href=3D"https://plus.goog=
+le.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCNji_a3z6bg=
+CFQ7IcgodGWUAAA&path=3D%2Fcommunities%2F113935870359973712582&dt=3D13758292=
+50508&ub=3D7" style=3D"color:#3366CC;text-decoration:none">Arch Linux</a> c=
+ommunity can post or comment.</div><div style=3D"margin-top:10px"><a href=
+=3D"https://plus.google.com/_/notifications/emlink?emr=3D063938087417357985=
+37&emid=3DCNji_a3z6bgCFQ7IcgodGWUAAA&path=3D%2Fcommunities%2F11393587035997=
+3712582&dt=3D1375829250508&ub=3D7" style=3D"background-color:#d44b38;border=
+:solid 1px #dfdfdf;border-radius:3px;color:#fff;display:inline-block;font-f=
+amily: Arial;font-size:13px;height:30px;line-height:30px;min-width:54px;pad=
+ding:1px 20px;text-align:center;text-decoration:none;white-space:nowrap;">V=
+iew Community</a></div></td></tr></table></div><div style=3D"border-top:sol=
+id 1px #dfdfdf;padding:0 20px; background-color:#f5f5f5"><table cellpadding=
+=3D0 cellspacing=3D0 style=3D"height:50px"><tbody><tr><td style=3D"vertical=
+-align:middle;width:100%; color:#636363;font:11px Arial; line-height:120%">=
+<a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D06393808741=
+735798537&emid=3DCNji_a3z6bgCFQ7IcgodGWUAAA&path=3D%2F106573592053982141192=
+&dt=3D1375829250508&ub=3D7" style=3D"{border: solid 1px #dfdfdf, footer: co=
+lor:#999;font:11px Arial;margin:5px 0, gettingStartedTextTd: width:520px, g=
+ettingStartedImageTd: width:95px, heading: color:#464646;font-size:15px;fon=
+t-weight:bold, sectionSpacing: 20px, subHeading: color:#464646;font-size:15=
+px;line-height:1.5em, table: color:#666;font:13px Arial;line-height:1.4em}"=
+>Colin Azzam</a> commented on <a href=3D"https://plus.google.com/_/notifica=
+tions/emlink?emr=3D06393808741735798537&emid=3DCNji_a3z6bgCFQ7IcgodGWUAAA&p=
+ath=3D%2F106573592053982141192&dt=3D1375829250508&ub=3D7" style=3D"{border:=
+ solid 1px #dfdfdf, footer: color:#999;font:11px Arial;margin:5px 0, gettin=
+gStartedTextTd: width:520px, gettingStartedImageTd: width:95px, heading: co=
+lor:#464646;font-size:15px;font-weight:bold, sectionSpacing: 20px, subHeadi=
+ng: color:#464646;font-size:15px;line-height:1.5em, table: color:#666;font:=
+13px Arial;line-height:1.4em}">Colin Azzam</a>'s post. <a href=3D"https://p=
+lus.google.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCNj=
+i_a3z6bgCFQ7IcgodGWUAAA&path=3D%2F106573592053982141192%2Fop%2Fmute&dt=3D13=
+75829250508&ub=3D7" style=3D"color:#3366CC;text-decoration:none">Mute Colin=
+ Azzam</a> to stop receiving notifications from him.  <a href=3D"https://pl=
+us.google.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCNji=
+_a3z6bgCFQ7IcgodGWUAAA&path=3D%2Fnotifications%2Fall%2Fz12ffryppymeyt2nn23y=
+vrnjmrmou5uqa04%3Fmute%3Dz13btrghsnayevojx04cjviyhyeyencress0k&dt=3D1375829=
+250508&ub=3D7" style=3D"color:#3366CC;text-decoration:none">Mute</a> update=
+s to this post. <a href=3D"https://plus.google.com/_/notifications/emlink?e=
+mr=3D06393808741735798537&emid=3DCNji_a3z6bgCFQ7IcgodGWUAAA&path=3D%2Fsetti=
+ngs%2Fplus&dt=3D1375829250508&ub=3D7" style=3D"color:#3366CC;text-decoratio=
+n:none">Change</a> what email Google+ sends you.<br><b>Privacy tip:</b> pro=
+tect your info. Remove your email signature before you reply.<br>Google Inc=
+., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA<br></td><td><img src=
+=3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/google-plus-661=
+7a72bb36cc548861652780c9e6ff1.png" /></td></tr></tbody></table></div></div>=
+</body></html>
+--001a11c367aebf92c104e34f3588--

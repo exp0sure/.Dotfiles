@@ -1,0 +1,66 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp197064lds;
+        Wed, 7 Aug 2013 04:27:23 -0700 (PDT)
+X-Received: by 10.224.4.2 with SMTP id 2mr78568qap.55.1375874842538;
+        Wed, 07 Aug 2013 04:27:22 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from smtp1-ext.rs.github.com (smtp1-ext.rs.github.com. [207.97.227.250])
+        by mx.google.com with ESMTP id d8si3520397qai.92.2013.08.07.04.27.22
+        for <deanthomson50@gmail.com>;
+        Wed, 07 Aug 2013 04:27:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 207.97.227.250 as permitted sender) client-ip=207.97.227.250;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 207.97.227.250 as permitted sender) smtp.mail=noreply@github.com
+Date: Wed, 07 Aug 2013 04:27:22 -0700
+From: TobiasTheViking <notifications@github.com>
+Reply-To: TobiasTheViking/sabcli <reply+i-59784927-b0a4696d9a40739ba676ffebfcf9ef936d49226e-2316366@reply.github.com>
+To: TobiasTheViking/sabcli <sabcli@noreply.github.com>
+Cc: z1lt0id <deanthomson50@gmail.com>
+Message-ID: <TobiasTheViking/sabcli/issue/1/issue_event/59784927@github.com>
+In-Reply-To: <TobiasTheViking/sabcli/issues/1@github.com>
+References: <TobiasTheViking/sabcli/issues/1@github.com>
+Subject: Re: [sabcli] API Version Mismatch (#1)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_52022f1aea9_1ee1dbe9d4435962";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Recipient: z1lt0id
+X-GitHub-Reason: author
+List-ID: TobiasTheViking/sabcli <sabcli.TobiasTheViking.github.com>
+List-Archive: https://github.com/TobiasTheViking/sabcli
+List-Post: <mailto:reply+i-59784927-b0a4696d9a40739ba676ffebfcf9ef936d49226e-2316366@reply.github.com>
+List-Unsubscribe: <mailto:unsub+i-59784927-b0a4696d9a40739ba676ffebfcf9ef936d49226e-2316366@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/n4_CPqeLyNfRZ7kFcP0ieYGYPDatq1qxHqySTaF3XY0cpyDfDTpORYXih7T4V9qW>
+X-GitHub-Recipient-Address: deanthomson50@gmail.com
+
+
+
+----==_mimepart_52022f1aea9_1ee1dbe9d4435962
+Date: Wed, 07 Aug 2013 04:27:22 -0700
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <52022f1a25fe_1ee1dbe9d44360df@github-worker7-cp1-prd.iad.github.net.mail>
+
+Closed #1.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/TobiasTheViking/sabcli/issues/1
+
+----==_mimepart_52022f1aea9_1ee1dbe9d4435962
+Date: Wed, 07 Aug 2013 04:27:22 -0700
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <52022f1a2e50_1ee1dbe9d44361aa@github-worker7-cp1-prd.iad.github.net.mail>
+
+<p>Closed <a href="https://github.com/TobiasTheViking/sabcli/issues/1" class="issue-link" title="API Version Mismatch">#1</a>.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href='https://github.com/TobiasTheViking/sabcli/issues/1'>view it on GitHub</a>.<img src='https://github.com/notifications/beacon/n4_CPqeLyNfRZ7kFcP0ieYGYPDatq1qxHqySTaF3XY0cpyDfDTpORYXih7T4V9qW.gif' height='1' width='1'></p>
+
+----==_mimepart_52022f1aea9_1ee1dbe9d4435962--

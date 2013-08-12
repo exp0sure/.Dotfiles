@@ -1,0 +1,75 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp139277lds;
+        Tue, 6 Aug 2013 06:32:30 -0700 (PDT)
+X-Received: by 10.236.77.41 with SMTP id c29mr760876yhe.68.1375795949706;
+        Tue, 06 Aug 2013 06:32:29 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id h32si766248yhq.126.2013.08.06.06.32.28
+        for <multiple recipients>;
+        Tue, 06 Aug 2013 06:32:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org;
+       dkim=fail header.i=@gmail.com;
+       dmarc=fail (p=NONE dis=NONE) d=gmail.com
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id 2589090834;
+	Tue,  6 Aug 2013 09:32:26 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id 126697004F
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 09:32:20 -0400 (EDT)
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use
+ 'imntreal@gmail.com' in 'mfrom' identity (mechanism
+ 'include:_netblocks.google.com' matched)) receiver=gerolde.archlinux.org;
+ identity=mailfrom; envelope-from="imntreal@gmail.com";
+ helo=mail-oa0-f43.google.com; client-ip=209.85.219.43
+Received: from mail-oa0-f43.google.com (mail-oa0-f43.google.com
+ [209.85.219.43])
+ by gerolde.archlinux.org (Postfix) with ESMTPS id EC8B29076A
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 09:32:19 -0400 (EDT)
+Received: by mail-oa0-f43.google.com with SMTP id i10so674099oag.2
+ for <aur-general@archlinux.org>; Tue, 06 Aug 2013 06:32:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+ h=mime-version:date:message-id:subject:from:to:content-type;
+ bh=CdpzFC7mjYJm0ypN5XfMca3iPPOjVYJ5qy0kH3m9Al8=;
+ b=SXmZrOLLX2Ye74zr6bP6639sAlNZfSGFll0EzaoT7m3VkBcxcA0aP01N4ewrIRwfHd
+ WfEXbXwBxNAaQmv66M8eOAPJZ3TFrwQQZn7YKFNJQxHfJ/X8x7Or0cgB01vmQIyX8NO7
+ 0GbjkxkyawL2tc7yJsUvArdC9jW/m1FxqakBDpiYNQ+rfsQzkaXdZi7YzmEM1T05mUCi
+ ayvrBJfpu1/hbqVvBrb3pchSOWmBDz7Uhw5OeXl77RKorfCVUfAwky6jfYD5dDlKbfiH
+ YF4aNWLxQuyobki4riMNVciwtIx/Uzd+9NJq+t0CmVBXuUfqI7x0yNKwYAB4tA+VKrya
+ ON9A==
+MIME-Version: 1.0
+X-Received: by 10.60.142.103 with SMTP id rv7mr1072509oeb.13.1375795938424;
+ Tue, 06 Aug 2013 06:32:18 -0700 (PDT)
+Received: by 10.76.34.129 with HTTP; Tue, 6 Aug 2013 06:32:18 -0700 (PDT)
+Date: Tue, 6 Aug 2013 09:32:18 -0400
+Message-ID: <CAHtGYf-S4Mbt_aXY3O135QMoTZWGgCVyRD6byLC_WfQD8p_g7Q@mail.gmail.com>
+From: Jameson <imntreal@gmail.com>
+To: "Discussion about the Arch User Repository (AUR)"
+ <aur-general@archlinux.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Subject: [aur-general] Remove lib32-catalyst-test-utils
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+Please, remove lib32-catalyst-test-utils.  I've created
+lib32-catalyst-utils-test in order to match the naming scheme of the
+64-bit version.
+
+Thanks,
+=-Jameson

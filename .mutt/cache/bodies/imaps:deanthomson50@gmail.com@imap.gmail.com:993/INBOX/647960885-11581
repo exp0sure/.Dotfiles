@@ -1,0 +1,176 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp163883lds;
+        Tue, 6 Aug 2013 13:55:24 -0700 (PDT)
+X-Received: by 10.236.216.77 with SMTP id f73mr21124yhp.101.1375822523578;
+        Tue, 06 Aug 2013 13:55:23 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id l27si1972893yhm.308.2013.08.06.13.55.16
+        for <multiple recipients>;
+        Tue, 06 Aug 2013 13:55:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org;
+       dkim=fail header.i=@gmail.com
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id 2793F908E3;
+	Tue,  6 Aug 2013 16:55:12 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id EA1417004F
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 16:55:02 -0400 (EDT)
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use
+ 'schivmeister@gmail.com' in 'mfrom' identity (mechanism
+ 'include:_netblocks.google.com' matched)) receiver=gerolde.archlinux.org;
+ identity=mailfrom; envelope-from="schivmeister@gmail.com";
+ helo=mail-oa0-f54.google.com; client-ip=209.85.219.54
+Received: from mail-oa0-f54.google.com (mail-oa0-f54.google.com
+ [209.85.219.54])
+ by gerolde.archlinux.org (Postfix) with ESMTPS id BEF69900FA
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 16:55:02 -0400 (EDT)
+Received: by mail-oa0-f54.google.com with SMTP id o6so1856905oag.13
+ for <aur-general@archlinux.org>; Tue, 06 Aug 2013 13:55:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+ h=mime-version:sender:in-reply-to:references:from:date:message-id
+ :subject:to:cc:content-type:content-transfer-encoding;
+ bh=lpXw+thcOaa/kq9lFWw6TDJFr5Nda8mCIqrKFNLjCFE=;
+ b=Vo/esT51X3tCWcGD0tI/XSuw/pfMur8s3t0JzQQ+RiOYlsKmXp8++ahcIoT7xczyaL
+ GFBLLb4sRwkoHns0Hg4G6u0ALldkgw6kRdCr1Mf/pH3xxgaxzhHJ1XgQ+BX0DCwQ4mMt
+ hne7PJ5ssGT/mYMC0oprcKFDrLqUYzyNO1QdApVhl0AmOtgY7j8e22Rw7aod/eJvmUg2
+ Ws3y/2xWR+O0J27VLCBtvo+ifpwe2f2k7E0gRXfw4dS3927F7dm99eA7He7090YJE1AU
+ Jm6n1le24Y1AoO8YtJo54E83+VApAMcm724ppDUFfY/R2ZRNzY91ECkPHq2wCr8B/Gln
+ NLOw==
+X-Received: by 10.60.95.198 with SMTP id dm6mr22064oeb.44.1375822501647; Tue,
+ 06 Aug 2013 13:55:01 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.60.42.38 with HTTP; Tue, 6 Aug 2013 13:54:41 -0700 (PDT)
+In-Reply-To: <20130806121903.GA5705@blizzard>
+References: <1375739620-29835-1-git-send-email-archlinux@cryptocrack.de>
+ <CAFEhRJeW++YXSqrLaJoRDSiQjmAvTd6u5Hs=w4YQEep2HDBz0A@mail.gmail.com>
+ <20130806094529.GA28229@blizzard>
+ <CAJSTwE5iGbe7Eiyq1J9EDqpLt4e5S=vC8XB_9phiS2wXoigZbA@mail.gmail.com>
+ <20130806121903.GA5705@blizzard>
+From: Rashif Ray Rahman <schiv@archlinux.org>
+Date: Wed, 7 Aug 2013 04:54:41 +0800
+X-Google-Sender-Auth: YzBHFP3KmNjhh2FypcMkTNij6aA
+Message-ID: <CAFEhRJezsYDmxMtP=TTwdCMoFRUKoh_eNW1Urr6S=pW-w+9LEw@mail.gmail.com>
+To: "Discussion about the Arch User Repository (AUR)"
+ <aur-general@archlinux.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: Xyne <xyne@archlinux.ca>
+Subject: Re: [aur-general] [tu-bylaws] [PATCH] Honor TUs who become
+ active/inactive during votes
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+On 6 August 2013 20:19, Lukas Fleischer <archlinux@cryptocrack.de> wrote:
+> On Tue, Aug 06, 2013 at 01:12:32PM +0200, S=C3=A9bastien Luttringer wrote=
+:
+>> On Tue, Aug 6, 2013 at 11:45 AM, Lukas Fleischer
+>> <archlinux@cryptocrack.de> wrote:
+>> > On Tue, Aug 06, 2013 at 08:24:20AM +0800, Rashif Ray Rahman wrote:
+>> >> On 6 August 2013 05:53, Lukas Fleischer <archlinux@cryptocrack.de> wr=
+ote:
+>> >
+>> > Any other opinions?
+>> Yes, we should drop completely the active statement.
+
+This requires a separate proposal.
+
+>> This will simplify computation and restore the purpose of the quorum!
+>>
+>> "requirement for a quorum is protection against totally
+>> unrepresentative action in the name of the body by an unduly small
+>> number of persons."
+>> (c) Wikipedia
+>>
+>> If you think the quorum is too high, it's better to reduce it (or remove=
+ it).
+>> Currently it's 66%, that means 33% of voters can be in holidays, in
+>> hospital, in travels and don't have in a 2 weeks time frame a way to
+>> read some mails and vote.
+>> In absolute it means : 12 TUs on 36 doesn't have time to vote.
+>> So, to take a decision we need at least  13 voters ((36-12)/2+1) on 36 T=
+Us.
+>> That means we need a bit more than 33% of the total TUs to have a
+>> motion pass. I'm not sure it's necessary to change this.
+>>
+>> What you suggest is automatic hijacking of the quorum, in purpose to
+>> reducing the number of voters.
+>> With the new system, we can have a motion pass with 1 voters if every
+>> TU goes a the next fosdem :)
+>
+> I didn't think of it like that but I tend to agree now... Does anybody
+> disagree?
+
++0 The hypothetical one-TU-rules-all case has been brought up before,
+but I can't cite any discussion or conclusion.
+
+> Anyway, we still need to find a way to count the total number of TUs.
+> That number needs to be recorded at some point of time during the vote.
+
+The total number of TUs is a recorded statistic in the AUR, AFAICS. Or
+are you referring to something else?
+
+> Options:
+>
+> * Record at the beginning, do not update if new TUs appear.
+> * Record at the beginning, fix if TUs are added/removed during the SVP.
+> * Record at the beginning, exclude new TUs from running votes.
+> * Record at the end.
+>
+> The first and last option might yield bogus results. If there this one
+> TU when the SVP starts and another one is added during the SVP, there
+> might be a quorum of 2 / 1 =3D 200%. Same if the number is recorded at th=
+e
+> end and a TU is removed during the SVP.
+>
+> The second option means that we record the total number of users that
+> have had TU status at some point of time during the voting period.
+
+By "new" and "added", do you mean newly appointed, or newly active?
+This is an important distinction. If we're still talking about
+active/inactive and this proposal:
+
+* Record active at start, add newly active, ignore newly inactive,
+ignore newly added, ignore newly removed
+
+> What do you think?
+
+I think we need more opinions. Xyne? Anyway, if anyone's looking for
+some bylaw amendment history:
+
+https://mailman.archlinux.org/pipermail/aur-general/2007-December/000127.ht=
+ml
+https://mailman.archlinux.org/pipermail/aur-general/2010-December/012196.ht=
+ml
+https://mailman.archlinux.org/pipermail/aur-general/2010-December/012534.ht=
+ml
+
+>
+>>
+>> Cheers,
+>>
+>> --
+>> S=C3=A9bastien "Seblu" Luttringer
+>> https://www.seblu.net
+>> GPG: 0x2072D77A
+
+
+
+--=20
+GPG/PGP ID: C0711BF1

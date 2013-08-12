@@ -1,0 +1,146 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp176391lds;
+        Tue, 6 Aug 2013 19:42:08 -0700 (PDT)
+X-Received: by 10.180.208.104 with SMTP id md8mr604228wic.57.1375843328217;
+        Tue, 06 Aug 2013 19:42:08 -0700 (PDT)
+Return-Path: <noreply-79258225@plus.google.com>
+Received: from mail-wi0-x245.google.com (mail-wi0-x245.google.com [2a00:1450:400c:c05::245])
+        by mx.google.com with ESMTPS id ez16si2313961wic.21.2013.08.06.19.42.08
+        for <deanthomson50@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 06 Aug 2013 19:42:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply-79258225@plus.google.com designates 2a00:1450:400c:c05::245 as permitted sender) client-ip=2a00:1450:400c:c05::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-79258225@plus.google.com designates 2a00:1450:400c:c05::245 as permitted sender) smtp.mail=noreply-79258225@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) d=plus.google.com
+Received: by mail-wi0-x245.google.com with SMTP id hr7so993843wib.8
+        for <deanthomson50@gmail.com>; Tue, 06 Aug 2013 19:42:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=kCytyhVvWFI44sOaNbIfuMfw7BGHNPHka9Wt02gLPLg=;
+        b=ZRVJnjSIfzIZc+OOe/kfi8penQHO3GQqiegxANMvj1Tqtsqph42d8pIvOAnCDWBbFp
+         hw3yAz88ufrasaNLaHeTT8kzc6jcmcNRm8SLk4m4VVDclmyIyagLgoHRHgU6RtiCQYzk
+         9cbe+cELINnQa66vJZ41fPGumYsQgOmlo43bkZkBceeGjgKE6L8BxlyWMlVvC0D37VM1
+         oHTZoQFXicYstpeIVGf/+Jo0dRY8HEz4skr+R1FnY0DOmv60QEjbTqCLVN79TOrxRvDD
+         gwxlFWAC/VAVhaOPxlh4se2XEvg7pzmQcGEop6LtxrXA4XmnbUsV31kbswJAWcz7QAaE
+         JZWw==
+MIME-Version: 1.0
+X-Received: by 10.15.74.135 with SMTP id j7mr1208213eey.7.1375843327974; Tue,
+ 06 Aug 2013 19:42:07 -0700 (PDT)
+X-Notifications: XEAAAADbKJdCz2XeG11Rq4vGX0Xg
+X-Notification-ID: z13jh1lzrtfvwjqyl04chhzxcurshv4pxvc0k
+X-Entity-Ref-ID: z13uflmxyoyizd1xc04chhzxcurshv4pxvc0k
+X-Sender-ID: 117694027602294723623
+X-Notification-Category: SQUARE
+X-Notification-Type: SQUARE_SUBSCRIPTION
+Reply-To: "Tory Newnham (Google+)" <noreply-79258225@plus.google.com>
+X-UB: 63
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CJiNzean6rgCFWKnNAodNV0AAA&path=%2F117694027602294723623%2Fop%2Fmute&dt=1375843327914&ub=63>
+Precedence: bulk
+Date: Tue, 06 Aug 2013 19:42:07 -0700 (PDT)
+Message-ID: <z13jh1lzrtfvwjqyl04chhzxcurshv4pxvc0k@plus.google.com>
+Subject: [Arch Linux] Just a simple Gnome3.8 setup Glad to be...
+From: "Tory Newnham (Google+)" <noreply-79258225@plus.google.com>
+To: deanthomson50@gmail.com
+Content-Type: multipart/alternative; boundary=001a11c38b26d49d6704e3527c30
+
+--001a11c38b26d49d6704e3527c30
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Tory Newnham shared a post with Arch Linux.
+
+View:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CJiNzean6rgCFWKnNAodNV0AAA&path=%2F117694027602294723623%2Fposts%2FV7QmaeBPntb&dt=1375843327914&ub=63
+
+You're receiving this email because you are subscribed to Arch Linux on  
+Google+.
+
+Arch Linux
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CJiNzean6rgCFWKnNAodNV0AAA&path=%2Fcommunities%2F113935870359973712582&dt=1375843327914&ub=63
+
+------------------------
+
+Change what notifications you receive from this community:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CJiNzean6rgCFWKnNAodNV0AAA&path=%2Fcommunities%2F113935870359973712582%3Fpromo%3Dnotifications&dt=1375843327914&ub=63
+
+To stop receiving notifications from any user, go to their profile and  
+click Mute.
+
+This notification was sent to deanthomson50@gmail.com. Update your address:
+https://plus.google.com/_/notifications/emlink?emr=06393808741735798537&emid=CJiNzean6rgCFWKnNAodNV0AAA&path=%2Fsettings%2Fplus&dt=1375843327914&ub=63
+
+Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA
+
+
+--001a11c38b26d49d6704e3527c30
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><!-- X-Notifications: 1:d111d908e8000000 --><div style=3D"borde=
+r-radius:5px;border:solid 1px #dfdfdf;font-family:Arial;word-wrap:break-wor=
+d;width:670px"><table cellpadding=3D0 cellspacing=3D0 style=3D"background-c=
+olor:#ededed; border-radius:5px 5px 0 0;width:670px"><tr><td><div style=3D"=
+padding:30px 30px 0;font-size:20px">Tory Newnham shared a <a href=3D"https:=
+//plus.google.com/_/notifications/emlink?emr=3D06393808741735798537&amp;emi=
+d=3DCJiNzean6rgCFWKnNAodNV0AAA&amp;path=3D%2F117694027602294723623%2Fposts%=
+2FV7QmaeBPntb&amp;dt=3D1375843327914&amp;ub=3D63" style=3D"color:#3366CC;te=
+xt-decoration:none">post</a> with <a href=3D"https://plus.google.com/_/noti=
+fications/emlink?emr=3D06393808741735798537&emid=3DCJiNzean6rgCFWKnNAodNV0A=
+AA&path=3D%2Fcommunities%2F113935870359973712582&dt=3D1375843327914&ub=3D63=
+" style=3D"color:#3366CC;text-decoration:none">Arch Linux</a><div style=3D"=
+margin-top:20px;width:0;height:0; border-bottom:10px solid #fff; border-lef=
+t:10px solid transparent; border-right:10px solid transparent"></div></div>=
+</td><td style=3D"vertical-align:middle;text-align:right;padding-right:30px=
+"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/googl=
+e-plus-large-cf5dcc377e02e193e091345b0b54d030.png" /></td></tr></table><div=
+ style=3D"font-size:14px;line-height:18px;background-color:#fff;"><div styl=
+e=3D"padding:30px 40px 40px"><table cellpadding=3D0 cellspacing=3D0><tr><td=
+ style=3D"padding-right:15px;vertical-align:top"><a href=3D"https://plus.go=
+ogle.com/_/notifications/emlink?emr=3D06393808741735798537&emid=3DCJiNzean6=
+rgCFWKnNAodNV0AAA&path=3D%2F117694027602294723623&dt=3D1375843327914&ub=3D6=
+3"><img style=3D"border:solid 1px #cccccc;" width=3D"75" height=3D"75" src=
+=3D"https://lh6.googleusercontent.com/-9EQQoye0elg/AAAAAAAAAAI/AAAAAAAAAaw/=
+CJTFcfUXZ9Q/s75-c-k-a/photo.jpg" /></a></td><td style=3D"width:578px;color:=
+#333;font:13px Arial;vertical-align:top"><div style=3D"padding-bottom:10px;=
+"><strong>Tory Newnham</strong>:</div><div style=3D"padding-bottom:10px">Ju=
+st a simple Gnome3.8 setup<br /><br />Glad to be back on  <a class=3D"ot-ha=
+shtag" href=3D"https://plus.google.com/s/%23Arch">#Arch</a> =A0</div><div s=
+tyle=3D"max-height:400px;overflow:hidden;margin-top:14px;background:#eee"><=
+a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D063938087417=
+35798537&amp;emid=3DCJiNzean6rgCFWKnNAodNV0AAA&amp;path=3D%2F11769402760229=
+4723623%2Fposts%2FV7QmaeBPntb&amp;dt=3D1375843327914&amp;ub=3D63"><img src=
+=3D"https://lh5.googleusercontent.com/-U92ihdPDffc/UgGyxKFpXwI/AAAAAAAAA48/=
+3hhlCymbDOk/w506-h750/Desktop.jpg" style=3D"max-width:100%;margin-left:auto=
+;margin-right:auto;display:block;border:0" width=3D"506"></a></div><br/><a =
+href=3D"https://plus.google.com/_/notifications/emlink?emr=3D06393808741735=
+798537&emid=3DCJiNzean6rgCFWKnNAodNV0AAA&path=3D%2F117694027602294723623%2F=
+posts%2FV7QmaeBPntb&dt=3D1375843327914&ub=3D63" style=3D"background-color:#=
+d44b38;border:solid 1px #dfdfdf;border-radius:3px;color:#fff;display:inline=
+-block;font-family: Arial;font-size:13px;height:30px;line-height:30px;min-w=
+idth:54px;padding:1px 20px;text-align:center;text-decoration:none;white-spa=
+ce:nowrap;">View post</a></td></tr></table></div></div><div style=3D"border=
+-top:solid 1px #dfdfdf;background-color:#fff; padding:30px;font-size:14px;l=
+ine-height:18px;border-radius:0 0 5px 5px">You're receiving this email beca=
+use you are subscribed to <a href=3D"https://plus.google.com/_/notification=
+s/emlink?emr=3D06393808741735798537&emid=3DCJiNzean6rgCFWKnNAodNV0AAA&path=
+=3D%2Fcommunities%2F113935870359973712582&dt=3D1375843327914&ub=3D63" style=
+=3D"color:#3366CC;text-decoration:none">Arch Linux</a> on Google+.</div></d=
+iv><div style=3D"padding-top:10px;color:#999;font:11px Arial;width:670px"><=
+a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D063938087417=
+35798537&emid=3DCJiNzean6rgCFWKnNAodNV0AAA&path=3D%2F117694027602294723623%=
+2Fop%2Fmute&dt=3D1375843327914&ub=3D63" style=3D"color:#3366CC;text-decorat=
+ion:none">Mute Tory Newnham</a> to stop receiving notifications from him.  =
+<a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D06393808741=
+735798537&emid=3DCJiNzean6rgCFWKnNAodNV0AAA&path=3D%2Fcommunities%2F1139358=
+70359973712582%3Fpromo%3Dnotifications&dt=3D1375843327914&ub=3D63" style=3D=
+"color:#3366CC;text-decoration:none">Change</a> what notifications you rece=
+ive from this community. This notification was sent to <u>deanthomson50@gma=
+il.com</u> (<a href=3D"https://plus.google.com/_/notifications/emlink?emr=
+=3D06393808741735798537&emid=3DCJiNzean6rgCFWKnNAodNV0AAA&path=3D%2Fsetting=
+s%2Fplus&dt=3D1375843327914&ub=3D63" style=3D"color:#3366CC;text-decoration=
+:none">update your address</a>).<br /><br/>Google Inc., 1600 Amphitheatre P=
+kwy, Mountain View, CA 94043 USA</div></body></html>
+--001a11c38b26d49d6704e3527c30--

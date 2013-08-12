@@ -1,0 +1,99 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp195958lds;
+        Wed, 7 Aug 2013 04:03:22 -0700 (PDT)
+X-Received: by 10.236.132.175 with SMTP id o35mr1439786yhi.56.1375873401923;
+        Wed, 07 Aug 2013 04:03:21 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id 49si3681191yhp.264.2013.08.07.04.03.21
+        for <multiple recipients>;
+        Wed, 07 Aug 2013 04:03:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org;
+       dkim=policy (weak key) header.i=@archlinux.ca
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id B33749044A;
+	Wed,  7 Aug 2013 07:03:17 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id A44937004F
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 07:03:14 -0400 (EDT)
+Received-SPF: pass (archlinux.ca: Sender is authorized to use
+ 'xyne@archlinux.ca' in 'mfrom' identity (mechanism 'include:bluehost.com'
+ matched)) receiver=gerolde.archlinux.org; identity=mailfrom;
+ envelope-from="xyne@archlinux.ca"; helo=oproxy6-pub.mail.unifiedlayer.com;
+ client-ip=67.222.54.6
+Received: from oproxy6-pub.mail.unifiedlayer.com
+ (oproxy6-pub.mail.unifiedlayer.com [67.222.54.6])
+ by gerolde.archlinux.org (Postfix) with SMTP id 6343C90439
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 07:03:13 -0400 (EDT)
+Received: (qmail 21263 invoked by uid 0); 7 Aug 2013 11:03:13 -0000
+Received: from unknown (HELO box539.bluehost.com) (74.220.219.139)
+ by oproxy6.mail.unifiedlayer.com with SMTP; 7 Aug 2013 11:03:13 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=archlinux.ca;
+ s=default; 
+ h=Content-Transfer-Encoding:Content-Type:Mime-Version:References:In-Reply-To:Message-ID:Subject:To:From:Date;
+ bh=4fqwyoQJjVQ+te2SPXiY7YmABxiW71fAm5AcFdLvBAU=; 
+ b=K5ESXPoDmrmTmqD3+xYnab1J+WaJhPd+OtELiyJFncBYB0eJ4KyWXnf2TUgI14MCbhODmdgM5th89mp9M2WB3YStGbG0Xy4ocvnnAxMX9P0rR/v9P7NstyDSIIfM8aSE;
+Received: from [83.154.192.247] (port=44900 helo=localhost.localdomain)
+ by box539.bluehost.com with esmtpsa (SSLv3:RC4-SHA:128) (Exim 4.80)
+ (envelope-from <xyne@archlinux.ca>) id 1V71WK-0002W4-GB
+ for aur-general@archlinux.org; Wed, 07 Aug 2013 05:03:13 -0600
+Date: Wed, 7 Aug 2013 11:03:07 +0000
+From: Xyne <xyne@archlinux.ca>
+To: aur-general@archlinux.org
+Message-ID: <20130807110307.5488a50c@archlinux.ca>
+In-Reply-To: <20130804162353.GA2904@blizzard>
+References: <51FBFD35.8000106@archlinux.org> <20130804133513.GA27983@blizzard>
+ <CAJSTwE6Bs3AjVvjD6DojYz+9Jc2SrRNAzY_mgPD==g4gC5iv-A@mail.gmail.com>
+ <20130804162353.GA2904@blizzard>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Identified-User: {4243:box539.bluehost.com:archlinu:archlinux.ca}
+ {sentby:smtp auth 83.154.192.247 authed with xyne@archlinux.ca}
+Subject: Re: [aur-general] TUs and their following of the Bylaws
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+Lukas Fleischer wrote:
+
+>The only difference is that a new active TU appearing during the vote
+>results in an overvalued quorum if the number is computed at the
+>beginning (and if the TU votes), whereas an active TU disappearing
+>during the vote results in an overvalued quorum if the number is
+>computed at the end.
+
+The quorum should be calculated from the number of TUs that were active at any
+point during the vote (perhaps with margins of a few hours at the beginning and
+end).
+
+I saw in one of the patch emails that you wanted to add a list of TUs to the
+vote table. Could you do this:
+
+1) at the start of the vote, create a list of all active TUs
+
+2) add a hook to the activity field updater so that any TU that becomes active
+during the vote is appended to the list, while any TU that becomes inactive is
+left in the list
+
+The margins, if added would remove a TU from the list when marked as inactive
+withing the first x hours of the vote. Likewise, a TU marked as active with
+only X hours left to go would not be added.
+
+Regards,
+Xyne

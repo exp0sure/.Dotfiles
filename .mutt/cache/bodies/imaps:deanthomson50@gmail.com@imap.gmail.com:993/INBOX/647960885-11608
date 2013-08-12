@@ -1,0 +1,68 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp198363lds;
+        Wed, 7 Aug 2013 04:51:26 -0700 (PDT)
+X-Received: by 10.229.150.16 with SMTP id w16mr10739qcv.113.1375876285333;
+        Wed, 07 Aug 2013 04:51:25 -0700 (PDT)
+Return-Path: <noreply@github.com>
+Received: from smtp1-ext.rs.github.com (smtp1-ext.rs.github.com. [207.97.227.250])
+        by mx.google.com with ESMTP id n1si2895161qej.17.2013.08.07.04.51.24
+        for <deanthomson50@gmail.com>;
+        Wed, 07 Aug 2013 04:51:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@github.com designates 207.97.227.250 as permitted sender) client-ip=207.97.227.250;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@github.com designates 207.97.227.250 as permitted sender) smtp.mail=noreply@github.com
+Date: Wed, 07 Aug 2013 04:51:24 -0700
+From: TobiasTheViking <notifications@github.com>
+Reply-To: TobiasTheViking/sabcli <reply+i-17670416-7fbb6ec995c4e7f0f5a5aaf3b8cf11b28abadee3-2316366@reply.github.com>
+To: TobiasTheViking/sabcli <sabcli@noreply.github.com>
+Message-ID: <TobiasTheViking/sabcli/issues/2/22245679@github.com>
+In-Reply-To: <TobiasTheViking/sabcli/issues/2@github.com>
+References: <TobiasTheViking/sabcli/issues/2@github.com>
+Subject: Re: [sabcli] Large History Crashed sabcurses (#2)
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_520234bcbf30b_1be6b50fd3457276";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Recipient: z1lt0id
+List-ID: TobiasTheViking/sabcli <sabcli.TobiasTheViking.github.com>
+List-Archive: https://github.com/TobiasTheViking/sabcli
+List-Post: <mailto:reply+i-17670416-7fbb6ec995c4e7f0f5a5aaf3b8cf11b28abadee3-2316366@reply.github.com>
+List-Unsubscribe: <mailto:unsub+i-17670416-7fbb6ec995c4e7f0f5a5aaf3b8cf11b28abadee3-2316366@reply.github.com>,
+ <https://github.com/notifications/unsubscribe/n4_CPqeLyNfRZ7kFcP0iefYP51jrf6Hr6Hb8F2pfU0uKGuLTrhHiaUE03YzPMFop>
+X-GitHub-Recipient-Address: deanthomson50@gmail.com
+
+
+
+----==_mimepart_520234bcbf30b_1be6b50fd3457276
+Date: Wed, 07 Aug 2013 04:51:24 -0700
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <520234bcc0980_1be6b50fd345735d@github-worker7-cp1-prd.iad.github.net.mail>
+
+I*m not really sure how to fix this(besides for a total refactor of sabcurses, which is sorely needed).
+
+I suggest you clear your history as a work-around.
+
+---
+Reply to this email directly or view it on GitHub:
+https://github.com/TobiasTheViking/sabcli/issues/2#issuecomment-22245679
+
+----==_mimepart_520234bcbf30b_1be6b50fd3457276
+Date: Wed, 07 Aug 2013 04:51:24 -0700
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <520234bcc1281_1be6b50fd345747a@github-worker7-cp1-prd.iad.github.net.mail>
+
+<p>I*m not really sure how to fix this(besides for a total refactor of sabcurses, which is sorely needed).</p>
+
+<p>I suggest you clear your history as a work-around.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br>Reply to this email directly or <a href='https://github.com/TobiasTheViking/sabcli/issues/2#issuecomment-22245679'>view it on GitHub</a>.<img src='https://github.com/notifications/beacon/n4_CPqeLyNfRZ7kFcP0iefYP51jrf6Hr6Hb8F2pfU0uKGuLTrhHiaUE03YzPMFop.gif' height='1' width='1'></p>
+
+----==_mimepart_520234bcbf30b_1be6b50fd3457276--

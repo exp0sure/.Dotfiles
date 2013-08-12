@@ -1,0 +1,103 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp233212lds;
+        Wed, 7 Aug 2013 16:22:15 -0700 (PDT)
+X-Received: by 10.42.41.210 with SMTP id q18mr867784ice.13.1375917735070;
+        Wed, 07 Aug 2013 16:22:15 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id x12si1405852igx.15.2013.08.07.16.21.44
+        for <multiple recipients>;
+        Wed, 07 Aug 2013 16:22:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id 1539C904B9;
+	Wed,  7 Aug 2013 19:21:43 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id 1BC057004F
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 19:21:40 -0400 (EDT)
+Received-SPF: pass (gmx.com: 212.227.17.21 is authorized to use
+ 'speps@gmx.com' in 'mfrom' identity (mechanism 'ip4:212.227.17.0/27'
+ matched)) receiver=gerolde.archlinux.org; identity=mailfrom;
+ envelope-from="speps@gmx.com"; helo=mout.gmx.net; client-ip=212.227.17.21
+Received: from mout.gmx.net (mout.gmx.net [212.227.17.21])
+ by gerolde.archlinux.org (Postfix) with ESMTPS id B3BEC904B5
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 19:21:39 -0400 (EDT)
+Received: from localhost.localdomain ([151.75.225.110]) by mail.gmx.com
+ (mrgmx002) with ESMTPSA (Nemesis) id 0LuPYt-1W7S9V0WMJ-011eyN for
+ <aur-general@archlinux.org>; Thu, 08 Aug 2013 01:21:38 +0200
+Date: Thu, 8 Aug 2013 01:16:20 +0200
+From: speps <speps@gmx.com>
+To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+Message-Id: <20130808011620.b75e2ee69fd3c4a27a6cd3d0@gmx.com>
+In-Reply-To: <20130807175935.0c7572b5@DarthRevan>
+References: <20130807175935.0c7572b5@DarthRevan>
+X-Mailer: Sylpheed 3.3.0 (GTK+ 2.24.20; x86_64-unknown-linux-gnu)
+X-Face: '7Y!]\tBO_>:sI_+>]L*U\V.mqk2i"L2)6&b5GntEW8G,;
+ 0)Dr05mI:&wd9$:,(xwImrY9# Qy3.kLN\ef~+BD:M(Dh+%74rxc#-N[|}UQ=\[w
+Mime-Version: 1.0
+Content-Type: multipart/signed; protocol="application/pgp-signature";
+ micalg="PGP-SHA1";
+ boundary="Signature=_Thu__8_Aug_2013_01_16_20_+0200_IwIVLABU+WqYKmeM"
+X-Provags-ID: V03:K0:LA9BRiAXmdGV4+7FEfbH9UnpnjZea5h8Bj1HTmFGej8FWYc05qe
+ oKzAyhqCHTBlANztf6TTU9rXURBAhvmtIVGXaaIAsl4ohulikrFeWb9TME3rgFMX++8WQzZ
+ w8jpDG5ZzEoyt9JSp1UrzHIkT/j/5G0Wfa0OUcNG87INfglAYt1BOCoyUfweoVD9D18uhfm
+ 5FFOL9fQDQ7gyWQO4gTow==
+Subject: Re: [aur-general] Delete package
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+--Signature=_Thu__8_Aug_2013_01_16_20_+0200_IwIVLABU+WqYKmeM
+Content-Type: text/plain; charset=US-ASCII
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, 7 Aug 2013 17:59:35 -0500
+Nathan Owens <ndowens@archlinux.us> wrote:
+
+> Actually to revise my previous email, can you delete
+> https://aur.archlinux.org/packages/textapp/
+>=20
+> I have uploaded the fixed package at
+> https://aur.archlinux.org/packages/texapp/
+
+Done, thanks.
+
+P.S.: you should use the link for the app resource in the PKGBUILD source a=
+rray [1] without embedding the file itself in the AUR package source archiv=
+e.
+
+[1] http://www.floodgap.com/software/texapp/texapp.txt
+
+--Signature=_Thu__8_Aug_2013_01_16_20_+0200_IwIVLABU+WqYKmeM
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.20 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSAtVMAAoJEM9wN6Tyf7fagxYH/AgPLeq3MxrgZAuV/zPXrzWC
+T4yJMWIoeGJd0w+nj80Ddk/NZOX6l874eD53m9vdHI082gOdKk6bY6K9CnavtmNp
+A4WKgRxdFW3jgSB602Mqq0L6dQLELTNumcVLRPMR1NNsZ0DLxbpw9vztVhxbxIPV
+vPURlr9vTtCqTI6HBXrT2bWKHii60/pCZdEdW/yKD4hoVGipoviCzpl8HwOA5San
+O5YAuBMnH18cedPgdKMyR9TGOXkCuurVeuHgUZpQB6jDP23dl8WQljltrT9eRzeX
+e6G8GJACBt7n5AMrswU1YyXbV60gIo15FV9+LgYtIP8uiTGKEpnUXT2MD60a0aI=
+=SKIH
+-----END PGP SIGNATURE-----
+
+--Signature=_Thu__8_Aug_2013_01_16_20_+0200_IwIVLABU+WqYKmeM--

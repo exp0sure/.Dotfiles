@@ -1,0 +1,157 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp197486lds;
+        Wed, 7 Aug 2013 04:34:14 -0700 (PDT)
+X-Received: by 10.236.209.201 with SMTP id s49mr1548565yho.18.1375875254375;
+        Wed, 07 Aug 2013 04:34:14 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id d69si3775002yhh.247.2013.08.07.04.34.13
+        for <multiple recipients>;
+        Wed, 07 Aug 2013 04:34:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org;
+       dkim=policy (weak key) header.i=@archlinux.ca
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id 37C0990170;
+	Wed,  7 Aug 2013 07:34:11 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id 993387004F
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 07:34:07 -0400 (EDT)
+Received-SPF: pass (archlinux.ca: Sender is authorized to use
+ 'xyne@archlinux.ca' in 'mfrom' identity (mechanism 'include:bluehost.com'
+ matched)) receiver=gerolde.archlinux.org; identity=mailfrom;
+ envelope-from="xyne@archlinux.ca"; helo=oproxy14-pub.mail.unifiedlayer.com;
+ client-ip=67.222.51.224
+Received: from oproxy14-pub.mail.unifiedlayer.com
+ (oproxy14-pub.mail.unifiedlayer.com [67.222.51.224])
+ by gerolde.archlinux.org (Postfix) with SMTP id 41A4C90135
+ for <aur-general@archlinux.org>; Wed,  7 Aug 2013 07:34:05 -0400 (EDT)
+Received: (qmail 4734 invoked by uid 0); 7 Aug 2013 11:34:05 -0000
+Received: from unknown (HELO box539.bluehost.com) (74.220.219.139)
+ by oproxy14.unifiedlayer.com with SMTP; 7 Aug 2013 11:34:05 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=archlinux.ca;
+ s=default; 
+ h=Content-Transfer-Encoding:Content-Type:Mime-Version:References:In-Reply-To:Message-ID:Subject:To:From:Date;
+ bh=pOwy3XOfAKqguSb3lZguhiAVSbgpizMd4bzDSMtvn1I=; 
+ b=IoamxtLCmcovMgKRnl98n+WURwlq2+T2IzSSkrUpscuuaGulQxqwk3W3Na7UWOv6Syvjtmoy3KFwChK/vcKyaKvLG6Qz4HxkodhiovKLrP84TbmWb864BM13Qc+UwvLF;
+Received: from [83.154.192.247] (port=44952 helo=localhost.localdomain)
+ by box539.bluehost.com with esmtpsa (SSLv3:RC4-SHA:128) (Exim 4.80)
+ (envelope-from <xyne@archlinux.ca>) id 1V720C-0001oF-DZ
+ for aur-general@archlinux.org; Wed, 07 Aug 2013 05:34:04 -0600
+Date: Wed, 7 Aug 2013 11:33:59 +0000
+From: Xyne <xyne@archlinux.ca>
+To: aur-general@archlinux.org
+Message-ID: <20130807113359.708a6aed@archlinux.ca>
+In-Reply-To: <51FBFD35.8000106@archlinux.org>
+References: <51FBFD35.8000106@archlinux.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Identified-User: {4243:box539.bluehost.com:archlinu:archlinux.ca}
+ {sentby:smtp auth 83.154.192.247 authed with xyne@archlinux.ca}
+Subject: Re: [aur-general] TUs and their following of the Bylaws
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+On 2013-08-02 15:40 -0300
+Angel Vel=C3=A1squez wrote:
+
+>Having that set, I am shocked about how the bylaws are being just used
+>just for addition process, but for somehow are being ignored for stuff
+>like quorum and removal procedures, some TUs look to otherside when we
+>mention this subject.
+
+Can you more specific? Which bylaws have been ignored? When? By whom? As I =
+was
+the one who brought up the issue of quorum, the implication is that I have =
+been
+looking the other way on the rest of the bylaws. Is that what you meant to
+imply?
+
+
+>So, what's the point of having a Bylaw if you will not follow it?, why
+>don't modify it and remove that part that you don't want to be aware?,
+>being a TU is not about just delivering packages and orphaning /
+>splitting packages on the AUR, TUs must work as a group, and it used to
+>be like that when I was part of the team (I still feel part of the team
+>but seems that oficially I am not a TU, a corner case that is not well
+>documented on the Bylaws btw).
+
+What exactly are you suggesting? What is there to do as a team that we are =
+not
+doing as a team? This sounds a bit like "when I was your age, bands were be=
+tter
+and the lyrics meant something". If you mean there have been a number of
+additions to the team who have been relatively quiet members then I might
+agree, but that in itself is neither against our bylaws. It would only be a
+real problem if it prevented quorum, but so far it hasn't. Personally, I do=
+n't
+mind with having extra hands around even if they're idle most of the time. =
+It's
+not like we're paying for extra upkeep. Of course, that doesn't mean that "=
+TU"
+should be nothing more than an extra title in the community. I just don't s=
+ee
+the TUs as a three-letter Greek fraternity.
+
+
+>So, according to that, I don't want to say names (i did said those names
+>on the irc channel when I found the quorum situation on the last SVP but
+>as I've said nobody react .. bad bad bad, guys.. dissapointing I must
+>say), but I still feel that TUs must do that, not a guy which is not
+>completely a TU -yes, me-.
+
+I find this annoying. I have heard on several occasions that a lot of relev=
+ant
+discussion as well as shit-talking takes place on that channel. Sometimes e=
+ven
+important decisions are made there. That is not the place for it. This mail=
+ing
+list is the official means of TU communication. Don't show up here and casu=
+ally
+mention that you have disclosed information there then withhold it here. It=
+ is
+petty and childish in my opinion. If you will say something about someone t=
+o a
+group of people when the person is not there, but won't say it again then t=
+he
+person is, then you probably shouldn't have said anything to begin with.
+
+
+
+>Please check the last SVP and check who didn't voted, and some TU call
+>the rest of the group for either following the Bylaws, or call for a
+>modification of these Bylaws and allow these cases.
+
+The bylaws have been followed:
+"active TUs that keep quorum from being established on a voting procedure f=
+or
+three consecutive voting procedures (they need not be on the same motion) a=
+re
+automatically brought up for removal procedure, by reason of unwarranted
+inactivity."
+
+
+I understand that you have spotted an issue with our adherence to the bylaw=
+s,
+but it is not clear to me what that issue is, so I do not know how to even
+begin addressing it.
+
+Regards,
+Xyne
+

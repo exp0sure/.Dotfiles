@@ -1,0 +1,81 @@
+Delivered-To: deanthomson50@gmail.com
+Received: by 10.114.64.165 with SMTP id p5csp144087lds;
+        Tue, 6 Aug 2013 07:52:21 -0700 (PDT)
+X-Received: by 10.236.127.3 with SMTP id c3mr1019300yhi.112.1375800740526;
+        Tue, 06 Aug 2013 07:52:20 -0700 (PDT)
+Return-Path: <aur-general-bounces@archlinux.org>
+Received: from gerolde.archlinux.org (gerolde.archlinux.org. [66.211.214.132])
+        by mx.google.com with ESMTP id 48si981759yhi.267.2013.08.06.07.52.18
+        for <multiple recipients>;
+        Tue, 06 Aug 2013 07:52:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) client-ip=66.211.214.132;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of aur-general-bounces@archlinux.org designates 66.211.214.132 as permitted sender) smtp.mail=aur-general-bounces@archlinux.org;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) d=gmail.com
+Received: from gudrun.archlinux.org (gudrun.archlinux.org [66.211.214.131])
+	by gerolde.archlinux.org (Postfix) with ESMTP id 44CB2907DB;
+	Tue,  6 Aug 2013 10:52:14 -0400 (EDT)
+Received: from gerolde.archlinux.org (gerolde.archlinux.org [66.211.214.132])
+ by gudrun.archlinux.org (Postfix) with ESMTP id BE31F7004F
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 10:52:10 -0400 (EDT)
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use
+ 'l.jirkovsky@gmail.com' in 'mfrom' identity (mechanism
+ 'include:_netblocks.google.com' matched)) receiver=gerolde.archlinux.org;
+ identity=mailfrom; envelope-from="l.jirkovsky@gmail.com";
+ helo=mail-wg0-f54.google.com; client-ip=74.125.82.54
+Received: from mail-wg0-f54.google.com (mail-wg0-f54.google.com [74.125.82.54])
+ by gerolde.archlinux.org (Postfix) with ESMTPS id 6E70F907C7
+ for <aur-general@archlinux.org>; Tue,  6 Aug 2013 10:52:10 -0400 (EDT)
+Received: by mail-wg0-f54.google.com with SMTP id e12so458603wgh.9
+ for <aur-general@archlinux.org>; Tue, 06 Aug 2013 07:52:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+ h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+ :content-type; bh=cUHTC/q+4fBq/Xun22vb/ZPs8kXzqiHwniYui0fsfZA=;
+ b=e1ygcwX7+vFHJx/m1d1Wb0iOBQ8Jyh8r2q/s36Gu2y8HzNj7JdD3Bra+RXFcFiPzNX
+ HPxuDN0o8xNzojn9JEo/hFLlXKjicYKeQUfYjvekpDwKUbEpchTu7aC9XIEYoHDZEPtV
+ 7otuePFumLMRe/cWAJjwO8mo6HHh5fYtM0pYpUMKWMn2Mw/Jp0D6ZtJvDZc3pABiVivy
+ Ya35rqP7yUZfhzD42dYqHccpLu7ol+vf9s5fnhrGWJi3S4bJYNPxRmK4WwYsIPTRXaiL
+ 2etq5lIVQwSLetbD3ekMU8H557tTjD0L92xm7ulpkAsr+AAgCEQc36YgjvXtBRlzXGQk
+ RQGg==
+MIME-Version: 1.0
+X-Received: by 10.180.183.108 with SMTP id el12mr2210052wic.55.1375800729179; 
+ Tue, 06 Aug 2013 07:52:09 -0700 (PDT)
+Received: by 10.194.170.197 with HTTP; Tue, 6 Aug 2013 07:52:09 -0700 (PDT)
+In-Reply-To: <CAHtGYf-S4Mbt_aXY3O135QMoTZWGgCVyRD6byLC_WfQD8p_g7Q@mail.gmail.com>
+References: <CAHtGYf-S4Mbt_aXY3O135QMoTZWGgCVyRD6byLC_WfQD8p_g7Q@mail.gmail.com>
+Date: Tue, 6 Aug 2013 16:52:09 +0200
+Message-ID: <CAFa9FQsvq_nV=A3F6_Q+dh7xHHg1ZUdfEcJvXsd8iY0YyqOf-A@mail.gmail.com>
+From: Lukas Jirkovsky <l.jirkovsky@gmail.com>
+To: "Discussion about the Arch User Repository (AUR)"
+ <aur-general@archlinux.org>
+Content-Type: text/plain; charset=UTF-8
+Subject: Re: [aur-general] Remove lib32-catalyst-test-utils
+X-BeenThere: aur-general@archlinux.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general@archlinux.org>
+List-Id: "Discussion about the Arch User Repository \(AUR\)"
+ <aur-general.archlinux.org>
+List-Unsubscribe: <https://mailman.archlinux.org/mailman/options/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=unsubscribe>
+List-Archive: <http://mailman.archlinux.org/pipermail/aur-general/>
+List-Post: <mailto:aur-general@archlinux.org>
+List-Help: <mailto:aur-general-request@archlinux.org?subject=help>
+List-Subscribe: <https://mailman.archlinux.org/mailman/listinfo/aur-general>, 
+ <mailto:aur-general-request@archlinux.org?subject=subscribe>
+Errors-To: aur-general-bounces@archlinux.org
+Sender: "aur-general" <aur-general-bounces@archlinux.org>
+
+On 6 August 2013 15:32, Jameson <imntreal@gmail.com> wrote:
+> Please, remove lib32-catalyst-test-utils.  I've created
+> lib32-catalyst-utils-test in order to match the naming scheme of the
+> 64-bit version.
+>
+> Thanks,
+> =-Jameson
+
+Merged. Please provide links next time.
+
+Thx, Lukas
