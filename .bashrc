@@ -16,6 +16,7 @@ export LANGUAGE="en_AU:en_GB:en"
 alias ls='ls --color=auto'
 alias home="cd ~/"
 alias upgrade='sudo pacman -Syu && yaourt -Syu --aur'
+alias updategit="git push -u origin master"
 # Color support
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
