@@ -104,6 +104,7 @@ hdr_order from: to: cc: date: subject:   # and in this order
 # boxes
 mailboxes +GMail/INBOX +GMail/[Gmail].All\ Mail +GMail/[Gmail].Sent\ Mail
 mailboxes +CCA/INBOX +CCA/INBOX.Sent
+mailboxes +Node/INBOX +Node/Spam +Node/Spam
 
 # always sourced
 source $alias_file             # required for functionality
@@ -114,6 +115,7 @@ source ~/.mutt/gmail.muttrc    # source gmail as default
 # account specific sources
 folder-hook GMail/* source ~/.mutt/gmail.muttrc
 folder-hook CCA/*   source ~/.mutt/work.muttrc
+folder-hook Node/*  source ~/.mutt/node.muttrc
 
 # these just give me headaches
 bind index,pager \#    noop

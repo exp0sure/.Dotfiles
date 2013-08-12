@@ -11,6 +11,6 @@ set postponed = "+CCA/INBOX.Draft"
 set signature = "/home/dean/.mutt/work.sig"
 color status cyan default
 
-macro index ,c "<change-folder>+GMail/INBOX<return>" "change accounts"
+macro index ,c "<change-folder>+Node/INBOX<return>" "change accounts"
 macro index D "<save-message>+CCA/INBOX.Trash<enter>" "move message to the trash"
 macro index S "<save-message>+CCA/INBOX.Spam<enter>"  "mark message as spam"
