@@ -1,6 +1,7 @@
 #
 # ~/.bashrc
 #
+export TERM="rxvt-unicode-256color"
 export PATH="${PATH}:/usr/bin"
 export XDG_DATA_HOME="/home/$USER/.local/share"
 export XDG_CONFIG_HOME="/home/$USER/.config"
@@ -16,10 +17,10 @@ alias ls='ls --color=auto'
 alias home="cd ~/"
 alias upgrade='sudo pacman -Syu && yaourt -Syu --aur'
 # Color support
-#if [ -x /usr/bin/dircolors ]; then
-#    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-#    alias ls='ls --color=auto'
-#fi
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+fi
 
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
@@ -59,6 +60,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# sanitize - set file/directory owner and permissions to normal values (644/755)
+# Usage: sanitize <file>
+sanitize() {
+    chmod -R u=rwX,go=rX "$@"
+    chown -R ${USER}.users "$@"
+}
+
 extract () {
     if [ -f $1 ] ; then
       case $1 in
@@ -80,7 +88,7 @@ extract () {
      fi
 }
 
-PS1="\[\e[01;31m\]┌─[\t]──[\[\e[01;31m\u\e[01;31m\]]──[\[\e[00;31m\]${HOSTNAME%%.*}\[\e[01;31m\]]:\w$\[\e[01;31m\]\n\[\e[01;37m\]└──\[\e[01;37m\](\[\e[32;1m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') files, \$(/usr/bin/ls -lah | /usr//bin/grep -m 1 total | /usr/bin/sed 's/total //')b\[\e[01;37m\])>>\[\e[0m\]"
+PS1="\[\e[01;31m\]┌─[\t]──[\[\e[01;31m\u\e[01;31m\]]──[\[\e[00;31m\]${HOSTNAME%%.*}\[\e[01;31m\]]:\w$\[\e[01;31m\]\n\[\e[01;37m\]└──\[\e[01;37m\](\[\e[32;1m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') files, \$(/usr/bin/ls -lah | /usr/bin/grep -m 1 total | /usr/bin/sed 's/total //')b\[\e[01;37m\])>>\[\e[0m\]"
 #screenfetch
 #archinfo --Art=graffiti --art-color=cyan --label-color=white --data-color=green --set editor=vim
-archey
+thecat.sh
