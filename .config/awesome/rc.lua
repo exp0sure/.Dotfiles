@@ -90,7 +90,6 @@ gui_editor = "sublime_text"
 browser = "dwb"
 browser2 = "dwb"
 mail = terminal .. " -g 130x30 -e mutt "
-chat = terminal .. " -g 130x30 -e centerim5 "
 tasks = terminal .. " -e htop "
 -- wifi = terminal .. " -e sudo wifi-menu "
 -- musicplr = terminal .. " -g 130x34-320+16 -e ncmpcpp "
@@ -123,7 +122,7 @@ end
 -- Tags
 
 tags = {
-       names = { " 1 ", " 2 ", " 3 ", " 4 ", " 5 "},
+       names = { "/float/", "/term/", "/webz/", "/misc/", "/warez/"},
        layout = { layouts[1], layouts[2], layouts[2], layouts[2], layouts[2] }
        }
 for s = 1, screen.count() do
@@ -140,7 +139,6 @@ myaccessories = {
 }
 myinternet = {
     { "dwb", browser },
-    { "centerim" , chat },
     { "mutt", mail},
     { "transmission" , terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
     { "turses", terminal .. " -g 130x30 -e turses" },
@@ -176,7 +174,6 @@ myoffice = {
 }
 mysystem = {
     { "lxappearance" , "lxappearance" },
-    { "bleachbit" , "bleachbit" },
     { "gparted" , "sudo gparted"},
     { "htop" , tasks }
 }
@@ -624,6 +621,8 @@ globalkeys = awful.util.table.join(
 
     -- User programs
     awful.key({ modkey,        }, "q",      function () awful.util.spawn( "dwb", false ) end),
+    awful.key({ modkey, "Control" }, "m",       function () awful.util.spawn( terminal .. " -g 130x30 -e mutt", false ) end),
+
     awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
     awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -depth 16 -g 130x30 -e ranger", false ) end),
     awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
@@ -733,13 +732,7 @@ awful.rules.rules = {
           properties = { tag = tags[1][2] } },
 
     { rule = { class = "Sublime_text" },
-          properties = { tag = tags[1][3] } },
-
-    { rule = { class = "Spacefm" },
-          properties = { tag = tags[1][5] } },
-
-    { rule = { class = "Gedit" },
-          properties = { tag = tags[1][3] } },
+          properties = { tag = tags[1][4] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "sabcurses.py"},
           properties = { tag = tags[1][5] } },
@@ -748,22 +741,19 @@ awful.rules.rules = {
           properties = { tag = tags[1][2] } },      
 
     { rule = { instance = "urxvt", class = "URxvt", name = "weechat"},
-          properties = { tag = tags[1][4] } },
+          properties = { tag = tags[1][3] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "mutt" },
-          properties = { tag = tags[1][5] } },
+          properties = { tag = tags[1][3] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "htop" },
-          properties = { tag = tags[1][5] } },
-
-    { rule = { instance = "urxvt", class = "URxvt", name = "centerim5" },
-          properties = { tag = tags[1][5] } },         
+          properties = { tag = tags[1][2] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "turses" },
-          properties = { tag = tags[1][5] } },
+          properties = { tag = tags[1][3] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "cdw" },
-          properties = { tag = tags[1][4] } },
+          properties = { tag = tags[1][2] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "transmission-remote-cli"},
           properties = { tag = tags[1][5] } },
@@ -776,13 +766,13 @@ awful.rules.rules = {
         properties = { tag = tags[1][1] } },    
 
     { rule = { class = "Devede" },
-        properties = { tag = tags[1][4] } },
+        properties = { tag = tags[1][1] } },
 
     { rule = { name = "LibreOffice"},
-        properties = { tag = tags[1][3] } },
+        properties = { tag = tags[1][4] } },
 
     { rule = { class = "Gimp" },
-          properties = { tag = tags[1][4],
+          properties = { tag = tags[1][1],
           floating = true } },
 
 }
