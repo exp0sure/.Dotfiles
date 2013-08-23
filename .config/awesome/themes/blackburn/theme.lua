@@ -14,7 +14,7 @@ theme.wallpaper                             = themes_dir .. "/wall3.jpg"
 themes_bg_normal                            = "png:" .. themes_dir .. "/taskbar/bg_normal.png"
 themes_bg_focus                             = "png:" .. themes_dir .. "/taskbar/bg_focus.png"
 
-theme.font                                  = "Terminus 9"
+theme.font                                  = "terminus12 9"
 theme.fg_normal                             = "#f40b20"
 theme.fg_focus                              = "#0fdbbc"
 theme.fg_urgent                             = "#224440"
@@ -49,6 +49,7 @@ theme.useless_gap_width = 15
 theme.menu_submenu_icon = "/usr/share/awesome/themes/default/submenu.png"
 theme.menu_height = "15"
 theme.menu_width  = "100"
+
  
 -- Define the image to load
 theme.titlebar_close_button_normal = "/usr/share/awesome/themes/default/titlebar/close_normal.png"
