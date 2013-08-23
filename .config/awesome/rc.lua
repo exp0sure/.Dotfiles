@@ -34,7 +34,7 @@ function run_once(cmd)
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
  end
 
-run_once("compton --backend glx --paint-on-overlay --glx-no-stencil --vsync opengl-swc --unredir-if-possible --config ~/.compton.conf -b")
+run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --config ~/.compton.conf -b")
 run_once("nm-applet")
 run_once("/opt/dropbox/dropboxd")
 run_once("mpd")
@@ -138,7 +138,6 @@ myinternet = {
     { "dwb", browser },
     { "mutt", mail},
     { "transmission" , terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
-    { "turses", terminal .. " -g 130x30 -e turses" },
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
     { "headphones", "dwb http://localhost:8181" },
     { "sabnzbd" , terminal .. " -g 130x30 -e sabcurses.py" },
@@ -428,74 +427,59 @@ for s = 1, screen.count() do
 
     -- Widgets that are aligned to the left
     local left_layout = wibox.layout.fixed.horizontal()
-    left_layout:add(space)
-    left_layout:add(mytaglist[s])
-    left_layout:add(space)
     left_layout:add(mylauncher)
     left_layout:add(mypromptbox[s])
  
     -- Widgets that are aligned to the right
     local right_layout = wibox.layout.fixed.horizontal()
-    if s == 1 then right_layout:add(wibox.widget.systray()) end
+    
     -- right_layout:add(sysicon)
     right_layout:add(space)
     right_layout:add(space)
-    right_layout:add(sysicon)
-    right_layout:add(syswidget)
-    right_layout:add(space)
-    -- right_layout:add(tempwidget)
-    -- right_layout:add(space)
-    right_layout:add(volicon)
-    right_layout:add(volumewidget)
-    right_layout:add(space)
-    right_layout:add(cpuicon)
-    right_layout:add(cpuwidget)
-    right_layout:add(space)
-    right_layout:add(memicon)
-    right_layout:add(memwidget)
-    right_layout:add(space)
-    right_layout:add(pacicon)
-    right_layout:add(pacwidget)
-    right_layout:add(space)
-    right_layout:add(clockicon)
-    right_layout:add(mytextclock)
-    right_layout:add(space)
+    
     -- right_layout:add(mylayoutbox[s])
  
     -- Now bring it all together (with the tasklist in the middle)
     local layout = wibox.layout.align.horizontal()
     layout:set_left(left_layout)
     -- layout:set_middle(mytasklist[s])
+    layout:set_middle(mytaglist[s])
     layout:set_right(right_layout)
  
     mywibox[s]:set_widget(layout)
 
     -- Create Bottom WiBox
-    -- mybottomwibox[s] = awful.wibox({ position = "bottom", screen = s })
+    mybottomwibox[s] = awful.wibox({ position = "bottom", screen = s })
 
-    -- Widgets Aligned to the Left
-    --local bottom_left_layout = wibox.layout.fixed.horizontal()
-    -- bottom_left_layout:add(rshtext)
-    -- bottom_left_layout:add(rshwidget)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(fshtext)
-    -- bottom_left_layout:add(fshwidget)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(cshtext)
-    -- bottom_left_layout:add(cshwidget)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(sshtext)
-    -- bottom_left_layout:add(sshwidget)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(space)
-    
+    -- Widgets Aligned to the Middle
+    local bottom_left_layout = wibox.layout.fixed.horizontal()
+    bottom_left_layout:add(sysicon)
+    bottom_left_layout:add(syswidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(volicon)
+    bottom_left_layout:add(volumewidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(cpuicon)
+    bottom_left_layout:add(cpuwidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(memicon)
+    bottom_left_layout:add(memwidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(pacicon)
+    bottom_left_layout:add(pacwidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(clockicon)
+    bottom_left_layout:add(mytextclock)
+    bottom_left_layout:add(space)
+  
+    local bottom_right_layout = wibox.layout.fixed.horizontal()
+    -- if s == 1 then bottom_right_layout:add(wibox.widget.systray()) end
+
     -- Bring Bottom Wibox Together
-    -- local bottom_layout = wibox.layout.align.horizontal()
-    -- bottom_layout:set_middle(bottom_left_layout)
-    -- mybottomwibox[s]:set_widget(bottom_layout)
+    local bottom_layout = wibox.layout.align.horizontal()
+    bottom_layout:set_middle(bottom_left_layout)
+    bottom_layout:set_right(bottom_right_layout)
+    mybottomwibox[s]:set_widget(bottom_layout)
 end
 -- }}}
 
@@ -757,9 +741,6 @@ awful.rules.rules = {
 
     { rule = { instance = "urxvt", class = "URxvt", name = "htop" },
           properties = { tag = tags[1][2] } },
-
-    { rule = { instance = "urxvt", class = "URxvt", name = "turses" },
-          properties = { tag = tags[1][3] } },
 
     { rule = { instance = "urxvt", class = "URxvt", name = "cdw" },
           properties = { tag = tags[1][2] } },
