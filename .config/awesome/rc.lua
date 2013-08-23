@@ -23,7 +23,6 @@ scratch         = require("scratch")
 -- layouts
 layouts         = require("layouts")
 
-
 -- Run once function
 
 function run_once(cmd)
@@ -122,18 +121,15 @@ end
 -- Tags
 
 tags = {
---       names = { "/float/", "/term/", "/webz/", "/misc/", "/warez/"},
-names = { " ⠐ ", " ⠡ ", " ⠪ ", " ⠵ ", " ⠻ "},
+       names = { " ⠐ ", " ⠡ ", " ⠪ ", " ⠵ ", " ⠻ "},
        layout = { layouts[1], layouts[2], layouts[2], layouts[2], layouts[2] }
        }
 for s = 1, screen.count() do
    tags[s] = awful.tag(tags.names, s, tags.layout)
 end
-
 -- Menu
 myaccessories = {
    { "7zFM", "7zFM" },
-   { "spacefm", "spacefm" },
    { "ranger", terminal .. " -depth 16 -g 130x30 -e ranger"},
    { "editor", gui_editor }
    
@@ -197,12 +193,13 @@ colwhi  = "<span color='#b2b2b2'>"
 colbwhi = "<span color='#ffffff'>"
 blue = "<span color='#7493d2'>"
 yellow = "<span color='#e0da37'>"
+grey = "<span color='#636060'>"
 purple = "<span color='#e33a6e'>"
 lightpurple = "<span color='#eca4c4'>"
 azure = "<span color='#80d9d8'>"
 green = "<span color='#87af5f'>"
 lightgreen = "<span color='#62b786'>"
-red = "<span color='#e54c62'>"
+red = "<span color='#bd0707'>"
 orange = "<span color='#ff7100'>"
 brown = "<span color='#db842f'>"
 fuchsia = "<span color='#800080'>"
@@ -210,13 +207,20 @@ gold = "<span color='#e7b400'>"
 
 
 -- {{{ Wibox
+
+-- {{{{ Temp
+
+tempwidget = wibox.widget.textbox()
+vicious.register(tempwidget, vicious.widgets.thermal, "$1°C", 2, { "../../module/k10temp/drivers/pci:k10temp/0000:00:18.3", "core", "temp1_input", div = 2 })
+
+-- }}}
  
 -- {{{ Kernel Info
  
 sysicon = wibox.widget.imagebox()
 sysicon:set_image(beautiful.widget_arch)
 syswidget = wibox.widget.textbox()
-vicious.register( syswidget, vicious.widgets.os, brown .. "$2" ..coldef)
+vicious.register( syswidget, vicious.widgets.os, grey .. "$2" ..coldef)
  
 -- }}}
  
@@ -235,7 +239,7 @@ vicious.register( uptimewidget, vicious.widgets.uptime, "<span color=\"#d3c6d7\"
 cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = wibox.widget.textbox()
-vicious.register(cpuwidget, vicious.widgets.cpu, purple .. "$1%" .. coldef, 3)
+vicious.register(cpuwidget, vicious.widgets.cpu, grey .. "$1%" .. coldef, 3)
 cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))
  
 -- }}}
@@ -247,7 +251,7 @@ cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.uti
 memicon = wibox.widget.imagebox()
 memicon:set_image(beautiful.widget_mem)
 memwidget = wibox.widget.textbox()
-vicious.register(memwidget, vicious.widgets.mem, yellow .. "$2MB" .. coldef, 5)
+vicious.register(memwidget, vicious.widgets.mem, grey .. "$2MB" .. coldef, 5)
  
 -- }}}
  
@@ -296,7 +300,7 @@ vicious.register(ethupinfo, vicious.widgets.net, "<span color=\"#d3c6d7\">${enp9
 volicon = wibox.widget.imagebox()
 volicon:set_image(beautiful.widget_vol)
 volumewidget = wibox.widget.textbox()
-vicious.register(volumewidget, vicious.widgets.volume, blue .. "$1%" .. coldef,  1, "Master")
+vicious.register(volumewidget, vicious.widgets.volume, grey .. "$1%" .. coldef,  1, "Master")
  
 -- }}}
 
@@ -312,18 +316,18 @@ pacicon:set_image(beautiful.widget_pac)
 
 -- Pacman Widget
 pacwidget = wibox.widget.textbox()
-pacwidget_t = awful.tooltip({ objects = { pacwidget},})
+pacwidget_t = awful.tooltip({ objects = {pacwidget},})
 vicious.register(pacwidget, vicious.widgets.pkg,
                 function(widget,args)
                     local io = { popen = io.popen }
                     local s = io.popen("pacman -Qu")
                     local str = ''
                     for line in s:lines() do
-                        str = str .. line .. "\n"
+                        str = str .. line .. "\n" 
                     end
                     pacwidget_t:set_text(str)
                     s:close()
-                    return " " .. args[1]
+                    return "" .. grey .. args[1] .. coldef
                 end, 60, "Arch")
                 --'1800' means check every 30 minutes
 
@@ -337,7 +341,7 @@ pacicon:buttons(awful.util.table.join(
 -- Textclock widget
 clockicon = wibox.widget.imagebox()
 clockicon:set_image(beautiful.widget_clock)
-mytextclock = awful.widget.textclock("<span color='#7788af'>%A %d %B</span> " .. blue .. "</span><span color=\"#343639\">></span> <span color='#de5e1e'>%H:%M</span> ")
+mytextclock = awful.widget.textclock(grey .. " %A %d %B</span> " .. colwhi .. "</span><span color=\"#ffffff\">></span> <span color='#b3acac'>%H:%M</span> ")
  
 -- }}}
  
@@ -425,7 +429,6 @@ for s = 1, screen.count() do
     -- Widgets that are aligned to the left
     local left_layout = wibox.layout.fixed.horizontal()
     left_layout:add(space)
-    --left_layout:add(space) 
     left_layout:add(mytaglist[s])
     left_layout:add(space)
     left_layout:add(mylauncher)
@@ -440,6 +443,8 @@ for s = 1, screen.count() do
     right_layout:add(sysicon)
     right_layout:add(syswidget)
     right_layout:add(space)
+    -- right_layout:add(tempwidget)
+    -- right_layout:add(space)
     right_layout:add(volicon)
     right_layout:add(volumewidget)
     right_layout:add(space)
@@ -460,7 +465,7 @@ for s = 1, screen.count() do
     -- Now bring it all together (with the tasklist in the middle)
     local layout = wibox.layout.align.horizontal()
     layout:set_left(left_layout)
-    --layout:set_middle(mytasklist[s])
+    -- layout:set_middle(mytasklist[s])
     layout:set_right(right_layout)
  
     mywibox[s]:set_widget(layout)
