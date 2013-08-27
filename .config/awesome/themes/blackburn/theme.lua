@@ -15,14 +15,14 @@ themes_bg_normal                            = "png:" .. themes_dir .. "/taskbar/
 themes_bg_focus                             = "png:" .. themes_dir .. "/taskbar/bg_focus.png"
 
 theme.font                                  = "terminus12 9"
-theme.fg_normal                             = "#f40b20"
-theme.fg_focus                              = "#0fdbbc"
+theme.fg_normal                             = "#636060"
+theme.fg_focus                              = "#f40b20"
 theme.fg_urgent                             = "#224440"
 theme.bg_normal                             = "#01080a"
 theme.bg_focus                              = "#01080a"
 theme.bg_urgent                             = "#051014"
 theme.border_width                          = "1"
-theme.border_normal                         = "#851621"
+theme.border_normal                         = "#292727"
 theme.border_focus                          = "#851621"
 theme.border_marked                         = "#851621"
 theme.titlebar_bg_focus                     = "#091114"
@@ -34,7 +34,7 @@ theme.textbox_widget_margin_top             = 1
 theme.notify_fg                             = theme.fg_normal
 theme.notify_bg                             = theme.bg_normal
 theme.notify_border                         = theme.border_focus
-theme.taglist_bg_focus                      = themes_bg_focus
+theme.taglist_bg_focus                      = "#01080a"
 theme.awful_widget_height                   = 14
 theme.awful_widget_margin_top               = 10
 theme.awful_widget_margin_bottom			= 10
@@ -46,7 +46,7 @@ theme.mouse_finder_color                    = "#CC9393"
 theme.useless_gap_width = 15
 
 -- Variables set for theming the menu:
-theme.menu_submenu_icon = "/usr/share/awesome/themes/default/submenu.png"
+theme.menu_submenu_icon = themes_dir .. "/icons/submenu.png"
 theme.menu_height = "15"
 theme.menu_width  = "100"
 
