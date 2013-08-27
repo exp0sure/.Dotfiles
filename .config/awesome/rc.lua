@@ -34,7 +34,7 @@ function run_once(cmd)
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
  end
 
-run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --config ~/.compton.conf -b")
+run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-if-possible --config ~/.compton.conf -b")
 run_once("nm-applet")
 run_once("/opt/dropbox/dropboxd")
 run_once("mpd")
@@ -209,8 +209,20 @@ gold = "<span color='#e7b400'>"
 
 -- {{{{ Temp
 
+tempicon = wibox.widget.imagebox()
+tempicon:set_image(beautiful.widget_temp)
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, "$1°C", 2, { "../../module/k10temp/drivers/pci:k10temp/0000:00:18.3", "core", "temp1_input", div = 2 })
+vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 2, { "it87.656", "core", "temp1_input"})
+
+coretempwidget = wibox.widget.textbox()
+ vicious.register(coretempwidget, vicious.widgets.thermal, 
+    function (widget, args)
+      return string.format(grey .. "%d°C" .. coldef, math.floor(args[1] - 0.5))
+     end,
+     5,
+     {"../../module/k10temp/drivers/pci:k10temp/0000:00:18.3", "core", "temp1_input"})
+
+
 
 -- }}}
  
@@ -219,7 +231,7 @@ vicious.register(tempwidget, vicious.widgets.thermal, "$1°C", 2, { "../../modul
 sysicon = wibox.widget.imagebox()
 sysicon:set_image(beautiful.widget_arch)
 syswidget = wibox.widget.textbox()
-vicious.register( syswidget, vicious.widgets.os, grey .. "$2" ..coldef)
+vicious.register( syswidget, vicious.widgets.os, grey .. "$2" .. coldef)
  
 -- }}}
  
@@ -228,7 +240,7 @@ vicious.register( syswidget, vicious.widgets.os, grey .. "$2" ..coldef)
 uptimeicon = wibox.widget.imagebox()
 uptimeicon:set_image(beautiful.widget_uptime)
 uptimewidget = wibox.widget.textbox()
-vicious.register( uptimewidget, vicious.widgets.uptime, "<span color=\"#d3c6d7\">$2.$3'</span>")
+vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$2h $3m" .. coldef)
  
 -- }}}
  
@@ -332,15 +344,18 @@ vicious.register(pacwidget, vicious.widgets.pkg,
 
 pacicon:buttons(awful.util.table.join(
     awful.button({ }, 3, function () awful.util.spawn("".. terminal.. " --hold -e sudo pacman -Syu", false) end),
-    awful.button({ }, 1, function () awful.util.spawn("sudo pacman -Sy", false) end)
+    awful.button({ }, 1, function () awful.util.spawn("sudo pacman -Syu", false) end)
 ))
+
+
+
  
 -- {{{ Clock
  
 -- Textclock widget
 clockicon = wibox.widget.imagebox()
 clockicon:set_image(beautiful.widget_clock)
-mytextclock = awful.widget.textclock(grey .. " %A %d %B</span> " .. colwhi .. "</span><span color=\"#ffffff\">></span> <span color='#b3acac'>%H:%M</span> ")
+mytextclock = awful.widget.textclock(grey .. "%A %d %B</span> " .. colwhi .. "</span><span color=\"#ffffff\">></span> <span color='#b3acac'>%H:%M</span>")
  
 -- }}}
  
@@ -349,8 +364,8 @@ space = wibox.widget.textbox()
 space:set_text(' ')
 
 -- {{{ Seperator
-sepa = wibox.widget.textbox()
-sepa:set_text('|')
+openb = wibox.widget.textbox(colbwhi .. ' [' .. coldef)
+closeb = wibox.widget.textbox(colbwhi .. ' ]' .. coldef)
  
 -- }}}
  
@@ -432,11 +447,8 @@ for s = 1, screen.count() do
  
     -- Widgets that are aligned to the right
     local right_layout = wibox.layout.fixed.horizontal()
-    
-    -- right_layout:add(sysicon)
     right_layout:add(space)
-    right_layout:add(space)
-    
+    right_layout:add(space) 
     -- right_layout:add(mylayoutbox[s])
  
     -- Now bring it all together (with the tasklist in the middle)
@@ -453,24 +465,49 @@ for s = 1, screen.count() do
 
     -- Widgets Aligned to the Middle
     local bottom_left_layout = wibox.layout.fixed.horizontal()
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(sysicon)
     bottom_left_layout:add(syswidget)
+    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(volicon)
     bottom_left_layout:add(volumewidget)
+    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(cpuicon)
     bottom_left_layout:add(cpuwidget)
+    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(memicon)
     bottom_left_layout:add(memwidget)
+    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
+    bottom_left_layout:add(tempicon)
+    bottom_left_layout:add(tempwidget)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(cpuicon)
+    bottom_left_layout:add(coretempwidget)
+    bottom_left_layout:add(closeb)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(pacicon)
     bottom_left_layout:add(pacwidget)
+    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
+    bottom_left_layout:add(uptimeicon)
+    bottom_left_layout:add(uptimewidget)
+    bottom_left_layout:add(closeb)
+    bottom_left_layout:add(space)
+    bottom_left_layout:add(openb)
     bottom_left_layout:add(clockicon)
     bottom_left_layout:add(mytextclock)
-    bottom_left_layout:add(space)
+    bottom_left_layout:add(closeb)
+    
   
     local bottom_right_layout = wibox.layout.fixed.horizontal()
     -- if s == 1 then bottom_right_layout:add(wibox.widget.systray()) end
@@ -567,7 +604,6 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,	          }, "z",     function () scratch.drop(terminal) end),
 
     -- Widgets popups
-    awful.key({ altkey,           }, "c",     function () add_calendar(7) end),
 
     -- Volume control
     awful.key({ "Control" }, "Up", function ()
@@ -653,6 +689,7 @@ clientkeys = awful.util.table.join(
 )
 
 -- Compute the maximum number of digit we need, limited to 9
+
 keynumber = 0
 for s = 1, screen.count() do
    keynumber = math.min(9, math.max(#tags[s], keynumber));
