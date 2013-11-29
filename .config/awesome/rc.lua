@@ -36,14 +36,14 @@ function run_once(cmd)
 
 run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-if-possible --config ~/.compton.conf -b")
 run_once("nm-applet")
-run_once("/opt/dropbox/dropboxd")
-run_once("mpd")
+-- run_once("/opt/dropbox/dropboxd")
+-- run_once("mpd")
 run_once("unclutter -idle 10")
 
 
 -- Localization
 
--- os.setlocale("en_AU.UTF-8")
+os.setlocale("en_AU.UTF-8")
 
 
 -- Error Handling
@@ -85,7 +85,7 @@ beautiful.init(active_theme .. "/theme.lua")
 terminal = "urxvt"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
-gui_editor = "sublime_text"
+gui_editor = "/opt/sublime-text/sublime_text"
 browser = "dwb"
 browser2 = "dwb"
 mail = terminal .. " -g 130x30 -e mutt "
@@ -104,8 +104,8 @@ layouts =
     layouts.uselesstile,
     layouts.termfair,
     layouts.browse,
-    -- layouts.uselessfair,
-    -- layouts.centerwork,
+    layouts.uselessfair,
+    layouts.centerwork,
 }
 -- }}}
 
@@ -129,18 +129,13 @@ for s = 1, screen.count() do
 end
 -- Menu
 myaccessories = {
-   { "7zFM", "7zFM" },
    { "ranger", terminal .. " -depth 16 -g 130x30 -e ranger"},
    { "editor", gui_editor }
    
 }
 myinternet = {
-    { "dwb", browser },
-    { "mutt", mail},
-    { "transmission" , terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
-    { "headphones", "dwb http://localhost:8181" },
-    { "sabnzbd" , terminal .. " -g 130x30 -e sabcurses.py" },
+    { "sabnzbd" , "dwb http://localhost:9090" },
     { "sickbeard", "dwb http://localhost:8081" },
     { "couchpotato", "dwb http://localhost:5050"}
 }
@@ -148,7 +143,6 @@ mymedia = {
     { "volume", "pavucontrol"},
     { "smplayer", "smplayer"},
     { "vlc", terminal .. " -e vlc -I ncurses" },
-    { "ncmpcpp", terminal .. " -g 130x30 -e ncmpcpp"},
     { "cdw", terminal .. " -g 130x30 -e cdw"},
     { "devede", "devede"},
     { "ghb" , "ghb"}
@@ -212,14 +206,14 @@ gold = "<span color='#e7b400'>"
 tempicon = wibox.widget.imagebox()
 tempicon:set_image(beautiful.widget_temp)
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 2, { "it87.656", "core", "temp1_input"})
+vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 15, { "it87.656", "core", "temp1_input"})
 
 coretempwidget = wibox.widget.textbox()
  vicious.register(coretempwidget, vicious.widgets.thermal, 
     function (widget, args)
       return string.format(grey .. "%d°C" .. coldef, math.floor(args[1] - 0.5))
      end,
-     5,
+     15,
      {"../../module/k10temp/drivers/pci:k10temp/0000:00:18.3", "core", "temp1_input"})
 
 
@@ -250,7 +244,7 @@ vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$2h $3m" .. col
 cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = wibox.widget.textbox()
-vicious.register(cpuwidget, vicious.widgets.cpu, grey .. "$1%" .. coldef, 3)
+vicious.register(cpuwidget, vicious.widgets.cpu, grey .. "$1%" .. coldef, 15)
 cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))
  
 -- }}}
@@ -262,7 +256,7 @@ cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.uti
 memicon = wibox.widget.imagebox()
 memicon:set_image(beautiful.widget_mem)
 memwidget = wibox.widget.textbox()
-vicious.register(memwidget, vicious.widgets.mem, grey .. "$2MB" .. coldef, 5)
+vicious.register(memwidget, vicious.widgets.mem, grey .. "$2MB" .. coldef, 15)
  
 -- }}}
  
@@ -315,8 +309,6 @@ vicious.register(volumewidget, vicious.widgets.volume, grey .. "$1%" .. coldef, 
  
 -- }}}
 
-
-
 -------------------
 -- Pacman Widget --
 -------------------
@@ -334,7 +326,7 @@ vicious.register(pacwidget, vicious.widgets.pkg,
                     local s = io.popen("pacman -Qu")
                     local str = ''
                     for line in s:lines() do
-                        str = str .. line .. "\n" 
+                        str = str .. line .. "\n"
                     end
                     pacwidget_t:set_text(str)
                     s:close()
@@ -346,7 +338,6 @@ pacicon:buttons(awful.util.table.join(
     awful.button({ }, 3, function () awful.util.spawn("".. terminal.. " --hold -e sudo pacman -Syu", false) end),
     awful.button({ }, 1, function () awful.util.spawn("sudo pacman -Syu", false) end)
 ))
-
 
 
  
@@ -510,7 +501,7 @@ for s = 1, screen.count() do
     
   
     local bottom_right_layout = wibox.layout.fixed.horizontal()
-    -- if s == 1 then bottom_right_layout:add(wibox.widget.systray()) end
+    if s == 1 then bottom_right_layout:add(wibox.widget.systray()) end
 
     -- Bring Bottom Wibox Together
     local bottom_layout = wibox.layout.align.horizontal()
@@ -654,7 +645,8 @@ globalkeys = awful.util.table.join(
 
     awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
     awful.key({ modkey, "Control" }, "f", 	    function () awful.util.spawn( terminal .. " -depth 16 -g 130x30 -e ranger", false ) end),
-    awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
+    awful.key({ modkey, "Control" }, "v",           function () awful.util.spawn( "/usr/local/bin/video", false) end),
+    -- awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
 
     -- Prompt
     awful.key({ modkey }, "r", function () mypromptbox[mouse.screen]:run() end),
