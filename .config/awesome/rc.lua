@@ -35,7 +35,7 @@ function run_once(cmd)
  end
 
 run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-if-possible --config ~/.compton.conf -b")
-run_once("nm-applet")
+-- run_once("nm-applet")
 -- run_once("/opt/dropbox/dropboxd")
 -- run_once("mpd")
 run_once("unclutter -idle 10")
@@ -206,16 +206,7 @@ gold = "<span color='#e7b400'>"
 tempicon = wibox.widget.imagebox()
 tempicon:set_image(beautiful.widget_temp)
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 15, { "it87.656", "core", "temp1_input"})
-
-coretempwidget = wibox.widget.textbox()
- vicious.register(coretempwidget, vicious.widgets.thermal, 
-    function (widget, args)
-      return string.format(grey .. "%d°C" .. coldef, math.floor(args[1] - 0.5))
-     end,
-     15,
-     {"../../module/k10temp/drivers/pci:k10temp/0000:00:18.3", "core", "temp1_input"})
-
+vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 15, "thermal_zone0")
 
 
 -- }}}
@@ -234,7 +225,7 @@ vicious.register( syswidget, vicious.widgets.os, grey .. "$2" .. coldef)
 uptimeicon = wibox.widget.imagebox()
 uptimeicon:set_image(beautiful.widget_uptime)
 uptimewidget = wibox.widget.textbox()
-vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$2h $3m" .. coldef)
+vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$1d $2h $3m" .. coldef)
  
 -- }}}
  
@@ -479,9 +470,9 @@ for s = 1, screen.count() do
     bottom_left_layout:add(openb)
     bottom_left_layout:add(tempicon)
     bottom_left_layout:add(tempwidget)
-    bottom_left_layout:add(space)
-    bottom_left_layout:add(cpuicon)
-    bottom_left_layout:add(coretempwidget)
+    -- bottom_left_layout:add(space)
+    -- bottom_left_layout:add(cpuicon)
+    -- bottom_left_layout:add(coretempwidget)
     bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
     bottom_left_layout:add(openb)
