@@ -23,6 +23,49 @@ scratch         = require("scratch")
 -- layouts
 layouts         = require("layouts")
 
+-- Conky
+function get_conky()
+    local clients = client.get()
+    local conky = nil
+    local i = 1
+    while clients[i]
+    do
+        if clients[i].class == "Conky"
+        then
+            conky = clients[i]
+        end
+        i = i + 1
+    end
+    return conky
+end
+function raise_conky()
+    local conky = get_conky()
+    if conky
+    then
+        conky.ontop = true
+    end
+end
+function lower_conky()
+    local conky = get_conky()
+    if conky
+    then
+        conky.ontop = false
+    end
+end
+function toggle_conky()
+    local conky = get_conky()
+    if conky
+    then
+        if conky.ontop
+        then
+            conky.ontop = false
+        else
+            conky.ontop = true
+        end
+    end
+end
+
+
 -- Run once function
 
 function run_once(cmd)
@@ -33,11 +76,11 @@ function run_once(cmd)
   end
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
  end
-
-run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-if-possible --config ~/.compton.conf -b")
+run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-if-possible --shadow-exclude 'n:a:Conky' --blur-background-exclude 'n:a:Conky' --config ~/.compton.conf -b")
 -- run_once("nm-applet")
 -- run_once("/opt/dropbox/dropboxd")
--- run_once("mpd")
+run_once("mpd")
+run_once("conky ~/.conkyrc")
 run_once("unclutter -idle 10")
 
 
@@ -85,13 +128,12 @@ beautiful.init(active_theme .. "/theme.lua")
 terminal = "urxvt"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
-gui_editor = "/opt/sublime-text/sublime_text"
+gui_editor = "gedit"
 browser = "dwb"
 browser2 = "dwb"
 mail = terminal .. " -g 130x30 -e mutt "
 tasks = terminal .. " -e htop "
--- wifi = terminal .. " -e sudo wifi-menu "
--- musicplr = terminal .. " -g 130x34-320+16 -e ncmpcpp "
+musicplr = terminal .. " -g 130x34-320+16 -e ncmpcpp "
 
 modkey = "Mod4"
 altkey = "Mod1"
@@ -121,7 +163,7 @@ end
 -- Tags
 
 tags = {
-       names = { " ⠐ ", " ⠡ ", " ⠪ ", " ⠵ ", " ⠻ "},
+       names = { " :) ", " :/ ", " :P ", " X) ", " ;) "},
        layout = { layouts[1], layouts[2], layouts[2], layouts[2], layouts[2] }
        }
 for s = 1, screen.count() do
@@ -136,6 +178,7 @@ myaccessories = {
 myinternet = {
     { "weechat", terminal .. " -g 130x30 -e weechat-curses" },
     { "sabnzbd" , "dwb http://localhost:9090" },
+    { "transmission", terminal .. " -g 130x30 -e transmission-remote-cli -c xenogia:dot.dot.dot@localhost:9091" },
     { "sickbeard", "dwb http://localhost:8081" },
     { "couchpotato", "dwb http://localhost:5050"}
 }
@@ -197,7 +240,15 @@ orange = "<span color='#ff7100'>"
 brown = "<span color='#db842f'>"
 fuchsia = "<span color='#800080'>"
 gold = "<span color='#e7b400'>"
+lightblue="<span color='#3eae9e'>"
+lightblue2="<span color='#266c76'>"
+lightblue3="<span color='#285666'>"
+lightblue4="<span color='#257c85'>"
+lightblue5="<span color='#223d5a'>"
+lightblue6="<span color='#235369'>"
 
+offyellow="<span color='#857b52'>"
+bottomgrey="<span color='#999999'>"
 
 -- {{{ Wibox
 
@@ -206,7 +257,7 @@ gold = "<span color='#e7b400'>"
 tempicon = wibox.widget.imagebox()
 tempicon:set_image(beautiful.widget_temp)
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef, 15, "thermal_zone0")
+vicious.register(tempwidget, vicious.widgets.thermal, bottomgrey .. "  Temp: $1°C" .. coldef, 15, "thermal_zone0")
 
 
 -- }}}
@@ -216,7 +267,7 @@ vicious.register(tempwidget, vicious.widgets.thermal, grey .. "$1°C" .. coldef,
 sysicon = wibox.widget.imagebox()
 sysicon:set_image(beautiful.widget_arch)
 syswidget = wibox.widget.textbox()
-vicious.register( syswidget, vicious.widgets.os, grey .. "$2" .. coldef)
+vicious.register( syswidget, vicious.widgets.os, bottomgrey .. "  Kernel: $2" .. coldef)
  
 -- }}}
  
@@ -225,7 +276,7 @@ vicious.register( syswidget, vicious.widgets.os, grey .. "$2" .. coldef)
 uptimeicon = wibox.widget.imagebox()
 uptimeicon:set_image(beautiful.widget_uptime)
 uptimewidget = wibox.widget.textbox()
-vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$1d $2h $3m" .. coldef)
+vicious.register( uptimewidget, vicious.widgets.uptime, bottomgrey .. "  Uptime: $1d $2h $3m" .. coldef)
  
 -- }}}
  
@@ -235,7 +286,7 @@ vicious.register( uptimewidget, vicious.widgets.uptime, grey .. "$1d $2h $3m" ..
 cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = wibox.widget.textbox()
-vicious.register(cpuwidget, vicious.widgets.cpu, grey .. "$1%" .. coldef, 15)
+vicious.register(cpuwidget, vicious.widgets.cpu, bottomgrey .. "  Cpu: $1%" .. coldef, 15)
 cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))
  
 -- }}}
@@ -247,7 +298,7 @@ cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.uti
 memicon = wibox.widget.imagebox()
 memicon:set_image(beautiful.widget_mem)
 memwidget = wibox.widget.textbox()
-vicious.register(memwidget, vicious.widgets.mem, grey .. "$2MB" .. coldef, 15)
+vicious.register(memwidget, vicious.widgets.mem, bottomgrey .. "  Memory: $2MB" .. coldef, 15)
  
 -- }}}
  
@@ -296,7 +347,7 @@ vicious.register(ethupinfo, vicious.widgets.net, "<span color=\"#d3c6d7\">${enp9
 volicon = wibox.widget.imagebox()
 volicon:set_image(beautiful.widget_vol)
 volumewidget = wibox.widget.textbox()
-vicious.register(volumewidget, vicious.widgets.volume, grey .. "$1%" .. coldef,  1, "Master")
+vicious.register(volumewidget, vicious.widgets.volume, bottomgrey .. "  Volume: $1%" .. coldef,  1, "Master")
  
 -- }}}
 
@@ -321,7 +372,7 @@ vicious.register(pacwidget, vicious.widgets.pkg,
                     end
                     pacwidget_t:set_text(str)
                     s:close()
-                    return "" .. grey .. args[1] .. coldef
+                    return "" .. bottomgrey .. "  Updates: " .. args[1] .. coldef
                 end, 60, "Arch")
                 --'1800' means check every 30 minutes
 
@@ -337,17 +388,17 @@ pacicon:buttons(awful.util.table.join(
 -- Textclock widget
 clockicon = wibox.widget.imagebox()
 clockicon:set_image(beautiful.widget_clock)
-mytextclock = awful.widget.textclock(grey .. "%A %d %B</span> " .. colwhi .. "</span><span color=\"#ffffff\">></span> <span color='#b3acac'>%H:%M</span>")
+mytextclock = awful.widget.textclock(bottomgrey .. "  %A %d %B</span> " .. colwhi .. "</span><span color=\"#ffffff\">></span> <span color='#999999'>%H:%M</span>")
  
 -- }}}
  
 -- {{{ Spacers
 space = wibox.widget.textbox()
-space:set_text(' ')
+space:set_text('    ')
 
 -- {{{ Seperator
-openb = wibox.widget.textbox(colbwhi .. ' [' .. coldef)
-closeb = wibox.widget.textbox(colbwhi .. ' ]' .. coldef)
+openb = wibox.widget.textbox(lightblue6 .. " [" .. coldef)
+closeb = wibox.widget.textbox(lightblue6 .. " ]" .. coldef)
  
 -- }}}
  
@@ -447,48 +498,29 @@ for s = 1, screen.count() do
 
     -- Widgets Aligned to the Middle
     local bottom_left_layout = wibox.layout.fixed.horizontal()
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(sysicon)
     bottom_left_layout:add(syswidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(volicon)
     bottom_left_layout:add(volumewidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(cpuicon)
     bottom_left_layout:add(cpuwidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(memicon)
     bottom_left_layout:add(memwidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(tempicon)
     bottom_left_layout:add(tempwidget)
-    -- bottom_left_layout:add(space)
-    -- bottom_left_layout:add(cpuicon)
-    -- bottom_left_layout:add(coretempwidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(pacicon)
     bottom_left_layout:add(pacwidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(uptimeicon)
     bottom_left_layout:add(uptimewidget)
-    bottom_left_layout:add(closeb)
     bottom_left_layout:add(space)
-    bottom_left_layout:add(openb)
     bottom_left_layout:add(clockicon)
     bottom_left_layout:add(mytextclock)
-    bottom_left_layout:add(closeb)
     
   
     local bottom_right_layout = wibox.layout.fixed.horizontal()
@@ -639,6 +671,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "v",           function () awful.util.spawn( "/usr/local/bin/video", false) end),
     -- awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
 
+    -- Conky
+
     -- Prompt
     awful.key({ modkey }, "r", function () mypromptbox[mouse.screen]:run() end),
 
@@ -771,6 +805,15 @@ awful.rules.rules = {
     { rule = { instance = "urxvt", class = "URxvt", name = "vlc"},
           properties = { tag = tags[1][4] } },
 
+    { rule = { class = "Conky" },
+          properties = {
+          floating = true,
+          sticky = true,
+          ontop = false,
+	  border_width = 0,
+          focusable = false,
+          size_hints = {"program_position", "program_size"}
+    } },
       
 	  { rule = { class = "Ghb" },
         properties = { tag = tags[1][1] } },    
