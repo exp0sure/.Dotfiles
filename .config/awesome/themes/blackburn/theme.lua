@@ -9,13 +9,13 @@
 theme = {}
 
 themes_dir                                  = os.getenv("HOME") .. "/.config/awesome/themes/blackburn"
-theme.wallpaper                             = themes_dir .. "/newwall.jpg"
+theme.wallpaper                             = themes_dir .. "/wall3.jpg"
 
 themes_bg_normal                            = "png:" .. themes_dir .. "/taskbar/bg_normal.png"
 themes_bg_focus                             = "png:" .. themes_dir .. "/taskbar/bg_focus.png"
 
-theme.font                                  = "terminus12 9"
-theme.fg_normal                             = "#636060"
+theme.font                                  = "Ubuntu Mono 9"
+theme.fg_normal                             = "#43454f"
 theme.fg_focus                              = "#f40b20"
 theme.fg_urgent                             = "#224440"
 theme.bg_normal                             = "#01080a"
@@ -27,7 +27,7 @@ theme.border_focus                          = "#3d3a3a"
 theme.border_marked                         = "#292741"
 theme.titlebar_bg_focus                     = "#091114"
 theme.titlebar_bg_normal                    = "#091154"
-theme.taglist_fg_focus                      = "#bf1e2d"
+theme.taglist_fg_focus                      = "#529366"
 theme.tasklist_bg_focus                     = "#01080a"
 theme.tasklist_fg_focus                     = "#bf1e2d"
 theme.textbox_widget_margin_top             = 1
