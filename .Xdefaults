@@ -24,7 +24,7 @@ URxvt*geometry:                                 80x25
 URxvt*borderLess:                               false
 URxvt*scrollBar:                                false
 URxvt*cursorBlink:                              true
-URxvt*cursorUnderline:                          true
+URxvt*cursorUnderline:                          false
 URxvt*scrollColor:                              #151515
 URxvt*perl-ext-common:                          default,clipboard,url-select,keyboard-select,vtwheel
 URxvt*font:                                     xft:terminus12:hinting=true:pixelsize=12:antialias=false
@@ -32,51 +32,60 @@ URxvt*boldFont:                                 xft:terminus12:style=bold:hintin
 URxvt*italicFont:                               xft:terminus12:style=italic:hinting=true:pixelsize=12:antialias=false
 URxvt*boldItalicFont:                           xft:terminus12:style=bolditalic:hinting=true:pixelsize=12:antialias=false
 URxvt.underlineURLs:                            true
-URxvt.url-select.launcher:                      /usr/bin/google-chrome
+URxvt.url-select.launcher:                      /usr/bin/firefox
 URxvt.url-select.underline:                     true
-
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
 !------------------------------------------------------------------------------
 ! URxvt Colors
 
-*cursorColor:                         #917154
-*colorIT:                             #E3AB8D
-*colorBD:                             #F0E5DF
-*colorUL:                             #cd546c
+*cursorColor:                         #636363
 *VT100.colorBDMode:                   true
-*VT100.colorBD:                       red
 *VT100.colorULMode:                   true
 *VT100.colorUL:                       magenta
 *VT100.veryBoldColors:                6
 
 
-*foreground:                          #eddcd3
-*background:                          [92]#181512
 
-! Black                               Black !
-*color0:                              #252525
-*color8:                              #454545
-! Red                                 Red   !
-*color1:                              #CD546C
-*color9:                              #EF545F
-! Green                               Green !
-*color2:                              #A5AF86
-*color10:                             #BDC79E
-! Yellow                              Yellow!
-*color3:                              #CD7860
-*color11:                             #E88773
-! Blue                                Blue  !
-*color4:                              #7A9388
-*color12:                             #94B1A3
-! Magenta                             Magenta
-*color5:                              #917154
-*color13:                             #989584
-! Cyan                                Cyan  !
-*color6:                              #767D75
-*color14:                             #9DA69E
-! White                               White !
-*color7:                              #C2C2A8
-*color15:                             #DBDAC1
 
+! -------- BASE -------- #
+  URxvt.foreground: 	 #a6a6a6
+  URxvt.background: 	 [80]#121212
+  URxvt*cursorColor:  #6f6b56
+  URxvt*colorUL:      #6E484e
+! ---------------------- #
+
+!Black
+URxvt*color0:               #333333
+URxvt*color8:               #474747
+
+!Red
+URxvt*color1:               #63484e
+URxvt*color9:               #63484e
+
+!Green
+URxvt*color2:               #486350
+URxvt*color10:              #486350
+
+!Yellow
+URxvt*color3:               #6f6b56
+URxvt*color11:              #6f6b56
+
+!Blue
+URxvt*color4:               #56676f
+URxvt*color12:              #56676f
+
+!Magenta
+URxvt*color5:               #63485b
+URxvt*color13:              #63485b
+
+!Cyan
+URxvt*color6:               #636363
+URxvt*color14:              #636363
+
+!White
+URxvt*color7:               #a6a6a6
+URxvt*color15:              #a6a6a6
 !------------------------------------------------------------------------------
 ! Man pages colors
 
