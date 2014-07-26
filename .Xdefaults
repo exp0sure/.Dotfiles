@@ -39,53 +39,48 @@ URxvt*keysym.End: \033[4~
 !------------------------------------------------------------------------------
 ! URxvt Colors
 
-*cursorColor:                         #636363
+*cursorColor:                         #6d715e
 *VT100.colorBDMode:                   true
 *VT100.colorULMode:                   true
 *VT100.colorUL:                       magenta
 *VT100.veryBoldColors:                6
 
+*background: [85]#1f1f1f
+*foreground: #c0b18b
+
+!black
+*color0:#4A3637
+*color8:#4A3637
+
+!red
+*color1:#d17b49
+*color9:#d17b49
+
+!green
+*color2:#7b8748
+*color10:#7b8748
+
+!yellow
+*color3:#af865a
+*color11:#af865a
+
+!blue
+*color4:#535C5C
+*color12:#535C5C
+
+!magenta
+*color5:#775759
+*color13:#775759
+
+!cyan
+*color6:#6d715e
+*color14:#6d715e
+
+!white
+*color7:#c0b18b
+*color15:#c0b18b
 
 
-
-! -------- BASE -------- #
-  URxvt.foreground: 	 #a6a6a6
-  URxvt.background: 	 [80]#121212
-  URxvt*cursorColor:  #6f6b56
-  URxvt*colorUL:      #6E484e
-! ---------------------- #
-
-!Black
-URxvt*color0:               #333333
-URxvt*color8:               #474747
-
-!Red
-URxvt*color1:               #63484e
-URxvt*color9:               #63484e
-
-!Green
-URxvt*color2:               #486350
-URxvt*color10:              #486350
-
-!Yellow
-URxvt*color3:               #6f6b56
-URxvt*color11:              #6f6b56
-
-!Blue
-URxvt*color4:               #56676f
-URxvt*color12:              #56676f
-
-!Magenta
-URxvt*color5:               #63485b
-URxvt*color13:              #63485b
-
-!Cyan
-URxvt*color6:               #636363
-URxvt*color14:              #636363
-
-!White
-URxvt*color7:               #a6a6a6
-URxvt*color15:              #a6a6a6
 !------------------------------------------------------------------------------
 ! Man pages colors
 
