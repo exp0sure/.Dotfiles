@@ -81,7 +81,7 @@ run_once("compton --backend glx --paint-on-overlay --vsync opengl-swc --unredir-
 -- run_once("/opt/dropbox/dropboxd")
 run_once("mpd")
 run_once("conky ~/.conkyrc")
-run_once("unclutter -idle 10")
+run_once("unclutter -idle 1")
 
 
 -- Localization
