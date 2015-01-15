@@ -17,6 +17,6 @@ bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
 clock -sf 'S%a %H:%M' > "$PANEL_FIFO" &
 
-cat "$PANEL_FIFO" | ~/.config/bspwm/panel_bar | bar -f "$PANEL_FONT_FAMILY" -B "$BACKGROUND" -F "$FOREGROUND" -u "$UNDERLINE_WIDTH" &
+cat "$PANEL_FIFO" | ~/.config/bspwm/panel_bar | bar -g 280x16+1135+0 -f "$PANEL_FONT_FAMILY" -B "$BACKGROUND" -F "$FOREGROUND" -u "$UNDERLINE_WIDTH" &
 
 wait

@@ -68,7 +68,7 @@ while read -r line ; do
 						;;
 					L*)
 						# layout
-						wm_infos="$wm_infos  %{F$LAYOUT_FG}%{B$LAYOUT_BG}  %{B-}%{F-}"
+						wm_infos="$wm_infos%{F$LAYOUT_FG}%{B$LAYOUT_BG}%{B-}%{F-}"
 						;;
 				esac
 				shift
