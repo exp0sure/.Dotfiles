@@ -27,7 +27,7 @@ xftalpha 0.8
 
 own_window yes
 own_window_class conky
-own_window_type override
+own_window_type desktop
 own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_argb_visual yes
@@ -35,7 +35,7 @@ own_window_argb_visual yes
 
 use_spacer left
 double_buffer yes
-no_buffers no
+no_buffers yes
 
 total_run_times 0
 background yes
