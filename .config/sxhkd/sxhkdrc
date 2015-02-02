@@ -80,26 +80,8 @@ super + ctrl + {1-9}
 	bspc window -r 0.{1-9}
 
 ##SELECT DESKTOP
-super + 1
-    bspc desktop -f ^1
-
-super + 2
-    bspc desktop -f ^2
-
-super + 3
-    bspc desktop -f ^3
-
-super + 4
-    bspc desktop -f ^4
-
-super + 5
-    bspc desktop -f ^5
-
-super + 6
-    bspc desktop -f ^6
-
-super + 7
-    bspc desktop -f ^7
+super + {1-7}
+    bspc desktop -f ^{1-7}
 
 ##SEND WINDOW TO DESKTOP
 super + {_,shift + }{1-9,0}
@@ -137,7 +119,7 @@ super + control + m
 super + r
 	{urxvt -name ranger -e ranger}
 
-super + {F7,F6}
+super + {F3,F2}
   {amixer sset Master playback 5%+,amixer sset Master playback 5%-}
 
 super + {Up,Down}
@@ -147,7 +129,10 @@ super + F5
   amixer sset Master toggle
 
 super + d
-	dmenu_run -fn -xos4-terminus-*-r-normal-*-12-120-72-72-c-60-iso8859-1 -p Run
+  lighthouse | sh
+
+super + ctrl + s
+    steam
 
 # make sxhkd reload its configuration files:
 super + Escape
