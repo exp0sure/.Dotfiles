@@ -1,107 +1,158 @@
-export PATH="${PATH}:/usr/bin"
-export XDG_DATA_HOME="/home/$USER/.local/share"
-export XDG_CONFIG_HOME="/home/$USER/.config"
-export XDG_CACHE_HOME="/home/$USER/.cache"
-export XDG_DOWNLOAD_DIR="/home/$USER/Downloads"
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib64:/usr/lib32"
-export EDITOR='vim'
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+autoload -U compinit promptinit colors
+compinit
+promptinit
+colors
 
-export LANGUAGE="en_AU"
+PROMPT="
+%{$fg[red]%} »  %{$reset_color%}"
+#PROMPT="
+#%{$fg[red]%} >  %{$reset_color%}"
+RPROMPT="%B%{$fg[black]%}%~%{$reset_color%}"
 
-alias upgrade='sudo pacman -Syu && yaourt -Syu --aur'
-alias updategit="git push -u origin master"
+[[ -t 1 ]] || return
+case $TERM in
+	*xterm*|*rxvt*|(dt|k|E|a)term)
+		preexec () {
+			print -Pn "\e]2;$1\a"    # edited; %n@%m omitted, as I know who and where I am
+		}
+		;;
+esac
 
-# Color support
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-fi
+setopt AUTO_CD
+setopt CORRECT
+setopt completealiases
+setopt append_history
+setopt share_history
+setopt hist_verify
+setopt hist_ignore_all_dups
+export HISTFILE="${HOME}"/.zsh-history
+export HISTSIZE=1000000
+export SAVEHIST=$HISTSIZE
 
-# Colorte a zkbd compatible hash;
-# to add other keys to this hash, see: man 5 terminfo
-typeset -A key
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors 'reply=( "=(#b)(*$VAR)(?)*=00=$color[green]=$color[bg-green]" )'
+zstyle ':completion:*:*:*:*:hosts' list-colors '=*=30;41'
+zstyle ':completion:*:*:*:*:users' list-colors '=*=$color[green]=$color[red]'
+zstyle ':completion:*' menu select
 
-key[Home]=${terminfo[khome]}
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+bindkey "^j" history-beginning-search-backward
+bindkey "^k" history-beginning-search-forward
 
-key[End]=${terminfo[kend]}
-key[Insert]=${terminfo[kich1]}
-key[Delete]=${terminfo[kdch1]}
-key[Up]=${terminfo[kcuu1]}
-key[Down]=${terminfo[kcud1]}
-key[Left]=${terminfo[kcub1]}
-key[Right]=${terminfo[kcuf1]}
-key[PageUp]=${terminfo[kpp]}
-key[PageDown]=${terminfo[knp]}
-
-bindkey "[1~" beginning-of-line
-bindkey "[4~" end-of-line
-
-# setup key accordingly
-[[ -n "${key[Home]}"     ]]  && bindkey  "${key[Home]}"     beginning-of-line
-[[ -n "${key[End]}"      ]]  && bindkey  "${key[End]}"      end-of-line
-[[ -n "${key[Insert]}"   ]]  && bindkey  "${key[Insert]}"   overwrite-mode
-[[ -n "${key[Delete]}"   ]]  && bindkey  "${key[Delete]}"   delete-char
-[[ -n "${key[Up]}"       ]]  && bindkey  "${key[Up]}"       up-line-or-history
-[[ -n "${key[Down]}"     ]]  && bindkey  "${key[Down]}"     down-line-or-history
-[[ -n "${key[Left]}"     ]]  && bindkey  "${key[Left]}"     backward-char
-[[ -n "${key[Right]}"    ]]  && bindkey  "${key[Right]}"    forward-char
-[[ -n "${key[PageUp]}"   ]]  && bindkey  "${key[PageUp]}"   beginning-of-buffer-or-history
-[[ -n "${key[PageDown]}" ]]  && bindkey  "${key[PageDown]}" end-of-buffer-or-history
-
-# Finally, make sure the terminal is in application mode, when zle is
-# active. Only then are the values from $terminfo valid.
-if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
-    function zle-line-init () {
-        printf '%s' "${terminfo[smkx]}"
-    }
-    function zle-line-finish () {
-        printf '%s' "${terminfo[rmkx]}"
-    }
-    zle -N zle-line-init
-    zle -N zle-line-finish
-fi
-# Coloured man pages
-man() {
-        env \
-                LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-                LESS_TERMCAP_md=$(printf "\e[1;31m") \
-                LESS_TERMCAP_me=$(printf "\e[0m") \
-                LESS_TERMCAP_se=$(printf "\e[0m") \
-                LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-                LESS_TERMCAP_ue=$(printf "\e[0m") \
-                LESS_TERMCAP_us=$(printf "\e[1;32m") \
-                        man "$@"
+function open() { xdg-open $1 &> /dev/null &disown; }
+function lt() { ls -ltrsa "$@" | tail; }
+function psgrep() { ps axuf | grep -v grep | grep "$@" -i --color=auto; }
+function fname() { find . -iname "*$@*"; }
+		    
+conf() {
+	case $1 in
+		xmonad)		vim ~/.xmonad/xmonad.hs ;;
+		bspwm)		vim ~/.config/bspwm/bspwmrc ;;
+		sxhkd)		vim ~/.config/sxhkd/sxhkdrc ;;
+		conky)		vim ~/.xmonad/.conky_dzen ;;
+		homepage)	olddir=$(pwd) && cd ~/scripts/homepage.py && vim homepage.py && ./homepage.py; cd $olddir ;;
+		menu)		vim ~/scripts/menu ;;
+		mpd)		vim ~/.mpdconf ;;
+		mutt)		vim ~/.mutt/acct/wei001 ;;
+		ncmpcpp)	vim ~/.ncmpcpp/config ;;
+		pacman)		svim /etc/pacman.conf ;;
+		ranger)		vim ~/.config/ranger/rc.conf ;;
+		rifle)		vim ~/.config/ranger/rifle.conf ;;
+		tmux)		vim ~/.tmux.conf ;;
+		vim)		vim ~/.vimrc ;;
+		xinit)		vim ~/.xinitrc ;;
+		xresources)	vim ~/.Xresources && xrdb ~/.Xresources ;;
+		zathura)	vim ~/.config/zathura/zathurarc ;;
+		theme2)		vim ~/.themes/FlatStudioCustom/gtk-2.0/gtkrc ;;
+		theme3)		vim ~/.themes/FlatStudioCustom/gtk-3.0/gtk.css ;;
+		gtk2)		vim ~/.gtkrc-2.0 ;;
+		gtk3)		vim ~/.config/gtk-3.0/settings.ini ;;
+		tint2)		vim ~/.config/tint2/xmonad.tint2rc ;;
+		zsh)		vim ~/.zshrc && source ~/.zshrc ;;
+		hosts)		sudoedit /etc/hosts ;;
+		vhosts)		sudoedit /etc/httpd/conf/extra/httpd-vhosts.conf ;;
+		httpd)		sudoedit /etc/httpd/conf/httpd.conf ;;
+		*)			echo "Unknown application: $1" ;;
+	esac
 }
 
-# Sanitize
 
-sanitize () {
-    chmod -R u=rwX,go=rX "$@"
-    chown -R ${USER}.users "$@"
-}
 
-extract () {
-    if [ -f $1 ] ; then
-      case $1 in
-        *.tar.bz2)   tar xjf $1     ;;
-        *.tar.gz)    tar xzf $1     ;;
-        *.bz2)       bunzip2 $1     ;;
-        *.rar)       unrar e $1     ;;
-        *.gz)        gunzip $1      ;;
-        *.tar)       tar xf $1      ;;
-        *.tbz2)      tar xjf $1     ;;
-        *.tgz)       tar xzf $1     ;;
-        *.zip)       unzip $1       ;;
-        *.Z)         uncompress $1  ;;
-        *.7z)        7z x $1        ;;
-        *)     echo "'$1' cannot be extracted via extract()" ;;
-         esac
-     else
-         echo "'$1' is not a valid file"
-     fi
-}
+# Sudo alias 
+alias svim='sudoedit'
+alias pacman='sudo pacman'
 
-alias ls='ls --color -F'
-alias ll='ls++'
 
-PS1=$'%{\e[1;30m%}[%{\e[0m%} %{\e[1;35m%}%~%{\e[0m%}%{\e[1;30m%}]%{\e[0m%}%{\e[0;34m%}$%{\e[0m%} '
+# Programs
+alias installfont='sudo fc-cache -f -v'
+alias alsamixer="alsamixer -g"
+alias equalizer="alsamixer -D equal"
+
+# Shortcuts
+#alias rm='rm -i'
+alias rmi='rm -i'
+#alias mv='mv -i'
+alias c='xsel -ib'
+alias h='history | tail'
+alias hg='history | grep '
+alias ch='chmod 755 '
+alias ~='urxvtc' #Open new terminals in current working directory
+alias ~~='urxvtc && urxvtc'
+alias ~~~='urxvtc && urxvtc && urxvtc'
+alias ~~~~='urxvtc && urxvtc && urxvtc && urxvtc'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias ']'='open'
+alias ll='ls -alF'
+alias la='ls -A'
+alias lla='ls -lA'
+alias l='ls -CF'
+alias vi='vim'
+
+# tar aliases
+alias tarzip='unzip'
+alias tarx='tar -xvf'
+alias targz='tar -zxvf'
+alias tarbz2='tar -jxvf'
+
+#alias mkdir and cd
+function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
+function cdl () { cd "$@" && ls; }
+
+# enable color support of ls and also add handy aliases
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+set -o noclobber
+set -o vi
+
+
+# MUTT BG fix
+COLORFGBG="default;default"
+
+pathdirs=(
+    ~/scripts
+)
+for dir in $pathdirs; do
+    if [ -d $dir ]; then
+        path+=$dir
+    fi
+done
+
+export EDITOR="vim"
+export XDG_CONFIG_HOME="/home/dean/.config"
+export _JAVA_OPTIONS='-Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dawt.useSystemAAFontSettings=true' 
+export JAVA_FONTS=/usr/share/fonts/TTF
+
+#if [[ "$TERM" == "rxvt-unicode-256color" ]]; then
+#	xseticon -id $WINDOWID /home/sunn/.icons/AwOkenWhite/clear/128x128/apps/terminal1.png
+#fi
