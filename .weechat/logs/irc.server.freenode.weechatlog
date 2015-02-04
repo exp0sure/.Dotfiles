@@ -1,0 +1,174 @@
+2015-02-04 22:12:52	ℹ 	irc: connecting to server chat.freenode.net/6667...
+2015-02-04 22:12:53	ℹ 	irc: connected to chat.freenode.net/6667 (91.217.189.42)
+2015-02-04 22:12:53	ℹ 	sinisalo.freenode.net: *** Looking up your hostname...
+2015-02-04 22:12:54	ℹ 	sinisalo.freenode.net: *** Checking Ident
+2015-02-04 22:12:54	ℹ 	sinisalo.freenode.net: *** Found your hostname
+2015-02-04 22:13:00	ℹ 	sinisalo.freenode.net: *** No Ident response
+2015-02-04 22:13:00	ℹ 	Welcome to the freenode Internet Relay Chat Network dean
+2015-02-04 22:13:00	ℹ 	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.3
+2015-02-04 22:13:00	ℹ 	This server was created Tue Jul 1 2014 at 14:17:05 CEST
+2015-02-04 22:13:00	ℹ 	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-02-04 22:13:00	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-02-04 22:13:00	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-02-04 22:13:00	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-02-04 22:13:00	ℹ 	There are 173 users and 92013 invisible on 27 servers
+2015-02-04 22:13:00	ℹ 	24 :IRC Operators online
+2015-02-04 22:13:00	ℹ 	11 :unknown connection(s)
+2015-02-04 22:13:00	ℹ 	52058 :channels formed
+2015-02-04 22:13:00	ℹ 	I have 3466 clients and 5 servers
+2015-02-04 22:13:00	ℹ 	3466 12000 :Current local users 3466, max 12000
+2015-02-04 22:13:00	ℹ 	92186 105669 :Current global users 92186, max 105669
+2015-02-04 22:13:00	ℹ 	Highest connection count: 12012 (12000 clients) (1717090 connections received)
+2015-02-04 22:13:00	ℹ 	- sinisalo.freenode.net Message of the Day -
+2015-02-04 22:13:00	ℹ 	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2015-02-04 22:13:00	ℹ 	- Thanks to http://www.portlane.com/ for sponsoring
+2015-02-04 22:13:00	ℹ 	- this server!
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2015-02-04 22:13:00	ℹ 	- and fantasy novelist and a script writer. Her novel 'Not
+2015-02-04 22:13:00	ℹ 	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2015-02-04 22:13:00	ℹ 	- published in Finnish in 2000, when it also won the biggest
+2015-02-04 22:13:00	ℹ 	- literature award of Finland) was awarded The James Tiptree
+2015-02-04 22:13:00	ℹ 	- Jr. award in 2004.  She was nominated for a Nebula award in
+2015-02-04 22:13:00	ℹ 	- 2009 for her short story Baby Doll.  Their most recent work
+2015-02-04 22:13:00	ℹ 	- includes screenwriting for the film 'Iron Sky'.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- Welcome to freenode - supporting the free and open source
+2015-02-04 22:13:00	ℹ 	- software communities since 1998.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- **************************************************************
+2015-02-04 22:13:00	ℹ 	-                       SECURITY ALERT
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- Over the weekend of 13th-14th September freenode staff noticed
+2015-02-04 22:13:00	ℹ 	- some compromised binaries present on a number of servers.
+2015-02-04 22:13:00	ℹ 	- The servers in question have been removed from the network and
+2015-02-04 22:13:00	ℹ 	- shut down.  However, it's possible that network traffic  -
+2015-02-04 22:13:00	ℹ 	- including SSL traffic - has been sniffed and passwords
+2015-02-04 22:13:00	ℹ 	- exposed.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- We therefore recommend that all users change their nickserv
+2015-02-04 22:13:00	ℹ 	- password(s) to a new value which is not shared with any
+2015-02-04 22:13:00	ℹ 	- other service.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- You can do this with /msg nickserv set password newpasshere
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- Please note that investigation is ongoing to discover the root
+2015-02-04 22:13:00	ℹ 	- cause of the attack, and until this investigation is complete
+2015-02-04 22:13:00	ℹ 	- we cannot be 100% certain that all traces of the compromises
+2015-02-04 22:13:00	ℹ 	- have been removed. We may have to ask you to change your
+2015-02-04 22:13:00	ℹ 	- passwords again after analysis has completed.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- Further details will appear on https://blog.freenode.net/
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- **************************************************************
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- By connecting to freenode you indicate that you have read and
+2015-02-04 22:13:00	ℹ 	- accept our policies as set out on http://www.freenode.net
+2015-02-04 22:13:00	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2015-02-04 22:13:00	ℹ 	- any network-related questions or queries, where a number of
+2015-02-04 22:13:00	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:00	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-02-04 22:13:00	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2015-02-04 22:13:00	ℹ 	- real-life collaboration.
+2015-02-04 22:13:00	ℹ 	-
+2015-02-04 22:13:01	ℹ 	- We would like to thank Private Internet Access
+2015-02-04 22:13:01	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2015-02-04 22:13:01	ℹ 	- organisations that help keep freenode and our other projects
+2015-02-04 22:13:01	ℹ 	- running for their sustained support.
+2015-02-04 22:13:01	ℹ 	-
+2015-02-04 22:13:01	ℹ 	- In particular we would like to thank the sponsor
+2015-02-04 22:13:01	ℹ 	- of this server, details of which can be found above.
+2015-02-04 22:13:01	ℹ 	-
+2015-02-04 22:13:01	ℹ 	End of /MOTD command.
+2015-02-04 22:13:01	ℹ 	User mode [+i] by dean
+2015-02-04 22:13:01	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-02-04 22:13:01	ℹ 	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-02-04 22:13:05	ℹ 	irc: disconnected from server
+2015-02-04 22:13:10	ℹ 	irc: connecting to server chat.freenode.net/6667...
+2015-02-04 22:13:10	ℹ 	irc: connected to chat.freenode.net/6667 (193.219.128.49)
+2015-02-04 22:13:11	ℹ 	sendak.freenode.net: *** Looking up your hostname...
+2015-02-04 22:13:11	ℹ 	sendak.freenode.net: *** Checking Ident
+2015-02-04 22:13:12	ℹ 	sendak.freenode.net: *** Found your hostname
+2015-02-04 22:13:20	ℹ 	sendak.freenode.net: *** No Ident response
+2015-02-04 22:13:20	ℹ 	Welcome to the freenode Internet Relay Chat Network dean
+2015-02-04 22:13:20	ℹ 	Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2015-02-04 22:13:20	ℹ 	This server was created Tue Oct 21 2014 at 11:26:48 UTC
+2015-02-04 22:13:20	ℹ 	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-02-04 22:13:20	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-02-04 22:13:20	ℹ 	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-02-04 22:13:20	ℹ 	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-02-04 22:13:20	ℹ 	There are 173 users and 92027 invisible on 27 servers
+2015-02-04 22:13:20	ℹ 	24 :IRC Operators online
+2015-02-04 22:13:20	ℹ 	6 :unknown connection(s)
+2015-02-04 22:13:20	ℹ 	52065 :channels formed
+2015-02-04 22:13:20	ℹ 	I have 2636 clients and 1 servers
+2015-02-04 22:13:20	ℹ 	2636 2910 :Current local users 2636, max 2910
+2015-02-04 22:13:20	ℹ 	92200 101658 :Current global users 92200, max 101658
+2015-02-04 22:13:20	ℹ 	Highest connection count: 2911 (2910 clients) (39401 connections received)
+2015-02-04 22:13:20	ℹ 	- sendak.freenode.net Message of the Day -
+2015-02-04 22:13:20	ℹ 	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2015-02-04 22:13:20	ℹ 	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2015-02-04 22:13:20	ℹ 	- server!
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2015-02-04 22:13:20	ℹ 	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2015-02-04 22:13:20	ℹ 	- born in Brooklyn, NY, US, to a family of poor Polish
+2015-02-04 22:13:20	ℹ 	- immigrants who moved to the US before World War II.  He
+2015-02-04 22:13:20	ℹ 	- became an illustrator while in high school.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- Welcome to freenode - supporting the free and open source
+2015-02-04 22:13:20	ℹ 	- software communities since 1998.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- **************************************************************
+2015-02-04 22:13:20	ℹ 	-                       SECURITY ALERT
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- Over the weekend of 13th-14th September freenode staff noticed
+2015-02-04 22:13:20	ℹ 	- some compromised binaries present on a number of servers.
+2015-02-04 22:13:20	ℹ 	- The servers in question have been removed from the network and
+2015-02-04 22:13:20	ℹ 	- shut down.  However, it's possible that network traffic  -
+2015-02-04 22:13:20	ℹ 	- including SSL traffic - has been sniffed and passwords
+2015-02-04 22:13:20	ℹ 	- exposed.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- We therefore recommend that all users change their nickserv
+2015-02-04 22:13:20	ℹ 	- password(s) to a new value which is not shared with any
+2015-02-04 22:13:20	ℹ 	- other service.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- You can do this with /msg nickserv set password newpasshere
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- Please note that investigation is ongoing to discover the root
+2015-02-04 22:13:20	ℹ 	- cause of the attack, and until this investigation is complete
+2015-02-04 22:13:20	ℹ 	- we cannot be 100% certain that all traces of the compromises
+2015-02-04 22:13:20	ℹ 	- have been removed. We may have to ask you to change your
+2015-02-04 22:13:20	ℹ 	- passwords again after analysis has completed.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- Further details will appear on https://blog.freenode.net/
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- **************************************************************
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- By connecting to freenode you indicate that you have read and
+2015-02-04 22:13:20	ℹ 	- accept our policies as set out on http://www.freenode.net
+2015-02-04 22:13:20	ℹ 	- freenode runs an open proxy scanner. Please join #freenode for
+2015-02-04 22:13:20	ℹ 	- any network-related questions or queries, where a number of
+2015-02-04 22:13:20	ℹ 	- volunteer staff and helpful users will be happy to assist you.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-02-04 22:13:20	ℹ 	- together with like-minded FOSS enthusiasts for talks and
+2015-02-04 22:13:20	ℹ 	- real-life collaboration.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- We would like to thank Private Internet Access
+2015-02-04 22:13:20	ℹ 	- (https://www.privateinternetaccess.com/) and the other
+2015-02-04 22:13:20	ℹ 	- organisations that help keep freenode and our other projects
+2015-02-04 22:13:20	ℹ 	- running for their sustained support.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	- In particular we would like to thank the sponsor
+2015-02-04 22:13:20	ℹ 	- of this server, details of which can be found above.
+2015-02-04 22:13:20	ℹ 	-
+2015-02-04 22:13:20	ℹ 	End of /MOTD command.
+2015-02-04 22:13:20	ℹ 	User mode [+i] by dean
+2015-02-04 22:13:20	ℹ 	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-02-04 22:13:20	ℹ 	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-02-04 22:13:30	ℹ 	NickServ (NickServ@services.): You failed to identify in time for the nickname dean
+2015-02-04 22:13:30	ℹ 	You are now known as Guest36850
+2015-02-04 22:13:38	ℹ 	irc: disconnected from server
