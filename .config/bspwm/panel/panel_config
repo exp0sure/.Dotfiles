@@ -1,0 +1,48 @@
+# Options
+PANEL_HEIGHT=20
+PANEL_WIDTH=2550
+PANEL_GEOMETRY="${PANEL_WIDTH}x${PANEL_HEIGHT}+5+5"
+
+PANEL_FONT_FAMILY="-*-stlarch-*-*-*-*-10-*-*-*-*-*-*-*,-*-terminus-medium-r-normal-*-12-*-*-*-c-*-*-u"
+
+vol_icon=""
+pac_icon=""
+tmp_icon=""
+ram_icon=""
+
+
+WHITE=ffc0b18b
+RED=a54242
+GREEN=8c9440
+BLACK=ff1f1f1f
+GRAY=404040
+
+COLOR_BACKGROUND="#FF1f1f1f"
+COLOR_FOREGROUND="#FFc0b18b"
+COLOR_ICON="#FF775759"
+COLOR_ACTIVE="#FFaf865a"
+COLOR_OCCUPIED="#FF4A3637"
+COLOR_URGENT="#FFd17b49"
+
+
+# Colors
+CLR0='#ffc0b18b'			# WHITE
+CLR1='#a54242'                          # RED
+CLR2='#FFCB4B16'			# ORANGE
+CLR3='#8c9440'		        	# GREEN
+CLR4='#FFF7C169'			# YELLOW
+CLR5='#FF268BD2'			# BLUE
+CLR6='#FF575757' 			# GRAY
+CLR7='#FFDDDDDD'			# LIGHT GRAY
+CLR8='#FF2A2A2A'			# DARK GRAY
+
+CLR_BG='#FF1f1f1f'
+CLR_FG='#FFc0b18b'
+
+
+# Commands
+AC='%{A:'					# start click area
+AB=':}'					# end click area cmd
+AE='%{A}'				# end click area
+
+goto='bspc desktop -f'       	# go to this desktop

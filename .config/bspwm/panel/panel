@@ -1,11 +1,9 @@
-#! /bin/sh
+#!/bin/bash
 
-cd $(dirname $0)
-source $(dirname $0)/config
+source $(dirname $0)/panel_config
 
 if [ $(pgrep -cx panel) -gt 1 ] ; then
-    printf "%s\n" "The panel is already running." >&2
-    exit 1
+    pkill -o panel
 fi
 
 trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
@@ -13,17 +11,12 @@ trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 [ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
 mkfifo "$PANEL_FIFO"
 
-bspc control --subscribe > "$PANEL_FIFO" &
-echo "T" >  "$PANEL_FIFO" &
-conky -c ./panel_conky > "$PANEL_FIFO" &
-./notify_mpd -d &
+bspc config top_padding $PANEL_HEIGHT
 
-cat "$PANEL_FIFO" \
-	| ./panel_bar \
-	| bar \
-		-f "$FONT1","$FONT2"\
-		-F "$COLOR_FOREGROUND"\
-		-B "$COLOR_BACKGROUND"\
-		-g "$PANEL_GEOMETRY"\
-		-u $LINEHEIGHT &
+bspc control --subscribe > "$PANEL_FIFO" &
+clock -i5 -sf 'C%H:%M' > "$PANEL_FIFO" &
+xtitle -t130 -sf 'T%s' > "$PANEL_FIFO" &
+
+cat "$PANEL_FIFO" | ./panel_bar | bar -g $PANEL_GEOMETRY -u 3 -f "$PANEL_FONT_FAMILY" -F "$CLR_FG" -B "$CLR_BG" | while read line; do eval "$line"; done &
+
 wait
